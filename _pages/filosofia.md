@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Filosofia
-permalink: /filosofia/
+title: Filosofia della scienza
+permalink: /filosofia-scienza/
 description: Qui ci sono gli articoli di Filosofia
 nav: true
 ---
