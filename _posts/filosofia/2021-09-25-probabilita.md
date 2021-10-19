@@ -4,8 +4,6 @@ title:  Nozioni di probabilità
 date:   2021-09-25 11:40:16
 tags: filosofia
 description: Diamo alcune nozioni base di probabilità per poter comprendere al meglio il pensiero filosofico della spiegazione scientifica.
-lang: in
-ref: prob
 
 ---
 
