@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: Letteratura
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Pasolini
+      permalink: /pasolini/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Philip K. Dick 
+      permalink: /dick/
 ---
