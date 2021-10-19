@@ -2,12 +2,15 @@
 layout: page
 title: Filosofia della scienza
 permalink: /filosofia-scienza/
-description: Qui ci sono gli articoli di Filosofia
+<!-- description: Qui ci sono gli articoli di Filosofia -->
 <!-- nav: true -->
 ---
 
+In questa sezione potete trovare articoli e riflessioni di filosofia della scienza.
 
+### Raccolte:
 
+Raccolta: Filosofia della scienza e Spiegazione scientifica (link)
 
 <div class="post">
 
