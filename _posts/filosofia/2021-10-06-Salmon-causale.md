@@ -3,7 +3,7 @@ layout: post
 title:  Il meccanicismo probabilistico di Salmon
 date:   2021-10-06 12:40:16
 tags: filosofia
-description: Introduzione alla teoria della spiegazione scientifica in Salmon. In questo articolo introduciamo il modello causale di Salmon che si inserisce nel filone del meccanicismo probabilistico.
+description: Introduzione alla teoria della spiegazione scientifica in Salmon. In questo articolo introduciamo il modello causale di Salmon che si inserisce nel filone del meccanicismo probabilistico
 
 ---
 
