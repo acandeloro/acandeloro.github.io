@@ -146,6 +146,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-katex
 
 # Extras
 github: [metadata]
