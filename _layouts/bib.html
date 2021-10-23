@@ -1,7 +1,10 @@
 ---
 ---
 
+<!-- Abbreviation-->
+
 <div class="row">
+  
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
@@ -129,6 +132,13 @@
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
     {% endif %}
+    {% if entry.link %}
+    <li><a href="{{link}}">Download</a></li>
+    {% endif %}
+    {% if entry.doi %}
+    <li>DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a></li>
+    {% endif %}
+
     </div>
 
     <!-- Hidden abstract block -->
