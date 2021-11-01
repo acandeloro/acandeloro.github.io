@@ -23,6 +23,28 @@ A questo punto Husserl si pone una domanda: «Possiamo accontentarci?». Parafra
 
 L’esigenza scientifica non ha sempre coinciso con una esigenza di obiettività, ovvero come scienza dei fatti: piuttosto questa si configura in particolar modo nella prospettiva positivista. In questo, l’interrogatività umana non ha alcun ruolo, rispetto ai fatti stessi. Husserl fa il controesempio del rinascimento e si chiede come mai si è giunti ad una tale esigenza scientifica che è diventata egemone tra gli scienziati stessi. Per Husserl è quindi necessaria una analisi storica.
 
+Husserl comincia indagando il ruolo della scienza nel rinascimento: lo scienziato ha il ruolo di guida, si pone domande ambiziose, indaga il proprio ruolo e la propria capacità rispetto alla natura e al regno animale. __Perché questo ruolo di guida è smarrita?__ Nel rinascimento c’è una ripresa del modello antico, quella che Husserl chiama «forma filosofica dell’esistenza»: tramite autonomie teoretiche, si giunge alla conoscenza teleologica del mondo, ovvero Dio.
+
+Per essere più precisi, il Rinascimento da vita ad una autonomia pratica in cui il mondo circostante viene riplasmato in base alla libera ragione. Il passaggio fondamentale da cui ha avuto origine tutta la storia scientifica (e non solo) moderna (e di conseguenza anche contemporanea) è __l’impostazione teoretica attraverso indagini autonome__. Questa è la trasformazione del concetto di Filosofia in epoca moderna: un tentativo di cogliere l’ onnicomprensività dell’essere nella sua totalità. Le due caratteristiche principali che la fondano sono
+
+
+<ol>
+  <li> Una metodica apoditticamente evidente </li>
+  <li> Progresso infinito ma razionale </li>
+</ol>
+
+In questi due punti chiave c’è la potenzialità di risoluzione di ogni problema tramite una generazione sequenziale di verità tramite un processo deduttivo logico. Questa impostazione teoretica della filosofia è quella che poi si è conclusa nel rendere autonoma la realtà dal soggetto nel positivismo.
+
+Husserl si chiede quindi __cosa c’è che non va in questa impostazione scientifica dell’approccio filosofico?__ Una prima osservazione riguarda l’esclusione, tra i problemi potenzialmente risolvibili, quelli metafisici. Ma un qualsiasi problema genuinamente filosofico è qualcosa che indaga la ragione e il senso delle cose, e questi _sono_ problemi metafisici, in quanto travalicano i meri fatti: il senso non può essere analizzato se la nostra analisi è appiattita sul mero dato. Husserl individua quindi nella metafisica una guida spirituale quasi, nel senso che dona spirito a tutte le altre.
+
+Proseguendo nella sua analisi storica, Husserl analizza il XVIII secolo in cui avviene la costruzione di un metodo filosofico che sia diramato a tutte le altre discipline scientifiche.
+
+#### §4: Il fallimento della scienza, che sembrava inizialmente destinata al successo, e il motivo inesplicato di questo fallimento
+
+
+C’è un momento di smarrimento nella costruzione di un metodo universale per la co- struzione di una filosofia sistematica: il metodo teoretico così formulato aveva successo solo nelle scienze positive, le filosofie sistematiche erano in contrasto e incomunicanti. In tutto ciò, la fede nel metodo costituiva l’ideale della filosofia moderna. Questo sentimento di fede nel metodo per la costruzione di una filosofia sistematica vacillava sia da un punto di vista esterno che da un punto di vista interno: il primo era palese nel contrasto tra successi e in- successi rispettivamente delle discipline positive e delle discipline umanistiche; il secondo era palese dal punto di vista dei ricercatori che, nonostante la formazione e l’attitudine filosofica si sentivano impotenti. Era quindi presente un sentimento di fallimento rispetto all’ideale dominante del “funziona, ha successo”.
+
+
 ---
 
 [^1]: Mi viene sicuramente in mente il Wittgenstein del _Tractatus_. Che collegamento c’è tra il discorso sul senso di Wittgenstein e quello di Husserl?
