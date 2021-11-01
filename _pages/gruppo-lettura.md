@@ -18,7 +18,7 @@ Raccolta: Filosofia della scienza e Spiegazione scientifica (link)
   <ul class="post-list">
     {% for post in site.posts %}
     {% for tag in post.tags %}
-    {% if tag == "gruppo-lettura" %}
+    {% if tag == "gruppolettura" %}
         <li>
         <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
