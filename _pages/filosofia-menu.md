@@ -8,6 +8,6 @@ children:
     - title: Filosofia della scienza
       permalink: /filosofia-scienza/
     - title: divider
-    - title: Fenomenologia 
-      permalink: /fenomenologia/
+    - title: Gruppo Lettura 
+      permalink: /gruppo-lettura/
 ---
