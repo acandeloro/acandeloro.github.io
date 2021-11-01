@@ -66,6 +66,36 @@ In quest’ultima sezione Husserl si chiede che senso ha l’impresa filosofica 
 
 # Discussione
 
+-- __Melissa__: Ho apprezzato molto quando dice «La filosofia rende libero qualsiasi uomo formato sulla filosofia». La chiusa finale è molto bella o molto umana, in quanto sottolinea la pratica della filosofia come liberatoria.
+
+-- __Roberto__: Sottolineo il concetto di Entelechia: la realtà ha inscritta in sé stessa la meta finale. Concetto presente in Hegel e nella sua dialettica. Questo termine indica in realtà anche un movimento.
+
+È importante distinguere e riassorbire l’aspetto valoriale e biologico.
+
+Mi è venuto in mente la figura di Comte, e in particolare della sua parabola. Considerato il padre del positivismo, alla fine si accorge della necessità della dimensione del telos e dello sguardo sullo sviluppo della storia umana. Nella sua filosofia, l’era scientifica è l’ultima, a cui si erano succedute in ordine la fase teologica e la fase metafisica. Ciascuna di esse aveva una sua forma di verità: la prima ha avuto luogo nel medioevo e il positivismo, secondo Comte, dovrebbe conservarne ciò che di buono offriva, ovvero la capacità di mantenere il legame sociale. Infatti, Comte impazzisce alla fine della sua vita perché, nonostante la sua impostazione positivistica, ed anzi forse proprio per questa, non riusciva a prescindere da una dimensione di senso. Per questo motivo nell’ultima parte della sua vita ha fatto esperienza di una deriva spiritualista. Tutto questo per dire che Comte è forse il primo positivista, ma anche l’ultimo che tenta ancora di raccordare la dimensione del senso.
+
+-- __Alfonso__: Più che teoretica è una parte suggestiva. Inquadrare Husserl alla fine dell’800 come una rincorsa alle scienze naturali: come aggiornare il metodo? Il problema di Husserl non sta tanto nella diagnosi del problema che invece è bellissima, ma il problema è proprio Husserl nel suo ritorno ad una ragione. L’uomo nevrotico deve la sua condizione all’appiattimento subito per causa della ragione. Nietzsche diceva le stesse cose di Husserl, ma la sua proposta era opposta: abbandonare la ragione e ritornare alla vita.
+
+-- __Roberto__: Cosa intendi con Ragione? Intelletto e ragione sono due cose differenti: la seconda include il suo superamento.
+
+-- __Alfonso__: La pretesa dell’uomo di comprendere se stesso, il “Tu devi” di Nietzsche, annichilisce la vita. Recuperare il soggetto da un punto di vista coscienziale.
+
+-- __Roberto__: Ci sono delle gravissime conseguenze dovute alla messa in disparte della meta- fisica. La ragione del fatto è una ragione pigra, che delega, ha fatto a meno del soggetto perché si crea una spirale del silenzio.
+
+-- __Alfonso__: È una ragione impigrita, non cerca le ragioni trascendentali, una ragione che riabbracci il soggetto. Non è una carenza di ragione ma un eccesso di ragione, come afferma Adorno. C’è un processo di critica alla ragione: Husserl ritorna alla totalizzazione della ragione: non coglie che la soluzione è parte del problema. Non coglie che la ragione è ciò che reprime. Coglie invece l’importanza del vissuto, del soggetto come centro fenomenologico.
+
+-- __Roberto__: Eccesso di ragione ed eccesso di intelletto sono due cose diverse: il secondo, infatti, si configura come un eccesso di ragione strumentale. Husserl si rende conto di vivere in un mondo disumanizzante, dove il soggetto conoscente non sollecita umanità. Husserl descrive uno scollamento
+
+-- __Alfonso__: Husserl ha creato una critica alla ragione strumentale seria e profonda. Stesso modo di pensare alla ragione che ha creato il mondo oggettivo. Scompare la dimensione esistenziale in Husserl. Manca l’io sento, la centralità del soggetto. Verità mania che ha condotto l’uomo alla follia, come dice Nietzsche.
+
+-- __Roberto__: Wittgenstein e il legame tra linguaggio e senso: è lo stesso problema diagnosticato da Husserl, quello dell’obiettivamente contestabile. C’è un processo di intellettualizzazione filosofica e scientifica. Godel rompe la bolla dall’interno. Bisogna pensare anche al momento storico, gli anni 30, il nazismo, post-Freud assimilato e tracimato anche nei saperi scientifici. Husserl fa una sorta di bilancio.
+
+Differenza tra intelletto e ragione: la prima è una facoltà ordinatrice dell’espe- rienza: calcolare, misurare, vedere rapporti, raccontare descrivere; la seconda è una facoltà più ampia: trascende gli aspetti di cui si occupa l’intelletto, si occupa di un livello superiore: è implicitamente rivolta ad una sistematicità. È più affine al concetto di intuito, come una visore isometrico.
+
+-- __Alfonso__: Husserl vuole trovare l’evidenza: la filosofia unica via nei saperi, è una esigenza metodologica. Husserl ha una aspirazione ultra-scientifica: trovare l’innegabile, che è a sua volta diverso dal fatto.
+
+-- __Roberto__: In Husserl i concetti sono diversi dalla sostanza: i concetti sono immersi nei processi, e la filosofia ha il compito di approssimarsi a descrivere il processo: tutto questo non è formulabile su una idea fissa.
+
 
 
 ---
