@@ -8,9 +8,9 @@ permalink: /gruppo-lettura/
 
 In questa sezione potete trovare i resoconti del gruppo di lettura.
 
-### Raccolte:
+### Raccolta Husserl:
 
-Raccolta: Filosofia della scienza e Spiegazione scientifica (link)
+Qui sono raccolti gli incontri tenuti sino ad ora su _La crisi delle scienze europee e la fenomenologia trascendentale_, edizione il saggiatore https://www.ilsaggiatore.com/libro/la-crisi-delle-scienze-europee-e-la-fenomenologia-trascendentale-2/
 
 <div class="post">
 
