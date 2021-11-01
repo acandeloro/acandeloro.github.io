@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Nozioni di probabilità
-date:   2021-09-25 11:40:16
+title:  Incontro I gruppo di Lettura Husserl
+date:   2021-01-15 11:40:16
 tags: gruppolettura
 description: Diamo alcune nozioni base di probabilità per poter comprendere al meglio il pensiero filosofico della spiegazione scientifica.
 
