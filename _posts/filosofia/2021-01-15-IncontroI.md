@@ -92,7 +92,7 @@ Mi è venuto in mente la figura di Comte, e in particolare della sua parabola. C
 
 Differenza tra intelletto e ragione: la prima è una facoltà ordinatrice dell’espe- rienza: calcolare, misurare, vedere rapporti, raccontare descrivere; la seconda è una facoltà più ampia: trascende gli aspetti di cui si occupa l’intelletto, si occupa di un livello superiore: è implicitamente rivolta ad una sistematicità. È più affine al concetto di intuito, come una visore isometrico.
 
--- __Alfonso__: Husserl vuole trovare l’evidenza: la filosofia unica via nei saperi, è una esigenza metodologica. Husserl ha una aspirazione ultra-scientifica: trovare l’innegabile, che è a sua volta diverso dal fatto.
+-- **Alfonso**: Husserl vuole trovare l’evidenza: la filosofia unica via nei saperi, è una esigenza metodologica. Husserl ha una aspirazione ultra-scientifica: trovare l’innegabile, che è a sua volta diverso dal fatto.
 
 -- __Roberto__: In Husserl i concetti sono diversi dalla sostanza: i concetti sono immersi nei processi, e la filosofia ha il compito di approssimarsi a descrivere il processo: tutto questo non è formulabile su una idea fissa.
 
