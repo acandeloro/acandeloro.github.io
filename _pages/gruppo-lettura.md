@@ -6,6 +6,7 @@ permalink: /gruppo-lettura/
 <!-- nav: true -->
 ---
 
+
 In questa sezione potete trovare i resoconti del gruppo di lettura.
 
 ### Raccolta Husserl:
