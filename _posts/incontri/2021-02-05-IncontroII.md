@@ -36,33 +36,45 @@ Una misura (come definita sopra, fissare l’intercomunicabilità) _esatta (ovve
 
 ##### d): Motivazione della concezione galileiana della natura
 
-I nessi causali non hanno sempre avuto una forma matematica. Galileo cercava dei metodi di perfezionamento: il problema nella fisica è come dalle datità corporee si possa giungere ad un riconoscimento causale. Nella prassi di ricerca non c’è ricerca sui presupposti. _L’arte di migliorare continuamente la precisione, il metodo per migliorare il proprio metodo_: «Ogni misurazione assume il senso di una approssimazione e un polo ideale-identico anche se irraggiungibile». Le formule generano connessioni causali: nel senso di Galileo le generano non solo nel mondo matematico a pure in quello reale.
+I nessi causali non hanno sempre avuto una forma matematica. Galileo cercava dei metodi di perfezionamento: il problema nella fisica è come dalle datità corporee si possa giungere ad un riconoscimento causale. Nella prassi di ricerca non c’è ricerca sui presupposti. _L’arte di migliorare continuamente la precisione, il metodo per migliorare il proprio metodo_: 
+> «Ogni misurazione assume il senso di una approssimazione e un polo ideale-identico anche se irraggiungibile».  
+Le formule generano connessioni causali: nel senso di Galileo le generano non solo nel mondo matematico a pure in quello reale.
 
 
 # Discussione
 
 
 _Roberto:_ Nella prima parte c’è una critica alla parabola della modernità. È quasi un testo di diagnosi sociale, un tentativo di riscoprire qualcosa di latente _soffocato_ nella modernità positivista. Riappropriazione della _filosofia professionalizzante_ che ha rinunciato al sistema e ruolo catalizzatore della filosofia nelle crisi delle scienze.
+
 _Simona:_ 
 È un tentativo di fare il punto sulla nascita della scienza moderna. L’uomo di Cartesio si pone il problema dell’infinito e lo fa con un’idea matematica, di avvicinamento asintotico. La geometria dei greci si divideva tra realtà e idee: la prima dove si fanno i calcoli, la seconda è un modello. Per l’uomo moderno, la geometria è un processo infinito di costruzione.
+
 _Roberto:_
 C’è _un’inversione del rapporto reale-ideale_: noi cerchiamo la perfezione nella realtà.
+
 _Simona:_
 Stabilire un dialogo universale per riferirsi allo stesso mondo. Le proprietà oggettive delle grandezze si configurano come rapporti tra oggetti. _Dalla misura si arriva alla spiegazione: quello che fa Galileo è universalizzare la fisica sul modello dell’universalizzazione della matematica._ Parte dalla geometria, non più scienza pura ma applicata, e si sviluppa il metodo della misura per approssimazione: le basi del metodo scientifico. Non ci si preoccupa dell’a-priori geometrico, ma della correlazione tra i rapporti.
+
 _Roberto:_
 _Il metodo consente di uscire dalla tensione soggettiva_: si esce da una condizione spontanea, dal mondo-della-vita. Galileo esce da questa situazione spontanea in _un‘astrazione ascensionale_ che innalza la filosofia. Il metodo non è altro che il righello del muratore e produce un giudizio vincolante, in cui si esce dai giudizi soggettivi. Questo giudizio vincolante si deve fondare su una verità identica e condivisa, è questa la cosa importante: dobbiamo tutti concordare che il righello indichi la stessa cosa.
+
 _Alfonso:_
 Il concetto dell’infinito per i Greci era un po’ un sofismo, vedi Zenone. Cassirer parla di svolta rinascimentale dovuta a Dio: l’infinito, dal finito, è una svolta possibile grazie alla matematizzazione.
+
 _Roberto:_
 L’appendice 1 parla dell’infinito dal mondo teologico, una comprensione del mondo secondo le idee dell’infinitesimale. La causalità esatta-universale del metodo è una concezione moderna: nella sfera matematica abbiamo l’inclusione della continuità e della causalità. Penso al Barocco: è una forma di modernità che arriva fino alla rivoluzione francese (esclusa) e si configura come una elaborazione spasmodica: da un lato l’esattezza della misura, dall’altro la misura è incompleta. La geometria prende sempre di più la forma astratta dell’algebra, senza numeri, quindi senza estensione: le incognite sono esse stesse astratte. Il barocco mostra l’esagerazione rispetto al riferimento empirico. Il progetto galileiano viene sconfitto non solo da Einstein ma anche dal punto di vista logico-del linguaggio: non è una crisi del metodo ma come il metodo si relazione con altro, con le altre verità.
 
 Il rinnovamento come problema di etica personale: l’ideale platonico è un ar- chetipo non oggettivo nel senso di misurabile. Problema di applicare cose del mondo fisico al mondo psicologico. L’obiettivo-oggettivo è un qualcosa che si impone come quadro di riferimento. Ci sono alcune cose che non si pos- sono “metrizzare” con consenso collettivo, basti pensare ai concetti politici di “Destra,Sinistra”. Questo pone una questione fondamentale, ovvero il proble- ma dell’oggettività nelle scienze sociali: come faccio a capire cosa può essere metrizzabile con un consenso collettivo?[^1]
+
 _Alfonso:_
 C’è un cambio di paradigma: l’idea del metro non ci permette di superare lo stallo.
+
 _Roberto:_
 C’è un problema quando si perde di vista il corpo perché ci sono cose che sfuggono alla geometrizzazione.
+
 _Alfonso:_
 Non salva la situazione una matematizzazione diretta nè una indiretta.
+
 _Roberto:_
 Problema esistenziale di Husserl è su un piano superiore, europeo: è una crisi dell’uomo europeo e della sua storia.
 
