@@ -37,7 +37,9 @@ Una misura (come definita sopra, fissare l’intercomunicabilità) _esatta (ovve
 ##### d): Motivazione della concezione galileiana della natura
 
 I nessi causali non hanno sempre avuto una forma matematica. Galileo cercava dei metodi di perfezionamento: il problema nella fisica è come dalle datità corporee si possa giungere ad un riconoscimento causale. Nella prassi di ricerca non c’è ricerca sui presupposti. _L’arte di migliorare continuamente la precisione, il metodo per migliorare il proprio metodo_: 
+
 > «Ogni misurazione assume il senso di una approssimazione e un polo ideale-identico anche se irraggiungibile».  
+
 Le formule generano connessioni causali: nel senso di Galileo le generano non solo nel mondo matematico a pure in quello reale.
 
 
