@@ -9,7 +9,7 @@ description: Il primo incontro si è tenuto il giorno 15 gennaio 2021. È stata 
 # Riflessioni personali
 
 #### §1: Esiste veramente una crisi delle scienze, malgrado i loro continui successi?
-La domanda iniziale che Husserl si pone è: __come si può parlare di crisi di qualcosa che ha successo e funziona?__ La domanda è interessante di per sé, anche scollegata dal riferimento principale di Husserl, ovvero le scienze europee. La scienza occidentale è un processo in evoluzione, che rivede se stessa, non immobile, si vedano le varie rivoluzioni scientifiche. E in questo un «contrasto tra la scientificità di questo gruppo di scienze e la non- scientificità della filosofia è indiscutibile» dice Husserl: in questo lui vede il problema della scienza ridotta a scienza dei fatti, e in questo indica la psicologia come esempio lampante.
+La domanda iniziale che Husserl si pone è: **come si può parlare di crisi di qualcosa che ha successo e funziona?** La domanda è interessante di per sé, anche scollegata dal riferimento principale di Husserl, ovvero le scienze europee. La scienza occidentale è un processo in evoluzione, che rivede se stessa, non immobile, si vedano le varie rivoluzioni scientifiche. E in questo un «contrasto tra la scientificità di questo gruppo di scienze e la non- scientificità della filosofia è indiscutibile» dice Husserl: in questo lui vede il problema della scienza ridotta a scienza dei fatti, e in questo indica la psicologia come esempio lampante.
 
 #### §2: La riduzione positivistica dell’idea della scienza all’idea della scienza dei fatti. La “crisi” della scienza come perdita del suo significato
 
