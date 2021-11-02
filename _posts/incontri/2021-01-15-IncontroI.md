@@ -6,6 +6,8 @@ tags: gruppolettura
 description: Il primo incontro si è tenuto il giorno 15 gennaio 2021. È stata letta la PRIMA PARTE de La crisi delle scienze europee e la fenomenologia trascendentale, capito- li dall’ §1 al §7, pag. da 41 a 54
 ---
 
+Relatore principale: Alessandro
+
 # Riflessioni personali
 
 #### §1: Esiste veramente una crisi delle scienze, malgrado i loro continui successi?
