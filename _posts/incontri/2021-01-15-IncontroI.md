@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Incontro I su Husserl
+title:  Incontro I su "La crisi delle scienze europee" di Edmund Husserl
 date:   2021-01-15 11:40:16
 tags: gruppolettura
-description: Il primo incontro si è tenuto il giorno 15 gennaio 2021. È stata letta la PRIMA PARTE de La crisi delle scienze europee e la fenomenologia trascendentale, capito- li dall’ §1 al §7, pag. da 41 a 54
+description: Il primo incontro si è tenuto il giorno 15 gennaio 2021. È stata letta la PRIMA PARTE de "La crisi delle scienze europee e la fenomenologia trascendentale", capitoli dall’ §1 al §7, pag. da 41 a 54
 ---
 
 Relatore principale: Alessandro
