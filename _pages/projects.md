@@ -5,7 +5,7 @@ permalink: /extra/
 description: A growing collection of your cool projects.
 nav: true
 display_categories: [Filosofia, fun]
-horizontal: true
+horizontal: false
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
