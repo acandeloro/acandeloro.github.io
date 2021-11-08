@@ -9,31 +9,18 @@ category: Filosofia
 ---
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/husserl.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
 <div class="container-fluid">
   <div class="row">
     <div class="col-xl-6 col-lg-6 col-md-6">
-      <img src="{{ '/assets/img/husserl.jpg' | relative_url }}" class="img-fluid" width="500">
+      <img src="{{ '/assets/img/husserl.jpg' | relative_url }}" class="img-fluid" width="300">
     </div>
     <div class="col-xl-6 col-lg-6 col-md-6">
-        In questa sezione potete trovare i resoconti del gruppo di lettura.
-
-        ## Raccolta Husserl:
-
-        Qui sono raccolti gli incontri tenuti sino ad ora su _La crisi delle scienze europee e la fenomenologia trascendentale_, edizione il saggiatore <a href="https://www.ilsaggiatore.com/libro/la-crisi-delle-scienze-europee-e-la-fenomenologia-trascendentale-2/">(link edizione)</a>.
-
+        <p>
+        In questa sezione potete trovare i resoconti del gruppo di lettura riguardanti la lettura de "La crisi delle scienze europee e la fenomenologia trascendentale", edizione il saggiatore <a href="https://www.ilsaggiatore.com/libro/la-crisi-delle-scienze-europee-e-la-fenomenologia-trascendentale-2/">(link edizione)</a>.
+        </p>
+        <p>
         All'interno di ogni post vi si trovano le riflessioni sui capitoli letti prima dell'incontro. Vi è riportato anche un riassunto della discussione che è stata corretta e sistemata per essere leggibile. Potrebbero essere state apportate delle modifiche che non rispecchiano i pensieri di coloro che le hanno dette.
+        </p>
     </div>
   </div>
 </div>
