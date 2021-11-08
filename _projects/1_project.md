@@ -8,6 +8,21 @@ importance: 1
 category: Filosofia
 ---
 
+<div class="col-sm-6 col-md-6 col-xs-6">
+
+              <div class="thumbnail" style="border:none; background:white;">
+
+              <div class="col-sm-6 col-md-6 col-xs-12 image-container">
+                <img src="assets/img/husserl.jpg" style="height:200px; margin-left:-15px;" />
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-xs-12">  
+
+                <h3>Hello World</h3>
+                 <p style="font-size:10px; color:#03225C;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa.   </p>
+              </div>
+              </div>
+ </div>
 
 
 ![husserl](assets/img/husserl.jpeg){: width="250" }
