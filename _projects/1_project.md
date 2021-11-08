@@ -11,7 +11,7 @@ category: Filosofia
 <div class="container-fluid">
   <div class="row">
     <div class="col-xl-6 col-lg-6 col-md-6">
-      <img src="/assets/img/husserl.jpg" class="img-fluid" width="500">
+      <img src="{{ '/assets/img/husserl.jpg' | relative_url }}" class="img-fluid" width="500">
     </div>
     <div class="col-xl-6 col-lg-6 col-md-6">
         In questa sezione potete trovare i resoconti del gruppo di lettura.
