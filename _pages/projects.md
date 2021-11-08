@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: Extra
+permalink: /extra/
 description: A growing collection of your cool projects.
 nav: true
-display_categories: [work, fun]
-horizontal: false
+display_categories: [Filosofia, fun]
+horizontal: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
