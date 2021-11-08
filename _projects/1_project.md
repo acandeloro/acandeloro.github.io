@@ -8,24 +8,19 @@ importance: 1
 category: Filosofia
 ---
 
-<div class="col-sm-6 col-md-6 col-xs-6">
-
-              <div class="thumbnail" style="border:none; background:white;">
-
-              <div class="col-sm-6 col-md-6 col-xs-12 image-container">
-                <img src="assets/img/husserl.jpg" style="height:200px; margin-left:-15px;" />
-              </div>
-
-              <div class="col-sm-6 col-md-6 col-xs-12">  
-
-                <h3>Hello World</h3>
-                 <p style="font-size:10px; color:#03225C;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa.   </p>
-              </div>
-              </div>
- </div>
-
-
-![husserl](assets/img/husserl.jpeg){: width="250" }
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6" style="border:1px solid #ddd">
+      <img src="/assets/img/husserl.jpg" alt="responsive webite" class="img-fluid" width="500">
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6" style="border:1px solid #ddd">
+      <h2>Bootstrap Responsive Website</h2>
+      <p>Bootstrap is a famous front-end framework used to create mobile-first responsive websites. The latest release
+        version of bootstrap has removed JQuery dependency not fully work on vanilla javascript.</p>
+      <p>Using bootstrap it becomes very easy to build a responsive website.</p>
+    </div>
+  </div>
+</div>
 
 In questa sezione potete trovare i resoconti del gruppo di lettura.
 
