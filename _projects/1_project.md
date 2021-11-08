@@ -8,6 +8,7 @@ importance: 1
 category: Filosofia
 ---
 
+![image](/assets/img/husserl.jpg){: style="float: left"}
 
 In questa sezione potete trovare i resoconti del gruppo di lettura.
 
