@@ -10,25 +10,22 @@ category: Filosofia
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xl-6 col-lg-6 col-md-6" style="border:1px solid #ddd">
-      <img src="/assets/img/husserl.jpg" alt="responsive webite" class="img-fluid" width="500">
+    <div class="col-xl-6 col-lg-6 col-md-6">
+      <img src="/assets/img/husserl.jpg" class="img-fluid" width="500">
     </div>
-    <div class="col-xl-6 col-lg-6 col-md-6" style="border:1px solid #ddd">
-      <h2>Bootstrap Responsive Website</h2>
-      <p>Bootstrap is a famous front-end framework used to create mobile-first responsive websites. The latest release
-        version of bootstrap has removed JQuery dependency not fully work on vanilla javascript.</p>
-      <p>Using bootstrap it becomes very easy to build a responsive website.</p>
+    <div class="col-xl-6 col-lg-6 col-md-6">
+        In questa sezione potete trovare i resoconti del gruppo di lettura.
+
+        ## Raccolta Husserl:
+
+        Qui sono raccolti gli incontri tenuti sino ad ora su _La crisi delle scienze europee e la fenomenologia trascendentale_, edizione il saggiatore <a href="https://www.ilsaggiatore.com/libro/la-crisi-delle-scienze-europee-e-la-fenomenologia-trascendentale-2/">(link edizione)</a>.
+
+        All'interno di ogni post vi si trovano le riflessioni sui capitoli letti prima dell'incontro. Vi è riportato anche un riassunto della discussione che è stata corretta e sistemata per essere leggibile. Potrebbero essere state apportate delle modifiche che non rispecchiano i pensieri di coloro che le hanno dette.
     </div>
   </div>
 </div>
 
-In questa sezione potete trovare i resoconti del gruppo di lettura.
 
-## Raccolta Husserl:
-
-Qui sono raccolti gli incontri tenuti sino ad ora su _La crisi delle scienze europee e la fenomenologia trascendentale_, edizione il saggiatore <a href="https://www.ilsaggiatore.com/libro/la-crisi-delle-scienze-europee-e-la-fenomenologia-trascendentale-2/">(link edizione)</a>.
-
-All'interno di ogni post vi si trovano le riflessioni sui capitoli letti prima dell'incontro. Vi è riportato anche un riassunto della discussione che è stata corretta e sistemata per essere leggibile. Potrebbero essere state apportate delle modifiche che non rispecchiano i pensieri di coloro che le hanno dette.
 
 <div class="post">
 
