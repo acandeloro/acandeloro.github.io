@@ -4,7 +4,7 @@ title: Extra
 permalink: /extra/
 description: A growing collection of your cool projects.
 nav: true
-display_categories: [Filosofia, fun]
+display_categories: [Filosofia, Letteratura, Cinema e Serie Tv]
 horizontal: false
 ---
 <div class="projects">
