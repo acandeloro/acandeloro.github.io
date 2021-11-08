@@ -7,14 +7,15 @@ img: /assets/img/husserl.jpg
 importance: 1
 category: Filosofia
 ---
+    <div class="col-sm-8 mt-3 mt-md-0">
 
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xl-6 col-lg-6 col-md-6">
-      <img class="img-fluid rounded z-depth-2" src="{{ '/assets/img/husserl.jpg' | relative_url }}" class="img-fluid" width="300">
+    <div class="col-xl-3 col-lg-6 col-md-6">
+      <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/husserl.jpg' | relative_url }}" class="img-fluid" width="300">
     </div>
-    <div class="col-xl-6 col-lg-6 col-md-6">
+    <div class="col-xl-8 col-lg-6 col-md-6">
         <p>
         In questa sezione potete trovare i resoconti del gruppo di lettura riguardanti la lettura de "La crisi delle scienze europee e la fenomenologia trascendentale", edizione il saggiatore <a href="https://www.ilsaggiatore.com/libro/la-crisi-delle-scienze-europee-e-la-fenomenologia-trascendentale-2/">(link edizione)</a>.
         </p>
