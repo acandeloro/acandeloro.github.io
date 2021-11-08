@@ -5,7 +5,7 @@ description: Resoconti gruppo lettura su Husserl
 permalink: /gruppo-lettura-husserl/
 img: /assets/img/husserl.jpg
 importance: 1
-category: Cinema e Serie Tv
+category: Filosofia
 ---
 
 
