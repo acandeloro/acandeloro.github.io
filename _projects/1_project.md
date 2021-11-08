@@ -10,7 +10,7 @@ category: Filosofia
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-    <img src="/assets/img/husserl.jpg" alt=" ciao " width="500" height="600>
+    <img src="/assets/img/husserl.jpg" alt=" ciao " width="500" height="600" >
   </div>
   <div>
     <h2>Some title text</h2>
