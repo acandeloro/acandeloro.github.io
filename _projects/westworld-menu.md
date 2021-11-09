@@ -2,7 +2,7 @@
 layout: page
 title: Westworld
 description: 
-permalink: /gruppo-lettura-husserl/
+permalink: /westworld-menu/
 img: /assets/img/westworld.jpg
 importance: 1
 category: Cinema e Serie Tv
