@@ -8,6 +8,7 @@ description: Commenti sulla stagione 1
 ---
 
 Westworld 
+
 S1e1
 La cosa funziona perché chi centra SA che gli ospiti non sono veri, SA che vive nel virtuale, non è interessato ad ottenere esperienze sempre più indistinguibili  lo dice quel londinese del cazzo
 Appare chiaro che ci sono due interessi un o commerciale consumistico e un altro nascosto nello sviluppo più realistico
