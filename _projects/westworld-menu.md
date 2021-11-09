@@ -8,16 +8,17 @@ importance: 1
 category: Cinema e Serie Tv
 ---
 
-
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xl-6 col-lg-6 col-md-6">
-      <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/westworld.jpg' | relative_url }}" class="img-fluid" width="300">
-    </div>
+      <div class="col-sm mt-3 mt-md-0">
+          <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/westworld.jpg' | relative_url }}"  class="img-fluid" width="300"/>
+      </div>
   </div>
 </div>
 
-## Lista incontri
+<p>
+</p>
+## Serie
 
 <div class="post">
 
