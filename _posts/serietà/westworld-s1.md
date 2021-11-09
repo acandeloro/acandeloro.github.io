@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  Stagione 1
-date:   2021-10-09 
+date:   2021-01-15 11:40:16
 tags: westworld
 description: Commenti sulla stagione 1
 
 ---
+
 
 Westworld 
 
