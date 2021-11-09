@@ -11,7 +11,7 @@ category: Cinema e Serie Tv
 <div class="container-fluid">
   <div class="row">
       <div class="col-sm mt-3 mt-md-0">
-          <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/westworld.jpg' | relative_url }}"  class="img-fluid" width="300"/>
+          <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/westworld.jpg' | relative_url }}"  class="img-fluid" />
       </div>
   </div>
 </div>
