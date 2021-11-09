@@ -7,7 +7,6 @@ img: /assets/img/husserl.jpg
 importance: 1
 category: Filosofia
 ---
-    <div class="col-sm-8 mt-3 mt-md-0">
 
 
 <div class="container-fluid">
@@ -26,7 +25,7 @@ category: Filosofia
   </div>
 </div>
 
-
+## Lista incontri
 
 <div class="post">
 
