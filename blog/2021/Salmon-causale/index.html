@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  A quantum sheet
+
+
+  | Il meccanicismo probabilistico di Salmon
+
+</title>
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔬</text></svg>">
+
+<link rel="stylesheet" href="/aquantumsheet/assets/css/main.css">
+<link rel="canonical" href="/aquantumsheet/blog/2021/Salmon-causale/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+<script src="/aquantumsheet/assets/js/theme.js"></script>
+<script src="/aquantumsheet/assets/js/dark_mode.js"></script>
+
+
+
+
+
+
+<!----Mathjax---->
+ <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+  <script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+     tex2jax: {
+       inlineMath: [['$','$'], ['\\(','\\)']],
+       displayMath: [['$$','$$'], ['\[','\]']],
+       processEscapes: true
+     }
+   });
+  </script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://acandeloro.github.io/aquantumsheet//">
+       A quantum sheet
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/aquantumsheet/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/aquantumsheet/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/aquantumsheet/extra/">
+                Extra
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Filosofia
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href="/aquantumsheet/filosofia-scienza/">Filosofia della scienza</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="/aquantumsheet/gruppo-lettura/">Gruppo Lettura</a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Fisica
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href="/aquantumsheet/Fisica/">Fisica</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="/aquantumsheet/publications/">Pubblicazioni</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="/aquantumsheet/esercitazioni/">Esercitazioni</a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Letteratura
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href="/aquantumsheet/pasolini/">Pasolini</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="/aquantumsheet/dick/">Philip K. Dick</a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/aquantumsheet/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          
+            <div class="toggle-container">
+              <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Il meccanicismo probabilistico di Salmon</h1>
+    <p class="post-meta">October 6, 2021</p>
+  </header>
+
+  <article class="post-content">
+    <p>Ricordiamo che  ci sono approcci alla spiegazione che non sono di carattere causale e ci sono approcci alla causalità che non sono legati alla spiegazione sceintifica. Ci sono approcci invece che sono tutte e due. La proposta di Salmon si inserisce in quest’ultimo contesto e prende il nome di <strong>meccanicismo probabilistico</strong>. Cosa significa? Meccanicismo è termine che proviene dalla fisica newtoniana: dal determinismo di Laplace, Salmon recupera il concetto di causa entrato in crisi con la fisica contemporanea: la causa sono i fattori che contribusicono al produrre di qualcos’altro. Le cause agiscono in termini probabilistici mutando la probabilità che qualcos’altro di causato accada. Il termine meccanicismo si intende nel senso che la causalità viene concepita come produzione, una causa è un tipo di evento che produce, che porta ad essere. La causa è un rapporto di produttività, di produzione. Ma ci sono degli approcci che concepiscono la causalià in termini diversi da quelli produttivi. Sembra piuttosto distante dal modello di rilevanza statistica. Oggi vediamo come si passa da quest’ultimo al meccanicismo probabilistico.</p>
+
+<p>Ricordiamo il limite dell approcio SR: questo lascia aperta la possibilità di rapporti di rilevanza statistica che non sono in relazione con rapporti di rilevanza esplicativa. Un primo stratagemma, riprendendolo da Reichenbach, è usare la regola di adombramento. Se siamo in grado di mettere in ombra in senso statistico allora possiamo scartare le prorietà adombrate. Le spiegazioni sintomatiche sono spiegazioni che presentano fattori statisticamente rilevanti e che sembra che spiegano il legame tra \(A\) e \(B\). Noi però siamo alla ricerca di spiegazioni genuine, non solo di quelle sintomatica: dobbiamo trovare modo di distinguere tra ciò che è sintomatico e tra ciò che spiega. La regola di adombramento è un primo passaggio dal livello statistico a quello causale: per Salmon la spiegazione che è una buona spiegazione consiste in due livelli: il primo, il livello statistico, sul quale si innesta il secondo, causale (anche se Salmon non presenta esempi concreti dell’intero processo esplicativo formulato su questi due livelli). Allora la spiegazione casuale fornisce una classe di spiegazione più oggettivamente omogenea  di una spiegazione statistica. Questo perché tipicamente le proprietà adombranti sono proprietà casuali. Inoltre possiamo distinguere tra pseudo spiegazioni (quelle sintomatiche) e tra spiegazioni bassate su correlazioni genuine. L’obiettivo per Salmon, ora, è cercare di indivudere le reti di spiegazioni casuali sottese ai fenomeni. Spiegare un evento significa narrare quali fili causali legano questo evento ad altri eventi, ovvero le sue cause. Molte relaziani causali esibisicono relazioni di adombramento, ma questo non è un criterio sufficiente per dire che c’è un legame di causalità. Allora Salmon ricorre al <strong>principio di causa comune</strong>, elaborato in precedenza da Reichenbach. Questo viene introdotto per spiegare in modo causale coincidenze apparantemente accidentali. Il principio dice che se due o più eventi in luoghi diversi accadono congiuntamente con frequenza maggiore di quanto non ci si aspetterebbe se fossero indipendenti, allora questa apparente coincidenza va spiegata nei termini di un comune antecedente causale. È un principio molto forte, ma vedremo che neppure questo sarà sufficiente per spiegazioni causali. Viene assunto per passare da un livello di spiegazione basato sulla dipendenza statistica a un livello basato sulla dipendenza causale. Andare a cercare la causa comune ci sposta su un altro livello. La causa comune rende quei due eventi indipendenti, sposta il rapporto esplicativo dal posto in cui non dovrebbe essere ovvero a livello statistico al posto in cui dovrebbe essere ovvero a livello esplicativo.</p>
+
+<p>Immaginiamo che \(A\) e \(B\) accadono congiuntamente più frequentemente di quanto non accadrebbe se fossero indipendenti, ovvero \(P(A \cdot B) &gt; P(A)P(B)\), e supponiamo che \(C\) sia la causa. Ma se i due eventi fossero indipendenti varrebbe $P(A \cdot B) = P(A) \times P(B)$. Se inserisco un’altra variabile \(C\) e la dipendenza statistica diventa indipendenza statistica ovvero \(P( A \cdot B \vert C) = P(A \vert C) \times P(B \vert C)\).  In presenza della causa comune \(C\) l’dipendenza statistica \(P(A\cdot B) &gt; P(A)P(B)\) diventa indipendenza statistica \(P(A \cdot B\vert C) = P(A \vert C) \times P(B\vert C)\), ovvero \(A\) e \(B\) si mostrano come due eventi indipendenti. Stessa cosa accade se al posto di \(C\) mettiamo la sua negazione \(\tilde{C}\)<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> . Inoltre vale anche che \(P(A\vert C) &gt; P(A\vert\tilde{C})\) e \(P(B\vert C)&gt;P(B \vert \tilde{C})\) perché in realtà sono due eventi indipendenti. Se la probabilità che io stia male è \(A\) e la probabilità che l’altro stia male è \(B\), allora vale  \(P(A\vert C) = P(A\vert B \cdot C)\) (e vale anche simmetricamente \(P(B\vert C) = P(B\vert A \cdot C\)), ovvero \(B\) diventa statisticamente irrilevante rispetto ad \(A\) nel senso che il fatto che egli stia male è irrilevante rispetto al fatto che io stia male: la causa comune trasforma una dipendenza statistica in un’indipendenza. Vediamo come nella <strong>biforcazione congiuntiva</strong> \(C\) adombra \(A\) da \(B\) e \(B\) da \(A\). Notiamo una cosa: stiamo cercando di passare da un livello statistico a un livello causale usando ancora strumenti statistici e Salmon non ha ancora specificato cosa sia una causa. Infatti stiamo ancora usando enunciati nomici, l’unica cosa che facciamo è dare una interpetazione diversa alla variabile \(C\), ma il punto è che stiamo cercando di dare rapporti causali tramite uguaglianze o disuguaglianze ancora di natura statistica. Questa è una prima obiezione. Possiamo farne una seconda:  come andiamo a cercare le cause? Nei casi espressi sopra come esempi il modello funziona perché è molto semplice. Questo tipo di strutture, ovvero la causa comune che spiega i due/tre effeti viene chiamata biforcazione congiuntiva. Ci sono degli esempi che cerca di fare Salmon: due o più persone che stanno male dopo cena, daltonismo tra fratelli. Le biforcazioni congiuntive esprimono una asimmetria che riflette la direzione temporale e il carattere asimimetrico della spiegazione: infatti si spiegano gli effetti riportandoli a cause ma non si fa il processo inverso <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>. Da questa modellizzazione della biforcazione congiuntiva se \(C\) causa \(E\) vuol dire anche che \(C\) precede \(E\). Allora le cause vanno cercate nel cono di luce passato dell’evento che voglio spiegare. Pertanto la causa comune rende conto dell’indipendenza statistica e tra i due eventi discendenti dalla stessa causa \(C\) non esiste una dipendenza causale diretta. Solo la causa comune spiega il verificarsi dei due eventi. Questa può essere usate per stabilire l’asimmetria temporale propria dei fenomeni causali dalla diagramma della biforcazione congiuntiva. Queste relazioni ci spostano da un tipo di spiegazione statistica a una spiegazione ancora espressa in termini statistici che però dà più rilevanza/importanza a certi particolari eventi a cui ci riferiamo come cause. Che cosa però rende \(C\) una causa? Che cosa lo rende importante? In questo contesto per ora \(C\) è una cosa soltanto per la posizione che assume in un certo tipo di rapporti statistici. Vedremo che non è ancora sufficiente. Notiamo bene una cosa: se \(E\) è un effetto comune di \(A\) e \(B\), questo non mi spiega il verificarsi dei due eventi, ovvero \(P(A \cdot B \vert C \cdot E) = P(A \cdot B \vert C)\), che non vuol dire altro che \(E\) è edombrata da \(C\).</p>
+
+<p>L’intento è rappresentare le caratteristiche empiriche del mondo. Il principio di causa comune coglie tre aspetti connessi: causalità, caratteristiche temporali dei fenomeni e asimmetria della spiegazione. Introdurre il concetto di causa risolve quel problema dei modelli hempeliani che ci permettevano di fare avanti e indietro tra explanans ed explanandum. Con il fatto che abbiamo un’ asimmetria tra cause ed effeti risolviamo questo problema  poichè l’asimmetria della causalità coincide con l’asimmetria temporale e con l’assimmetria esplicativa. C’è un problema che emerge naturalmente, non tutte le situazioni sono efficamente rappresentate dalle biforcazioni congiuntive.</p>
+
+<p>Salmon cerca di usare ancora una strumentazione statistica per risolvere faccende esplicative che vogliono essere causali. Tuttavia esistono anche le <strong>biforcazioni interattive</strong>: hanno la stessa struttra logica delle biforcazioni congiuntive tranne per il fatto che  \(P(A \cdot B \vert C) &gt; P(A \vert C) \times P(B\vert C)\), ovvero la causa comune non rende i due eventi indipendenti. In altre parole, l’uguaglianza di quella sopra va sostituita con la disuguaglianza. Questo implica che \(C\) non adombra \(A\) e \(B\) l’uno dall’altra: un esempio che fa Salmon è l’effetto Compton.</p>
+
+<!-- C'è una causa comune che non rende indipendente i due eventi. Succede qualcosa nella interazione che influenza $$A$$ e $$B$$ che li fa dipendere l'uno dall'altro. Due palle da biliardo che si scontrano dipendono l'una dall'altro. Nell' effetto compton il fotone interagisce con elettrone deviando dalla sua traiettoria e c'è una certa probabilità che emerga un certo fotone con una certa energia e un elettrone con un certa energia lo proabialità di avere un fotone con eenergia e uno e un elettrone con energia e 2 è molto più alta di ottenere ....... NO!!!!!-->
+
+<p>Siamo in presenza di biforcazioni interattive: nelle biforcazioni interattive il legame tra gli effetti è più forte di quello contemplato dalle sole biforcazioni conguntive. La causa comune non assorbe la dipendenza statistica tra \(A\) e \(B\): nei casi delle biforcazioni interattive quella che abbiamo è un’<strong>interazione causale</strong>. Ci sono due processi che si sono intersecati e il fatto che si siano intersecati li ha influenzati a vicenda. Salmon comincia a chiedersi se per cogliere la differenza tra questo tipo di situazioni non debba farlo passare da una descrizione in termini di rapporti statistici a descrizione dei processi. La diversità di questi fenomeni è spiegabile solo con disuguaglianze statistiche, o c’è di più? Nella biforcazioni interattive c’è una intersezione, una interazione. Il processo fisico dell’interazione ci permette di passare da una approccio statistico a un approccio causale.</p>
+
+<p>Per Salmon, quando spiego comincio facendo piazza pulita di tutte le proposizioni statisticavemtne irrilevanti. Poi bisogna distinguere le proposizioni esplicativamente rilevanti da quelle che non lo sono. Come faccio? Che cosa mi consente di spiegare distinguendo correlazioni accidentali da cause autentiche? Una causa autentica è presente laddove posso raccontare un processo fisico continuo che mi porta da \(C\) ad \(A\). Questo è quello che Salmon chiama il <strong>meccanismo</strong>: il meccanismo è una rete di processi fisici che non potrà essere descritta da termini puramente statisici ma che <em>necessità di concetti diversi</em>. Una distinzione l’abbiamo nelle due tipologie di biforcazione che abbiamo esaminato: nelle biforcazioni congiuntive da \(C\) a \(A\) e da \(C\) e \(B\) posso spiegare in maniera continua, ma da \(A\) a \(B\) non posso trovare una narrazione continua dei processi.</p>
+
+<p><em>Spiegare pertanto vuol dire trovare processi continui</em>. Emerge allora una domanda: che cos’è un processo? E così siamo punto e a capo. Quando Salmon introduce il concetto di processo, assieme a questo abbiamo una serie di altre nozioni che formano il suo apparato ontologico, le sue costruzioni per impostare una posizione di stampo <strong>meccanicistico</strong>. Ci sono relazioni probabilistiche causali che influenzano un certo effetto ma che non lo rendono necessario. La causalità è compatibile con l’indeterminismo <em>perchè non è una causalità necessaria</em>. <strong>Secondo Salmon molte delle critiche rivolte al concetto di causa sono state dovute al fatto che la causalità è stata concepita all’interno di un’ontologia che non era quella giusta: il concetto di causa emergeva all’interno di un’ontologia dell’evento e non di un’ontologia del processo</strong>. Secondo Salmon la realtà non va intesa come un susseguirsi di eventi, e finchè penso l’universo come una collezione di eventi è ovvio che non capisco la causalità poiché la causalità si manifesta attraverso processi, la causalità è ciò che collega punti diversi dello spazio tempo e non può manifestarsi in singoli irriducibili eventi, non può essere associata a singoli punti dello spazio tempo. Per questo Salmon propone un ontologia del processi.</p>
+
+<p>Salmon parla dei processi alla fine degli anni ‘80 e ha un sacco di successo. Successivamente ci saranno altri autori neo-meccanicistici che prendono il meccanicismo di Salmon e lo modificano e lo applicano a scienze specifiche. Salmon insiste molto sul concetto di processo come Dowe farà negli anni 90. Tuttavia i neo-meccanicisti dopo il ‘96 non usano più il concetto di processo ma riprendono il concetto non tanto di evento ma quanto di entità e pertanto usano un apparato ontologico diverso. Nonostante ciò, ci sono al momento alcune persone tra cui J. Duprè e il suo allievo Nicholson (filosofi della biologia a Exter) che stanno riprendendo un’ontologia dei processi. Stanno curando un libro sulla metafisica dei processi perché, secondo loro, il modo giusto di concepire i fenomeni biologici non può essere in termini di entità o di eventi ma nei termini di processi. Il problema è che nell’entità non viene sottolineata una continuità spazio temporale. Salmon una volta che afferma che per comprendere l’andamento dei fenomeni devo pensare in termini di processi dice anche che <em>non tutti i processi però hanno caratteristiche causali</em>. La causalità è produzione, ovvero capacità di trasmettere qualcosa, tipicamente cambiamento ma non tutti i processi sono in grado di trasmettere cambiamento. È quindi necessario distinguere tra processi causali e processi non causali, ovvero <strong>pseudo-processi</strong>.</p>
+
+<p>Ci chiediamo allora: cos’è un processo? È un’entità spazio temporalmente continua, è composto da i fili che legano i fenomeni, gli eventi. Cosa distingue processi causali e pseudoprcoessi? I primi trasmettono <strong>marchi</strong>. Un marchio (March) è una modifica: un procssso è causale se è in grado di trasmettere una modifica. L’intersezione nella biforcazione è una causa se due processi spazio temporalmente continui nell’incontro vengono modificati e questa modifica viene trasmessa, gli effeti non sono limitati al punto di intereszione. Quindi i processi sono processi causali se modificano e propagano il cambiamento che hanno subito. Secondo Salmon questo tipo di impostazione è ugualmente valida per l’analisi di tutti i fenomeni. Questo è un tentativo di dare una spiegazione unica alla spiegazione causale in tutte le scienze <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>. Hume e filosofi analoghi hanno a lungo quantomeno sottovalutato il concetto di causa: lo hanno fatto perché avevano in mente eventi e non processi e il fatto che è la capacità di trasmettere informazione che distingue processi causali da pseudo-processi.</p>
+
+<p>Che svolta possiamo avere se optiamo per questa impostazione? Spiegare in termini causali è spiegare come le cose si verificano. Spiegare non significa dire che cosa succede ma signfica <strong>raccontare come succede</strong>. Questa idea supera i limiti hempeliani e i limiti del modello SR. Infatti, secondo i modelli di Hempel e SR le leggi mi raccontano cosa succede. Dire che cosa succede significa descrivere. Se voglio spiegare invece devo raccontare <strong>come</strong> accadono le cose, non semplicemente descrivere gli eventi. Non basta dire che cose è \(C\), che cos’è \(A\) e \(B\) e dire che c’è una responsabilità tra questi. Per spiegare devo raccontare che cosa c’è tra \(C\) e \(A\), cosa c’è tra \(C\) e \(B\). Significa che è necessario ricostruire come passo dalla causa all’effetto. Ci sono approcci per i quali una volta individuata la causa sono soddisfatti, per il meccanicista non è così, egli deve raccontare la storia della trasmissione del cambiamento. Questa è la caratterisica fondamentale della spiegazione meccanicistica: <em>devo ricostruire i passaggi spazio temporalemnte continui che mi portano dalla causa all’effetto</em>. Questa è una posizione <em>molto forte</em> nel momento in cui riesco ad applicarla, ovvero quando riesco a ricostruire il processo. Il problema è: questa descrizione del processe <em>quanto dettagliata</em>, completa, priva di buchi epistemici deve essere? All’interno di questo approccio la causalità è la causalità fisica. I rapporti causali sono rapporti reali, sono rapporti che legano fenomeni, la causalità è presente nel mondo. È una <strong>concezione realista della causalità</strong>. La causalità non è riducibile a semplici osservazioni ripetute. Le connessioni causali possono essere scoperte tramite indagini empiriche, esse sono già lì indipendentemente da me.</p>
+
+<p>Ritorniamo ora alla distinzione tra processi causali e pseudo-processi: il primo trasmette cambiamento/trasmettere marchi. Salmon prende come esempio di processo causale il seguente processo: prendiamo una luce che ruota, all’interno di un muro chiuso tondo. Questa luce è proiettata lungo la parete e spazza i 360 gradi del muro chiuso. La luce è il tipico esempio di processo causale. Se prendo un vetro rosso e lo fisso sul faro la luce diventa rossa. Quindi c’è una modifica del processo, c’è un cambiamento del processo che viene trasmesso. Perchè la luce può continuare ad essere rossa? Perchè la luce è un processo causale e trasmette la modifica che subisce. Un pseudo-processo è se metto il filtro rosso sul muro. Anche le onde sonore sono capaci di trasmettere modifiche e svolgono un ruolo fondamentale come fili che legano gli eventi. Salmon tuttavia non fa molti altri esempi. Non sono sempre lì a controllare se ogni processo del mondo sia un processo causale. La risposta di Salmon allora è la seguente: un processo causale è tale se qualora subisse una modifica sarebbe in grado di trasmetterla. Mi è sufficiente sapere che è potenzialmente in grado di trasmetterla. Questa però è una definizione <strong>controfattuale</strong>. In sostanza, per capire processi causali uso il criterio dei marchi ma non apporto in continuazione le modifiche. Allora i processi causali sono tali solo potenzialmente. Nel fare questo però propone una formulazione controfattuale del criterio dei marchi.</p>
+
+<p>Salmo quindi introduce nel dibattito sulla causalità delle nozioni assenti in questo dibattito per sposatre il ruolo esplicativo da rapporti statistici a rapporti causali (rilevanza esplicativa = rilevanza causale). Ma dalla definizione di che cosa vale come effetto causale finisco in una definizione controfattuale. È una spiegazione ontica, contrapposta a quella epistemica di Hempel. Per visione ontica intendiamo che spiegare un evento significa individuare il posto che esso occupa nella struttura causale del mondo. La ricerca scientifica mira a svelare porzioni sempre più ampie di questa trama.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Mi vien da chiedere allora chi individuiamo come causa, \(C\) o la sua negazione \(\tilde{C}\)? <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>C’è da tenere conto però che non tutti i fenomeni causali sono unidirezionali <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Teniamo a mente che il tempo scorre in modo lineare in questa impostazione. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    © Copyright 2021 Alessandro  Candeloro.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
+
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/aquantumsheet/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/aquantumsheet/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/aquantumsheet/assets/js/common.js"></script>
+
+
+</html>

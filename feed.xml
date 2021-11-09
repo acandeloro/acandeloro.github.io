@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://acandeloro.github.io/aquantumsheet/feed.xml" rel="self" type="application/atom+xml" /><link href="https://acandeloro.github.io/aquantumsheet/" rel="alternate" type="text/html" /><updated>2021-11-09T23:00:29+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/feed.xml</id><title type="html">A quantum sheet</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Il meccanicismo probabilistico di Salmon</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/Salmon-causale/" rel="alternate" type="text/html" title="Il meccanicismo probabilistico di Salmon" /><published>2021-10-06T12:40:16+00:00</published><updated>2021-10-06T12:40:16+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/Salmon-causale</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/Salmon-causale/">&lt;p&gt;Ricordiamo che  ci sono approcci alla spiegazione che non sono di carattere causale e ci sono approcci alla causalità che non sono legati alla spiegazione sceintifica. Ci sono approcci invece che sono tutte e due. La proposta di Salmon si inserisce in quest’ultimo contesto e prende il nome di &lt;strong&gt;meccanicismo probabilistico&lt;/strong&gt;. Cosa significa? Meccanicismo è termine che proviene dalla fisica newtoniana: dal determinismo di Laplace, Salmon recupera il concetto di causa entrato in crisi con la fisica contemporanea: la causa sono i fattori che contribusicono al produrre di qualcos’altro. Le cause agiscono in termini probabilistici mutando la probabilità che qualcos’altro di causato accada. Il termine meccanicismo si intende nel senso che la causalità viene concepita come produzione, una causa è un tipo di evento che produce, che porta ad essere. La causa è un rapporto di produttività, di produzione. Ma ci sono degli approcci che concepiscono la causalià in termini diversi da quelli produttivi. Sembra piuttosto distante dal modello di rilevanza statistica. Oggi vediamo come si passa da quest’ultimo al meccanicismo probabilistico.&lt;/p&gt;
+
+&lt;p&gt;Ricordiamo il limite dell approcio SR: questo lascia aperta la possibilità di rapporti di rilevanza statistica che non sono in relazione con rapporti di rilevanza esplicativa. Un primo stratagemma, riprendendolo da Reichenbach, è usare la regola di adombramento. Se siamo in grado di mettere in ombra in senso statistico allora possiamo scartare le prorietà adombrate. Le spiegazioni sintomatiche sono spiegazioni che presentano fattori statisticamente rilevanti e che sembra che spiegano il legame tra \(A\) e \(B\). Noi però siamo alla ricerca di spiegazioni genuine, non solo di quelle sintomatica: dobbiamo trovare modo di distinguere tra ciò che è sintomatico e tra ciò che spiega. La regola di adombramento è un primo passaggio dal livello statistico a quello causale: per Salmon la spiegazione che è una buona spiegazione consiste in due livelli: il primo, il livello statistico, sul quale si innesta il secondo, causale (anche se Salmon non presenta esempi concreti dell’intero processo esplicativo formulato su questi due livelli). Allora la spiegazione casuale fornisce una classe di spiegazione più oggettivamente omogenea  di una spiegazione statistica. Questo perché tipicamente le proprietà adombranti sono proprietà casuali. Inoltre possiamo distinguere tra pseudo spiegazioni (quelle sintomatiche) e tra spiegazioni bassate su correlazioni genuine. L’obiettivo per Salmon, ora, è cercare di indivudere le reti di spiegazioni casuali sottese ai fenomeni. Spiegare un evento significa narrare quali fili causali legano questo evento ad altri eventi, ovvero le sue cause. Molte relaziani causali esibisicono relazioni di adombramento, ma questo non è un criterio sufficiente per dire che c’è un legame di causalità. Allora Salmon ricorre al &lt;strong&gt;principio di causa comune&lt;/strong&gt;, elaborato in precedenza da Reichenbach. Questo viene introdotto per spiegare in modo causale coincidenze apparantemente accidentali. Il principio dice che se due o più eventi in luoghi diversi accadono congiuntamente con frequenza maggiore di quanto non ci si aspetterebbe se fossero indipendenti, allora questa apparente coincidenza va spiegata nei termini di un comune antecedente causale. È un principio molto forte, ma vedremo che neppure questo sarà sufficiente per spiegazioni causali. Viene assunto per passare da un livello di spiegazione basato sulla dipendenza statistica a un livello basato sulla dipendenza causale. Andare a cercare la causa comune ci sposta su un altro livello. La causa comune rende quei due eventi indipendenti, sposta il rapporto esplicativo dal posto in cui non dovrebbe essere ovvero a livello statistico al posto in cui dovrebbe essere ovvero a livello esplicativo.&lt;/p&gt;
+
+&lt;p&gt;Immaginiamo che \(A\) e \(B\) accadono congiuntamente più frequentemente di quanto non accadrebbe se fossero indipendenti, ovvero \(P(A \cdot B) &amp;gt; P(A)P(B)\), e supponiamo che \(C\) sia la causa. Ma se i due eventi fossero indipendenti varrebbe $P(A \cdot B) = P(A) \times P(B)$. Se inserisco un’altra variabile \(C\) e la dipendenza statistica diventa indipendenza statistica ovvero \(P( A \cdot B \vert C) = P(A \vert C) \times P(B \vert C)\).  In presenza della causa comune \(C\) l’dipendenza statistica \(P(A\cdot B) &amp;gt; P(A)P(B)\) diventa indipendenza statistica \(P(A \cdot B\vert C) = P(A \vert C) \times P(B\vert C)\), ovvero \(A\) e \(B\) si mostrano come due eventi indipendenti. Stessa cosa accade se al posto di \(C\) mettiamo la sua negazione \(\tilde{C}\)&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; . Inoltre vale anche che \(P(A\vert C) &amp;gt; P(A\vert\tilde{C})\) e \(P(B\vert C)&amp;gt;P(B \vert \tilde{C})\) perché in realtà sono due eventi indipendenti. Se la probabilità che io stia male è \(A\) e la probabilità che l’altro stia male è \(B\), allora vale  \(P(A\vert C) = P(A\vert B \cdot C)\) (e vale anche simmetricamente \(P(B\vert C) = P(B\vert A \cdot C\)), ovvero \(B\) diventa statisticamente irrilevante rispetto ad \(A\) nel senso che il fatto che egli stia male è irrilevante rispetto al fatto che io stia male: la causa comune trasforma una dipendenza statistica in un’indipendenza. Vediamo come nella &lt;strong&gt;biforcazione congiuntiva&lt;/strong&gt; \(C\) adombra \(A\) da \(B\) e \(B\) da \(A\). Notiamo una cosa: stiamo cercando di passare da un livello statistico a un livello causale usando ancora strumenti statistici e Salmon non ha ancora specificato cosa sia una causa. Infatti stiamo ancora usando enunciati nomici, l’unica cosa che facciamo è dare una interpetazione diversa alla variabile \(C\), ma il punto è che stiamo cercando di dare rapporti causali tramite uguaglianze o disuguaglianze ancora di natura statistica. Questa è una prima obiezione. Possiamo farne una seconda:  come andiamo a cercare le cause? Nei casi espressi sopra come esempi il modello funziona perché è molto semplice. Questo tipo di strutture, ovvero la causa comune che spiega i due/tre effeti viene chiamata biforcazione congiuntiva. Ci sono degli esempi che cerca di fare Salmon: due o più persone che stanno male dopo cena, daltonismo tra fratelli. Le biforcazioni congiuntive esprimono una asimmetria che riflette la direzione temporale e il carattere asimimetrico della spiegazione: infatti si spiegano gli effetti riportandoli a cause ma non si fa il processo inverso &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Da questa modellizzazione della biforcazione congiuntiva se \(C\) causa \(E\) vuol dire anche che \(C\) precede \(E\). Allora le cause vanno cercate nel cono di luce passato dell’evento che voglio spiegare. Pertanto la causa comune rende conto dell’indipendenza statistica e tra i due eventi discendenti dalla stessa causa \(C\) non esiste una dipendenza causale diretta. Solo la causa comune spiega il verificarsi dei due eventi. Questa può essere usate per stabilire l’asimmetria temporale propria dei fenomeni causali dalla diagramma della biforcazione congiuntiva. Queste relazioni ci spostano da un tipo di spiegazione statistica a una spiegazione ancora espressa in termini statistici che però dà più rilevanza/importanza a certi particolari eventi a cui ci riferiamo come cause. Che cosa però rende \(C\) una causa? Che cosa lo rende importante? In questo contesto per ora \(C\) è una cosa soltanto per la posizione che assume in un certo tipo di rapporti statistici. Vedremo che non è ancora sufficiente. Notiamo bene una cosa: se \(E\) è un effetto comune di \(A\) e \(B\), questo non mi spiega il verificarsi dei due eventi, ovvero \(P(A \cdot B \vert C \cdot E) = P(A \cdot B \vert C)\), che non vuol dire altro che \(E\) è edombrata da \(C\).&lt;/p&gt;
+
+&lt;p&gt;L’intento è rappresentare le caratteristiche empiriche del mondo. Il principio di causa comune coglie tre aspetti connessi: causalità, caratteristiche temporali dei fenomeni e asimmetria della spiegazione. Introdurre il concetto di causa risolve quel problema dei modelli hempeliani che ci permettevano di fare avanti e indietro tra explanans ed explanandum. Con il fatto che abbiamo un’ asimmetria tra cause ed effeti risolviamo questo problema  poichè l’asimmetria della causalità coincide con l’asimmetria temporale e con l’assimmetria esplicativa. C’è un problema che emerge naturalmente, non tutte le situazioni sono efficamente rappresentate dalle biforcazioni congiuntive.&lt;/p&gt;
+
+&lt;p&gt;Salmon cerca di usare ancora una strumentazione statistica per risolvere faccende esplicative che vogliono essere causali. Tuttavia esistono anche le &lt;strong&gt;biforcazioni interattive&lt;/strong&gt;: hanno la stessa struttra logica delle biforcazioni congiuntive tranne per il fatto che  \(P(A \cdot B \vert C) &amp;gt; P(A \vert C) \times P(B\vert C)\), ovvero la causa comune non rende i due eventi indipendenti. In altre parole, l’uguaglianza di quella sopra va sostituita con la disuguaglianza. Questo implica che \(C\) non adombra \(A\) e \(B\) l’uno dall’altra: un esempio che fa Salmon è l’effetto Compton.&lt;/p&gt;
+
+&lt;!-- C&apos;è una causa comune che non rende indipendente i due eventi. Succede qualcosa nella interazione che influenza $$A$$ e $$B$$ che li fa dipendere l&apos;uno dall&apos;altro. Due palle da biliardo che si scontrano dipendono l&apos;una dall&apos;altro. Nell&apos; effetto compton il fotone interagisce con elettrone deviando dalla sua traiettoria e c&apos;è una certa probabilità che emerga un certo fotone con una certa energia e un elettrone con un certa energia lo proabialità di avere un fotone con eenergia e uno e un elettrone con energia e 2 è molto più alta di ottenere ....... NO!!!!!--&gt;
+
+&lt;p&gt;Siamo in presenza di biforcazioni interattive: nelle biforcazioni interattive il legame tra gli effetti è più forte di quello contemplato dalle sole biforcazioni conguntive. La causa comune non assorbe la dipendenza statistica tra \(A\) e \(B\): nei casi delle biforcazioni interattive quella che abbiamo è un’&lt;strong&gt;interazione causale&lt;/strong&gt;. Ci sono due processi che si sono intersecati e il fatto che si siano intersecati li ha influenzati a vicenda. Salmon comincia a chiedersi se per cogliere la differenza tra questo tipo di situazioni non debba farlo passare da una descrizione in termini di rapporti statistici a descrizione dei processi. La diversità di questi fenomeni è spiegabile solo con disuguaglianze statistiche, o c’è di più? Nella biforcazioni interattive c’è una intersezione, una interazione. Il processo fisico dell’interazione ci permette di passare da una approccio statistico a un approccio causale.&lt;/p&gt;
+
+&lt;p&gt;Per Salmon, quando spiego comincio facendo piazza pulita di tutte le proposizioni statisticavemtne irrilevanti. Poi bisogna distinguere le proposizioni esplicativamente rilevanti da quelle che non lo sono. Come faccio? Che cosa mi consente di spiegare distinguendo correlazioni accidentali da cause autentiche? Una causa autentica è presente laddove posso raccontare un processo fisico continuo che mi porta da \(C\) ad \(A\). Questo è quello che Salmon chiama il &lt;strong&gt;meccanismo&lt;/strong&gt;: il meccanismo è una rete di processi fisici che non potrà essere descritta da termini puramente statisici ma che &lt;em&gt;necessità di concetti diversi&lt;/em&gt;. Una distinzione l’abbiamo nelle due tipologie di biforcazione che abbiamo esaminato: nelle biforcazioni congiuntive da \(C\) a \(A\) e da \(C\) e \(B\) posso spiegare in maniera continua, ma da \(A\) a \(B\) non posso trovare una narrazione continua dei processi.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Spiegare pertanto vuol dire trovare processi continui&lt;/em&gt;. Emerge allora una domanda: che cos’è un processo? E così siamo punto e a capo. Quando Salmon introduce il concetto di processo, assieme a questo abbiamo una serie di altre nozioni che formano il suo apparato ontologico, le sue costruzioni per impostare una posizione di stampo &lt;strong&gt;meccanicistico&lt;/strong&gt;. Ci sono relazioni probabilistiche causali che influenzano un certo effetto ma che non lo rendono necessario. La causalità è compatibile con l’indeterminismo &lt;em&gt;perchè non è una causalità necessaria&lt;/em&gt;. &lt;strong&gt;Secondo Salmon molte delle critiche rivolte al concetto di causa sono state dovute al fatto che la causalità è stata concepita all’interno di un’ontologia che non era quella giusta: il concetto di causa emergeva all’interno di un’ontologia dell’evento e non di un’ontologia del processo&lt;/strong&gt;. Secondo Salmon la realtà non va intesa come un susseguirsi di eventi, e finchè penso l’universo come una collezione di eventi è ovvio che non capisco la causalità poiché la causalità si manifesta attraverso processi, la causalità è ciò che collega punti diversi dello spazio tempo e non può manifestarsi in singoli irriducibili eventi, non può essere associata a singoli punti dello spazio tempo. Per questo Salmon propone un ontologia del processi.&lt;/p&gt;
+
+&lt;p&gt;Salmon parla dei processi alla fine degli anni ‘80 e ha un sacco di successo. Successivamente ci saranno altri autori neo-meccanicistici che prendono il meccanicismo di Salmon e lo modificano e lo applicano a scienze specifiche. Salmon insiste molto sul concetto di processo come Dowe farà negli anni 90. Tuttavia i neo-meccanicisti dopo il ‘96 non usano più il concetto di processo ma riprendono il concetto non tanto di evento ma quanto di entità e pertanto usano un apparato ontologico diverso. Nonostante ciò, ci sono al momento alcune persone tra cui J. Duprè e il suo allievo Nicholson (filosofi della biologia a Exter) che stanno riprendendo un’ontologia dei processi. Stanno curando un libro sulla metafisica dei processi perché, secondo loro, il modo giusto di concepire i fenomeni biologici non può essere in termini di entità o di eventi ma nei termini di processi. Il problema è che nell’entità non viene sottolineata una continuità spazio temporale. Salmon una volta che afferma che per comprendere l’andamento dei fenomeni devo pensare in termini di processi dice anche che &lt;em&gt;non tutti i processi però hanno caratteristiche causali&lt;/em&gt;. La causalità è produzione, ovvero capacità di trasmettere qualcosa, tipicamente cambiamento ma non tutti i processi sono in grado di trasmettere cambiamento. È quindi necessario distinguere tra processi causali e processi non causali, ovvero &lt;strong&gt;pseudo-processi&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ci chiediamo allora: cos’è un processo? È un’entità spazio temporalmente continua, è composto da i fili che legano i fenomeni, gli eventi. Cosa distingue processi causali e pseudoprcoessi? I primi trasmettono &lt;strong&gt;marchi&lt;/strong&gt;. Un marchio (March) è una modifica: un procssso è causale se è in grado di trasmettere una modifica. L’intersezione nella biforcazione è una causa se due processi spazio temporalmente continui nell’incontro vengono modificati e questa modifica viene trasmessa, gli effeti non sono limitati al punto di intereszione. Quindi i processi sono processi causali se modificano e propagano il cambiamento che hanno subito. Secondo Salmon questo tipo di impostazione è ugualmente valida per l’analisi di tutti i fenomeni. Questo è un tentativo di dare una spiegazione unica alla spiegazione causale in tutte le scienze &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Hume e filosofi analoghi hanno a lungo quantomeno sottovalutato il concetto di causa: lo hanno fatto perché avevano in mente eventi e non processi e il fatto che è la capacità di trasmettere informazione che distingue processi causali da pseudo-processi.&lt;/p&gt;
+
+&lt;p&gt;Che svolta possiamo avere se optiamo per questa impostazione? Spiegare in termini causali è spiegare come le cose si verificano. Spiegare non significa dire che cosa succede ma signfica &lt;strong&gt;raccontare come succede&lt;/strong&gt;. Questa idea supera i limiti hempeliani e i limiti del modello SR. Infatti, secondo i modelli di Hempel e SR le leggi mi raccontano cosa succede. Dire che cosa succede significa descrivere. Se voglio spiegare invece devo raccontare &lt;strong&gt;come&lt;/strong&gt; accadono le cose, non semplicemente descrivere gli eventi. Non basta dire che cose è \(C\), che cos’è \(A\) e \(B\) e dire che c’è una responsabilità tra questi. Per spiegare devo raccontare che cosa c’è tra \(C\) e \(A\), cosa c’è tra \(C\) e \(B\). Significa che è necessario ricostruire come passo dalla causa all’effetto. Ci sono approcci per i quali una volta individuata la causa sono soddisfatti, per il meccanicista non è così, egli deve raccontare la storia della trasmissione del cambiamento. Questa è la caratterisica fondamentale della spiegazione meccanicistica: &lt;em&gt;devo ricostruire i passaggi spazio temporalemnte continui che mi portano dalla causa all’effetto&lt;/em&gt;. Questa è una posizione &lt;em&gt;molto forte&lt;/em&gt; nel momento in cui riesco ad applicarla, ovvero quando riesco a ricostruire il processo. Il problema è: questa descrizione del processe &lt;em&gt;quanto dettagliata&lt;/em&gt;, completa, priva di buchi epistemici deve essere? All’interno di questo approccio la causalità è la causalità fisica. I rapporti causali sono rapporti reali, sono rapporti che legano fenomeni, la causalità è presente nel mondo. È una &lt;strong&gt;concezione realista della causalità&lt;/strong&gt;. La causalità non è riducibile a semplici osservazioni ripetute. Le connessioni causali possono essere scoperte tramite indagini empiriche, esse sono già lì indipendentemente da me.&lt;/p&gt;
+
+&lt;p&gt;Ritorniamo ora alla distinzione tra processi causali e pseudo-processi: il primo trasmette cambiamento/trasmettere marchi. Salmon prende come esempio di processo causale il seguente processo: prendiamo una luce che ruota, all’interno di un muro chiuso tondo. Questa luce è proiettata lungo la parete e spazza i 360 gradi del muro chiuso. La luce è il tipico esempio di processo causale. Se prendo un vetro rosso e lo fisso sul faro la luce diventa rossa. Quindi c’è una modifica del processo, c’è un cambiamento del processo che viene trasmesso. Perchè la luce può continuare ad essere rossa? Perchè la luce è un processo causale e trasmette la modifica che subisce. Un pseudo-processo è se metto il filtro rosso sul muro. Anche le onde sonore sono capaci di trasmettere modifiche e svolgono un ruolo fondamentale come fili che legano gli eventi. Salmon tuttavia non fa molti altri esempi. Non sono sempre lì a controllare se ogni processo del mondo sia un processo causale. La risposta di Salmon allora è la seguente: un processo causale è tale se qualora subisse una modifica sarebbe in grado di trasmetterla. Mi è sufficiente sapere che è potenzialmente in grado di trasmetterla. Questa però è una definizione &lt;strong&gt;controfattuale&lt;/strong&gt;. In sostanza, per capire processi causali uso il criterio dei marchi ma non apporto in continuazione le modifiche. Allora i processi causali sono tali solo potenzialmente. Nel fare questo però propone una formulazione controfattuale del criterio dei marchi.&lt;/p&gt;
+
+&lt;p&gt;Salmo quindi introduce nel dibattito sulla causalità delle nozioni assenti in questo dibattito per sposatre il ruolo esplicativo da rapporti statistici a rapporti causali (rilevanza esplicativa = rilevanza causale). Ma dalla definizione di che cosa vale come effetto causale finisco in una definizione controfattuale. È una spiegazione ontica, contrapposta a quella epistemica di Hempel. Per visione ontica intendiamo che spiegare un evento significa individuare il posto che esso occupa nella struttura causale del mondo. La ricerca scientifica mira a svelare porzioni sempre più ampie di questa trama.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Mi vien da chiedere allora chi individuiamo come causa, \(C\) o la sua negazione \(\tilde{C}\)? &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;C’è da tenere conto però che non tutti i fenomeni causali sono unidirezionali &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Teniamo a mente che il tempo scorre in modo lineare in questa impostazione. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="filosofia" /><summary type="html">Ricordiamo che ci sono approcci alla spiegazione che non sono di carattere causale e ci sono approcci alla causalità che non sono legati alla spiegazione sceintifica. Ci sono approcci invece che sono tutte e due. La proposta di Salmon si inserisce in quest’ultimo contesto e prende il nome di meccanicismo probabilistico. Cosa significa? Meccanicismo è termine che proviene dalla fisica newtoniana: dal determinismo di Laplace, Salmon recupera il concetto di causa entrato in crisi con la fisica contemporanea: la causa sono i fattori che contribusicono al produrre di qualcos’altro. Le cause agiscono in termini probabilistici mutando la probabilità che qualcos’altro di causato accada. Il termine meccanicismo si intende nel senso che la causalità viene concepita come produzione, una causa è un tipo di evento che produce, che porta ad essere. La causa è un rapporto di produttività, di produzione. Ma ci sono degli approcci che concepiscono la causalià in termini diversi da quelli produttivi. Sembra piuttosto distante dal modello di rilevanza statistica. Oggi vediamo come si passa da quest’ultimo al meccanicismo probabilistico.</summary></entry><entry><title type="html">Modello di Rilevanza Statistica di Salmon</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/Salmon-SR/" rel="alternate" type="text/html" title="Modello di Rilevanza Statistica di Salmon" /><published>2021-10-05T12:40:16+00:00</published><updated>2021-10-05T12:40:16+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/Salmon-SR</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/Salmon-SR/">&lt;p&gt;The goal is to overcome the Hempelian models, i.e. the deterministic approach to scientific explanation (Hempel). Nevertheless, it is true that we cannot exclude deterministic phenomena. We need a concept that does not exclude these two visions, and to achieve this it is necessary to introduce the concept of &lt;strong&gt;statistical significance&lt;/strong&gt;, related to the fact that \(P(B\vert A) \neq P(B)\). Statistical significance is the property of an event to change the probability of another event. What accounts for the occurrence of an event are all those events that change the probability of occurrence of that event, i.e., all events \(A\) that are relevant with respect to \(B\) according to the definition given above. When we ask about the nature of event \(B\) we must take into account all such events \(A\). Hempel’s models do not allow us to select relevant events from those that are not. On the other hand, in the &lt;strong&gt;Statistical Relevance (SR)&lt;/strong&gt; model explanatory relevance is statistical relevance, i.e., what explains an event \(B\) are all and only the events \(A\) that are statistically relevant with respect to \(B\). How do I measure this statistical significance? By calculating the frequencies. For example, if \(P(B\vert C) = P(B)\), the event \(C\) is not relevant with respect to \(B\) and we do not have to take it into account when explaining \(B\).&lt;/p&gt;
+
+&lt;p&gt;Salmon formulated his theory of scientific explanation in Statistical Explanation in the early 1970s. He formulates the statistical significance model with the intent of overcoming Hempelian models. Salmon’s intent is to overcome the Hempelian relativization that statistical explanation depends on cognitive context.&lt;/p&gt;
+
+&lt;p&gt;One of the big theoretical problems is that at least some phenomena behave in an inherently probabilistic way. Assuming that a certain set of phenomena do, are there areas in which probability also represents degrees of ignorance? Can I find a model that includes both forms of probability, the intrinsic one and the one that emerges from ignorance of the phenomena?&lt;/p&gt;
+
+&lt;p&gt;Salmon formulates an indeterministic model in which the key concept is that of pure statistical relevance. A certain proposition \(A\) is relevant with respect to \(B\) if \(P(B\vert A) \neq P(B)\). Pure wording means that we don’t care about lesser or greater, but we do care that there is a difference relationship. While in median models what explains are laws, here the explanatory relevance is statistical relevance: what explains are statistically relevant events, i.e., what changes the probability of a given event to occur.&lt;/p&gt;
+
+&lt;p&gt;When I explain something there is something I know and something I want to find out. Therefore it is natural to start with a reference class \(A\) to which an event \(x\) belongs and I want to explain why the event \(B\) has the property \(x\). When I deal with something I know something about the reference class \(A\). Let’s start with an example: the event \(B\) is the theft of a car and \(A\) is the class of American kids. There is a certain probability of stealing a car if I am an American boy, \(P(B\vert A) = p_1\). Salmon’s method proceeds as follows: I look for those properties that give some difference with what I know, namely \(P(B\vert A \dots) \neq P(B\vert A)\). Among the American \(A\) boys there are those with the property \(C\) of having a criminal record: if \(P(B\vert A \cdot C) \neq P(B\vert A)\), i.e. the probability is different from just being an American boy, I will have to take into account \(C\) as a statistical relevant &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;In this process explaining means taking the class \(A\) and dividing it into subclasses. How? According to statistically relevant properties. I perform partitions of \(A\) across all statistically relevant properties.  When do I get to the explanation? When I have performed the full partition of all statistically relevant properties and only those, emphasizing all and only those (this is a fairly strong and stringent statement). Then in this model explaining means attributing my individual to the reference class to which he belongs. The fact that he belongs to that class is the explanation of why he stole a car.&lt;/p&gt;
+
+&lt;p&gt;The main idea is that explaining &lt;em&gt;isn’t logical reasoning&lt;/em&gt; but rather a &lt;strong&gt;succession of partitions of my reference class&lt;/strong&gt; (which is what I already know, my starting point). The partition must shape the set of mutually exclusive and exhaustive subclasses. Each element of the initial class belongs to one and only one of the classes. Eventually there will be only one cell where the actual reference subject can belong. It is not important that the probability of the explanandum is high or low what matters is that the information is relevant to its occurrence. Statistical relevance guides the choice of the appropriate reference class. This is because we want to include also in our model indeterministic phenomena.&lt;/p&gt;
+
+&lt;p&gt;A first difference with the previous models is for example with the I-S model, in which a very high probability is required, while for the Salmon model it is necessary to be relevant, no matter how much. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Fundamental criterion for a good explanation is the homogeneity of the reference class: a good explanation includes all and only the relevant information with respect to the event to be explained, and until I have finished the restart I cannot say in which cell to put Albert. Including only relevant information solves several problems (such as that of explaining events that are unlikely to occur). Homogeneity of the reference class is achieved through successive partitions of the reference cells by relevant attribbits. A class that is homogeneous with respect to a given attribute is a class that cannot be further partitioned by means of statistically relevant attribbits with respect to the property being explained.&lt;/p&gt;
+
+&lt;p&gt;This model was created to overcome the limitations of Hempelian models and it is intended to be compatible with an indeterministic approach, but also open to deterministic models. In Hempel the preferred explanations are the deterministic ones while the statistical ones are the imperfect cases of the deductive explanations; for Salmon it is the &lt;em&gt;contrary&lt;/em&gt;, the deductive explanations are limit cases of the statistical explanations. For the latter, the probabilistic explanation constitutes the general case: the deterministic explanation represents the special case in which the statistically relevant partition gives rise to only two cells: one in which the attribute of the explanandum appears the associated porbability and one, the other empty.&lt;/p&gt;
+
+&lt;p&gt;The Hempelian model was intended to be universal and valid for any scientific discipline. Even the S-R models of the 1970s-80s were to be used in all sciences according to Salmon. However, many criticisms have been made of Salmon on the type of examples he chooses to give to explain his models. For example, is it easy to be certain at a certain time $t_0$ that he has taken all statistically relevant properties or does this depend on external factors (progress, historical context etc.)? Homogeneity as a criterion has been accused of being too strong a requirement for the humanities and social sciences, whereas it is clearly easier to use in certain more exact disciplines.&lt;/p&gt;
+
+&lt;p&gt;To overcome this criticism Salmon introduces a further concept: the &lt;strong&gt;objectively homogeneous reference class&lt;/strong&gt;. This is defined as the reference class which in principle cannot be broken down into further subclasses independently of our knowledge. Right after this definition, however, Salmon states that objective homogeneity is an &lt;em&gt;ideal&lt;/em&gt;. Always remember that Salmon’s goal is to admit the possibility of genuine statistical explanations that are not relative to epistemic context. In contrast to an objectively homogeneous reference class there is the epistically homogeneous reference class: a homogeneous reference class is epistemic if the available knowledge does not allow for partitioning. Salmon admits the existence of epistemic explanations because there are properties yet to be discovered that nevertheless confirm to me the statistical nature of the explanation (as opposed to Hempel for whom increasing knowledge actually decreased statistical influence). There are also the pragmatically homogeneous classes: I could share them again but for practical reasons I decide not to.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;explanation&lt;/strong&gt;, according to Salmon, is to attribute the reference cell to Albert, our American boy. The explanation is a kind of assemblage of all statistically relevant factors regardless of their probability value. The goodness of an explanation is the gain in information provided by the complete partitions and associated probabilities. PLEASE NOTE: This is not a &lt;strong&gt;causal&lt;/strong&gt; model since I have identified characteristics of the individual related to exhibiting a certain property, but I have not found any cause-and-effect linkages through this procedure. The S-R model is a &lt;strong&gt;nomological&lt;/strong&gt; model since the statements expressing the assignments of the initial and final probability values are treated as statistical laws&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition the S-R explanation is not &lt;strong&gt;inferential&lt;/strong&gt;: it wants to overcome the Hempelian explanations but it remains nomological because the explanations remain statistical in nature, in fact like the Hempelian statistical laws. In fact, to say that the probability of stealing a car by someone living in a certain neighborhood is a law or a statistical accidental generalization? To say that there is a link between living in a certain neighborhood and being a thief based on statistical correlations is a bit strong and certainly not a law. Is &lt;strong&gt;explanatory relevance&lt;/strong&gt; exhausted by being statistically significant? The obvious answer is no, because there are statistically relevant properties that are not explanatory. From this extremely critical point Salmon will develop a new model, with a second level of explanation that will allow one to arrive at the causal explanation.&lt;/p&gt;
+
+&lt;p&gt;Another problem that emerges from Hempelian models is a question of a more general nature: &lt;strong&gt;do laws explain or describe?&lt;/strong&gt; Once I have the law, such as all heated metals conduct heat, it comes instinctive to ask: why does this happen? &lt;em&gt;The formulation of a law seems to prompt us to ask for an explanation of what the law asserts rather than describe it&lt;/em&gt;. Therefore it is concluded that the law itself is not an explanatory but a descriptive operation. We could say that the demonstration of the law (if we can talk about it, it depends on the context) explains the law, while the statement only describes it. Not that the description is not important from the scientific point of view, but to describe something is not to explain it. A further criticism that can be made of Salmon is: if I accuse Hempel of providing models that aspire to be explanatory but are only descriptive and then build a nomological model in which the problem of describing the law remains, given the statistical nature of the model, then do I not preserve the problems of the Hempelian models?&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Strengths(compared to Hempelian models) &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; SR is non-inferential and therefore does not fall into the problems of hempelian models &lt;/li&gt;
+    &lt;li&gt; It also admits the explanation of unlikely events.  &lt;/li&gt;
+    &lt;li&gt; I assume that there is an availability of statistical generalizations, which however is not thematized (how the generalizations are derived is not taken up in the discussion of the model), that allow me to efficiently partition my reference class. &lt;/li&gt;
+    &lt;li&gt; Tends toward objective homogenization &lt;/li&gt;
+    &lt;li&gt; Breaks the symmetry between explanation and prediction in the sense of nomic reliability: an explanation does not necessarily indicate that the event in question should be expected. Reliability is rejected entirely. Given all the relevant information we can establish what expectations are reasonable to have about the event, not connecting cause and effect, however. The explanation remains of statistical-probabilistic nature. &lt;/li&gt;
+    &lt;li&gt; We do not obtain one reliability nomica but we have the possibility to attribute the correct probability to associate to a sure event. Therefore predictive property of the model are of probabilistic nature not of cause effect. &lt;/li&gt;
+    &lt;li&gt; I assume that there is an availability of statistical generalizations which however is not thematized (how the generalizations are derived is not taken care of in the discussion of the model), that allow me to efficiently partition my reference class. &lt;/li&gt;  
+  &lt;/ul&gt;
+&lt;li&gt; Limitations of the SR model &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; Do nomic utterances explain or describe? &lt;/li&gt;
+    &lt;li&gt; Possible to equate explanatory relevance with statistical relevance?  &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Salmon does not disavow this model at all, but rather it becomes the first level of another model developed in the 1980s. The SR model then goes from being a stand-alone model to being the first stage of a larger model. This first phase is necessary to throw out anything that is not explanatory; it is a kind of preliminary work of cleaning up the field. Once I have all the statistically relevant properties I will have to go and find the &lt;strong&gt;casually relevant&lt;/strong&gt; ones: I will have to identify which statistical correlations are detected from the frequency point of view because there is an underlying causal link. The SR explanation is not eliminated but it becomes a preliminary tool to eliminate irrelevant information, it becomes a kind of filter. We move from the idea that explanatory relevance is statistical relevance to the fact that explanatory relevance is causal relevance. If I just stop at the statistical level, I don’t come out if my intent is explanatory.&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;To understand how Salmon’s model will proceed let’s take an example of a symptomatic explanation: if \(B\) is the abrupt displacement of the barometer hand and \(T\) is the time event, then \(P(T\vert B) &amp;gt; P(T)\). But it is certainly not the moving hand that explains the thunderstorm. Let \(A\) be the lowering of the atmospheric pressure. It is necessary to introduce the rule of adumbration (screening off): this asserts that relevant propositions become irrelevant in light of other properties, i.e. in the case where \(P(T\vert A \cdot B) = P(T\vert A)\), i.e. \(B\) is irrelevant with respect to \(T\) if I also have \(A\). We then say that \(A\) &lt;strong&gt;shadows&lt;/strong&gt; the statistical dependence of \(B\) with respect to \(T\). The reverse is not true, \(P(T\vert A \cdot B) \neq P(T\vert B)\) (if I have a broken barometer, for example). Adumbration signals an asymmetry between the properties/events \(A\) and \(B\). \(A\) and \(B\) have different characteristics, they do not have the same role and weight. The adumbration rule then tells us that &lt;em&gt;no adumbrate property can be included in an S-R&lt;/em&gt; explanation. If \(A\) adumbrates \(B\) then \(B\) has no explanatory relevance (it has statistical relevance but not explanatory relevance). Instead, the explanation must include the property that operates the adumbration. However, we have the usual problem discussed earlier: can I have definite explanations if in principle there may be properties momentarily unknown to me that adumbrate explanatorily relevant properties now? We will see that this adumbration rule will not be sufficient.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;But what if statistically relevant properties are contradictory? &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;But the many cells I partition my \(A\) into, how can I be sure they are mutually exclusive? There is no single way to partition. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Bibliographic reference: Forty years of scientific explanation, by Salmon; it is not neutral as a book, since he tries to bring water to his mill) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The whole part about big data is a big topic in this regard. Bibliographic References: Sabina Leonelli -&amp;gt; philosophy of science on data driven science on theoretical issues of BIG DATA (Nov 23) -&amp;gt; STS approach, philosophy of science with aspects more related to sociology and history. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="filosofia" /><summary type="html">The goal is to overcome the Hempelian models, i.e. the deterministic approach to scientific explanation (Hempel). Nevertheless, it is true that we cannot exclude deterministic phenomena. We need a concept that does not exclude these two visions, and to achieve this it is necessary to introduce the concept of statistical significance, related to the fact that \(P(B\vert A) \neq P(B)\). Statistical significance is the property of an event to change the probability of another event. What accounts for the occurrence of an event are all those events that change the probability of occurrence of that event, i.e., all events \(A\) that are relevant with respect to \(B\) according to the definition given above. When we ask about the nature of event \(B\) we must take into account all such events \(A\). Hempel’s models do not allow us to select relevant events from those that are not. On the other hand, in the Statistical Relevance (SR) model explanatory relevance is statistical relevance, i.e., what explains an event \(B\) are all and only the events \(A\) that are statistically relevant with respect to \(B\). How do I measure this statistical significance? By calculating the frequencies. For example, if \(P(B\vert C) = P(B)\), the event \(C\) is not relevant with respect to \(B\) and we do not have to take it into account when explaining \(B\).</summary></entry><entry><title type="html">Nozioni di probabilità</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/probabilita/" rel="alternate" type="text/html" title="Nozioni di probabilità" /><published>2021-09-25T11:40:16+00:00</published><updated>2021-09-25T11:40:16+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/probabilita</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/probabilita/">&lt;p&gt;La prima riflessione filosofica strutturata sulla nozione di probabilità si ha nella prima metà del ‘600 ad opera di Pascal e Fermat. A riguardo, ricordiamo la celeberimma “Scommessa di Pascal”. Secondo  quest’ultimo, il concetto di probabilità era necessario per affrontare questioni che riguardavano l’incertezza sia relativa all’occorrenza di fenomeni (occorrenza nel senso di occorrere, verificazione successiva di eventi) sia relativa ad una scommessa. Vediamo come il concetto di probabilità contenga in sue una duplice valenza: in primo luogo come nozione legata all’andamento di fenomeni ed quindi con un referente empirico, in secondo luogo come la credenza che un fenomeno si verifichi, che invece riguarda la conoscenza dei fenomeni ma non il loro prodursi. A partire da questa distinzione emergono poi diverse interpretazioni sulla nozione di probabilità.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Arrivati a questo punto è necessario fare anche un’altra distinzione: un conto è il &lt;em&gt;calcolo&lt;/em&gt; della probabilità, un altro conto è la sua &lt;em&gt;interpretazione&lt;/em&gt;. Difatti, il calcolo della propbabilità si compone di regole formali indipendenti dalla interpretazione e risulta univoco. D’altra parte l’interpretazione non è univoca, ce ne sono diverse che andiamo ora ad esplorare.&lt;/p&gt;
+
+&lt;h4 id=&quot;1-classica&quot;&gt;1. Classica&lt;/h4&gt;
+&lt;p&gt;Il fondatore dell’interpretazione classica è sicuramente Laplace. È un’interpretazione epistemica, ovvero la probabilità è un certo nostro grado di ignoranza rispetto al verificarsi di un fenomeno. Questa intepretazione si inserisce in un paradigma determinista che fa uso del principio di ragion sufficiente da cui si deduce la causalità assoluta. In questo contesto il demone di Laplace è colui che non ha bisogno della probabilità, ne può fare a meno. Inoltre la probabilità \(P(A)\) è definita solo in contesti che presentano un numero di esiti ugualmente probabili: questa ipotesi è chiamata “Equipossibilità” degli stati possibili, che formano per l’appunto lo spazio delle possibilità.&lt;/p&gt;
+&lt;h4 id=&quot;2-frequentista&quot;&gt;2. Frequentista&lt;/h4&gt;
+&lt;p&gt;La probabilità è la frequenza con cui si verifica \(A\) relativamente a una determinata classe di riferimento. Il calcolo è il rapporto delle occrrenze ripetute con ripetizioni tendenti all’infinito. Emerge subito il problema dell’evento unico, il quale non ha una classe di riferimento ben definita. Importante in questa interpretazione è la nozione di collettivo casuale, che nasce dalla domanda: che cosa significa “successione casuale”? Per dare un significato a questo concetto è necessario prima definirne un altro, ovvero il concetto di “scelta di posto”: da una successione infinita estraggo una sottosuccessione basandomi su una regola matematica dipendente dall’ordine e non dal valore dell’attributo estratto. Un collettivo allora è causa se i rapporti frequentisti non dipendono dalle sottosuccessioni. L’approccio frequentista è empirico e oggettivo: la probabilità è una caratteristica dei fenomeni che cerco di cogliere con ripetute osservazioni tramite analisi empirica. In tale contesto, per risolvere il problema del caso singolo serve un’interpretazione diversa.&lt;/p&gt;
+&lt;h4 id=&quot;3-propensionismo&quot;&gt;3. Propensionismo&lt;/h4&gt;
+&lt;p&gt;Tale interpretazione è dovuta a Popper&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; e stabilisce che le probabilità vanno viste come propensioni/tendenze/capacità dell’apparato sperimentale a generare determinate frequenze. La probabilità &lt;strong&gt;NON&lt;/strong&gt; è la frequenza, è la capacità di generare frequenze. Noi non osserviamo la probabilità, io osservo la tendenza a produrre certe frequenze. La concezione probabilistica si sposta su un piano metafisico. La frequenza è associata sempre a una successione di eventi; la propensione invece può essere associata anche a un singolo evento. Per Popper le propensioni sono fisicamente reali come le forze Newtoniane &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Per molti questa è una finta soluzione: quando devo esprimere la probabilità tramite un numero, come lo ricavo da questa interpretazione? Abbiamo sembre bisogno dell’interpretazione frequentista. Chi invece la difende pensa che la capacità propensionistica sia una proprietà intrinseca ma una volta che si prova a calcolarla questa collassi su un calcolo di tipo frequentista. &lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; Inoltre Popper distingue tra enunciati probabilistici che esprimono propensioni e che sono congetturali da enunciati statistici che esprimono frequenze e possono essere usati per un controllo sperimentale.&lt;/p&gt;
+&lt;h4 id=&quot;4-logica&quot;&gt;4. Logica&lt;/h4&gt;
+&lt;p&gt;L’interpretazione logica asserisce l’esistenza di una relazione logica tra i dati, intesi come evidenze, e le ipotesi. Questa interpretazione fa uso della logica induttiva come logica dei gradi di credenza razionale. È un’interpretazione epistemica e oggettiva. In base all’evidenza il valore della probabilità è univocamente determinato. In sostanza, la probabilità è un sottoinsieme della logica una volta fissata l’evidenza, nel senso che le proposizioni probabilistiche sono non deduttive/dimostrative. Essendo la conoscenza relativa all’informazione disponibile è imperfetta, la probabilità è in rapporto a un certa conoscenza disponibile. Data quest’ultima però la probabilità è univocamente determinata: fissata l’evidenza le relazioni logiche sono un fondamento oggettivo. Un promotore di questa interpretazione è sicuramente Rudolf Carnap: egli da due nozioni: probabilità 1, il grado di conferma / probabilità logica, probabilità 2, probabilità frequentista. La probabilità 1 rappresenta il supporto induttivo a favore di una ipotesi fissata in base all’evidenza. La misura di quanto sono possibili è oggetto della logica induttiva.&lt;/p&gt;
+&lt;h4 id=&quot;5-soggettiva&quot;&gt;5. Soggettiva&lt;/h4&gt;
+&lt;p&gt;La probabilità è il grado di credenza (degree of belief) nei confronti di una certo evento \(A\). Il valore di questa probabilità è soggettiva, ovvero stesse evidenze possono portare a valori diversi di \(P(A)\). Non è però un “anything goes”: siamo esseri razionali che devono tenere conto dell’evidenza nel formulare il valore di \(P(A)\). Questa intepretazione è in polemica con l’interpretazione logica in quanto si basa su un fondamento psicologico e i due principali esponenti di tale corrente sono Ramsey e De Finetti. La probabilità di diversi eventi \(A,B,C\) devono essere coerenti: questo è l’unico criterio rigoroso. De Finetti dà luogo a un soggettivismo molto radicale: secondo lui non esistono probabilità sconosciute e non esistono probabilità vere o false perché tutte le probabilità sono soggettive. Tuttavia l’evidenza deve, in quanto esseri razionali, influenzarci nella determinazione della probabilità. Il successo delle mie previsioni stabilisce la correttezza della mia determinazione.&lt;/p&gt;
+
+&lt;p&gt;Per completezza, è necessario fare riferimento anche alla impostazione assiomatica della probabilità dovuta a Kolmogorov. Questa è un’impostazione formale che pertanto prescinde dall’interpretazione. Si basa su tre principi, ovvero&lt;/p&gt;
+
+\[\begin{gather} 
+P(A)\geq 0      \nonumber \\
+\text{A tautologia} \iff P(A) = 1 \nonumber \\
+\text{A,B mutualmente esclusivi} \Longrightarrow P(A \lor B) = P(A)+P(B)   \nonumber
+\end{gather}\]
+
+&lt;p&gt;Inoltre \(A\) e \(B\) sono indipendenti \(\iff P(A\vert B) = P(A) \land P(B\vert A) = P(B)\).&lt;/p&gt;
+
+&lt;p&gt;Definiamo un concetto importante nell’analisi del filosofo Salmon (vedere mettere link): il concetto di rilevanza positiva (negativa) di \(B\) rispetto a \(A\) si ha quando \(P(A\vert B) &amp;gt; P(A)\) (\(P(A\vert B) &amp;lt; P(A)\)), \(B\) è rilevante positivamente (negativamente) rispetto a \(A\) se la probabilità di verificarsi di \(A\) sapendo che si è verificato \(B\) è maggiore (minore) della probabilità del verificarsi del solo \(A\).&lt;/p&gt;
+
+&lt;p&gt;Un’altro concetto importante è quello di probabilità composta \(P(A\cdot B) = P(A) P(B\vert A) = P(B)P(A\vert B)\) e nel caso di eventi indipendenti \(P(A\cdot B) = P(A) P(B)\). Da questa semplice definizione abbiamo la regola di Bayes (1763) che da luogo a tutto un filone teorico sulla probabilità che prende il nome di ragionamenti Bayesiani. Il teorema e il filone teorico sono utili per capire come cambia la probabilità di una certa asserzione al aumentare o diminuire dell’evidenza. In sostanza il teorema è il seguente \(\begin{gather}P(H\vert E) = \frac{P(H\cdot E)}{P(E)}\end{gather}\) in cui \(H\) è un’ipotesi ed \(E\) un’evidenza.&lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Riferimenti bibliografici
+—&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Riferimento bibliografico: Hacking “Emergence of Probability”. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Riferimento Bibliografico: “Un mondo di propensioni” &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Domanda: viene spontaneo chiedersi allora come vengono calcolate queste propensioni &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Domanda: come fanno ad essere fisicamente reali se sono le frequenze a determinare il valore della propensione?. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Riferimenti Bibliografici sulla probabilità: Gillies, Phylosophycal Theories of Probability (parte finale tendente al propensionismo), Galavotti (tendente al soggettivismo), Gigerenzer, Quando i numeri ingannano (common sense logic al confronto con la probabilità formale) &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="filosofia" /><summary type="html">La prima riflessione filosofica strutturata sulla nozione di probabilità si ha nella prima metà del ‘600 ad opera di Pascal e Fermat. A riguardo, ricordiamo la celeberimma “Scommessa di Pascal”. Secondo quest’ultimo, il concetto di probabilità era necessario per affrontare questioni che riguardavano l’incertezza sia relativa all’occorrenza di fenomeni (occorrenza nel senso di occorrere, verificazione successiva di eventi) sia relativa ad una scommessa. Vediamo come il concetto di probabilità contenga in sue una duplice valenza: in primo luogo come nozione legata all’andamento di fenomeni ed quindi con un referente empirico, in secondo luogo come la credenza che un fenomeno si verifichi, che invece riguarda la conoscenza dei fenomeni ma non il loro prodursi. A partire da questa distinzione emergono poi diverse interpretazioni sulla nozione di probabilità.1 Riferimento bibliografico: Hacking “Emergence of Probability”. &amp;#8617;</summary></entry><entry><title type="html">a post with diagrams</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/diagrams</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/diagrams/">&lt;p&gt;This theme supports generating various diagrams from a text description using &lt;a href=&quot;https://github.com/zhustec/jekyll-diagrams&quot; target=&quot;\_blank&quot;&gt;jekyll-diagrams&lt;/a&gt; plugin.
+Below, we generate a few examples of such diagrams using languages such as &lt;a href=&quot;https://mermaid-js.github.io/mermaid/&quot; target=&quot;\_blank&quot;&gt;mermaid&lt;/a&gt;, &lt;a href=&quot;https://plantuml.com/&quot; target=&quot;\_blank&quot;&gt;plantuml&lt;/a&gt;, &lt;a href=&quot;https://vega.github.io/vega-lite/&quot; target=&quot;\_blank&quot;&gt;vega-lite&lt;/a&gt;, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; different diagram-generation packages require external dependencies to be installed on your machine.
+Also, be mindful of that because of diagram generation the fist time you build your Jekyll website after adding new diagrams will be SLOW.
+For any other details, please refer to &lt;a href=&quot;https://github.com/zhustec/jekyll-diagrams&quot; target=&quot;\_blank&quot;&gt;jekyll-diagrams&lt;/a&gt; README.&lt;/p&gt;
+
+&lt;h2 id=&quot;mermaid&quot;&gt;Mermaid&lt;/h2&gt;
+
+&lt;p&gt;Install mermaid using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node.js&lt;/code&gt; package manager &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm&lt;/code&gt; by running the following command:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; mermaid.cli
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The diagram below was generated by the following code:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% mermaid %}
+sequenceDiagram
+    participant John
+    participant Alice
+    Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+    John--&amp;gt;&amp;gt;Alice: Great!
+{% endmermaid %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;jekyll-diagrams diagrams mermaid&quot;&gt;
+  &lt;svg id=&quot;mermaid-1636498831613&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; height=&quot;100%&quot; style=&quot;max-width:450px;&quot; viewBox=&quot;-50 -10 450 231&quot;&gt;&lt;style&gt;#mermaid-1636498831613 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1636498831613 .node circle,#mermaid-1636498831613 .node ellipse,#mermaid-1636498831613 .node polygon,#mermaid-1636498831613 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1636498831613 .node.clickable{cursor:pointer}#mermaid-1636498831613 .arrowheadPath{fill:#333}#mermaid-1636498831613 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1636498831613 .edgeLabel{background-color:#e8e8e8}#mermaid-1636498831613 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1636498831613 .cluster text{fill:#333}#mermaid-1636498831613 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1636498831613 .actor{stroke:#ccf;fill:#ececff}#mermaid-1636498831613 text.actor{fill:#000;stroke:none}#mermaid-1636498831613 .actor-line{stroke:grey}#mermaid-1636498831613 .messageLine0{marker-end:&quot;url(#arrowhead)&quot;}#mermaid-1636498831613 .messageLine0,#mermaid-1636498831613 .messageLine1{stroke-width:1.5;stroke-dasharray:&quot;2 2&quot;;stroke:#333}#mermaid-1636498831613 #arrowhead{fill:#333}#mermaid-1636498831613 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1636498831613 .messageText{fill:#333;stroke:none}#mermaid-1636498831613 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1636498831613 .labelText,#mermaid-1636498831613 .loopText{fill:#000;stroke:none}#mermaid-1636498831613 .loopLine{stroke-width:2;stroke-dasharray:&quot;2 2&quot;;marker-end:&quot;url(#arrowhead)&quot;;stroke:#ccf}#mermaid-1636498831613 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1636498831613 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1636498831613 .section{stroke:none;opacity:.2}#mermaid-1636498831613 .section0{fill:rgba(102,102,255,.49)}#mermaid-1636498831613 .section2{fill:#fff400}#mermaid-1636498831613 .section1,#mermaid-1636498831613 .section3{fill:#fff;opacity:.2}#mermaid-1636498831613 .sectionTitle0,#mermaid-1636498831613 .sectionTitle1,#mermaid-1636498831613 .sectionTitle2,#mermaid-1636498831613 .sectionTitle3{fill:#333}#mermaid-1636498831613 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1636498831613 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1636498831613 .grid path{stroke-width:0}#mermaid-1636498831613 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1636498831613 .task{stroke-width:2}#mermaid-1636498831613 .taskText{text-anchor:middle;font-size:11px}#mermaid-1636498831613 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1636498831613 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1636498831613 .taskText0,#mermaid-1636498831613 .taskText1,#mermaid-1636498831613 .taskText2,#mermaid-1636498831613 .taskText3{fill:#fff}#mermaid-1636498831613 .task0,#mermaid-1636498831613 .task1,#mermaid-1636498831613 .task2,#mermaid-1636498831613 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1636498831613 .taskTextOutside0,#mermaid-1636498831613 .taskTextOutside1,#mermaid-1636498831613 .taskTextOutside2,#mermaid-1636498831613 .taskTextOutside3{fill:#000}#mermaid-1636498831613 .active0,#mermaid-1636498831613 .active1,#mermaid-1636498831613 .active2,#mermaid-1636498831613 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1636498831613 .activeText0,#mermaid-1636498831613 .activeText1,#mermaid-1636498831613 .activeText2,#mermaid-1636498831613 .activeText3{fill:#000!important}#mermaid-1636498831613 .done0,#mermaid-1636498831613 .done1,#mermaid-1636498831613 .done2,#mermaid-1636498831613 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1636498831613 .doneText0,#mermaid-1636498831613 .doneText1,#mermaid-1636498831613 .doneText2,#mermaid-1636498831613 .doneText3{fill:#000!important}#mermaid-1636498831613 .crit0,#mermaid-1636498831613 .crit1,#mermaid-1636498831613 .crit2,#mermaid-1636498831613 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1636498831613 .activeCrit0,#mermaid-1636498831613 .activeCrit1,#mermaid-1636498831613 .activeCrit2,#mermaid-1636498831613 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1636498831613 .doneCrit0,#mermaid-1636498831613 .doneCrit1,#mermaid-1636498831613 .doneCrit2,#mermaid-1636498831613 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1636498831613 .activeCritText0,#mermaid-1636498831613 .activeCritText1,#mermaid-1636498831613 .activeCritText2,#mermaid-1636498831613 .activeCritText3,#mermaid-1636498831613 .doneCritText0,#mermaid-1636498831613 .doneCritText1,#mermaid-1636498831613 .doneCritText2,#mermaid-1636498831613 .doneCritText3{fill:#000!important}#mermaid-1636498831613 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1636498831613 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1636498831613 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1636498831613 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1636498831613 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1636498831613 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1636498831613 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1636498831613 #compositionEnd,#mermaid-1636498831613 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1636498831613 #aggregationEnd,#mermaid-1636498831613 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1636498831613 #dependencyEnd,#mermaid-1636498831613 #dependencyStart,#mermaid-1636498831613 #extensionEnd,#mermaid-1636498831613 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1636498831613 .branch-label,#mermaid-1636498831613 .commit-id,#mermaid-1636498831613 .commit-msg{fill:#d3d3d3;color:#d3d3d3}&lt;/style&gt;&lt;style&gt;#mermaid-1636498831613 {
+    color: rgb(0, 0, 0);
+    font: normal normal 400 normal 16px / normal &quot;Times New Roman&quot;;
+  }&lt;/style&gt;&lt;g&gt;&lt;/g&gt;&lt;g&gt;&lt;line id=&quot;actor0&quot; x1=&quot;75&quot; y1=&quot;5&quot; x2=&quot;75&quot; y2=&quot;220&quot; class=&quot;actor-line&quot; stroke-width=&quot;0.5px&quot; stroke=&quot;#999&quot;&gt;&lt;/line&gt;&lt;rect x=&quot;0&quot; y=&quot;0&quot; fill=&quot;#eaeaea&quot; stroke=&quot;#666&quot; width=&quot;150&quot; height=&quot;65&quot; rx=&quot;3&quot; ry=&quot;3&quot; class=&quot;actor&quot;&gt;&lt;/rect&gt;&lt;text x=&quot;75&quot; y=&quot;32.5&quot; dominant-baseline=&quot;central&quot; alignment-baseline=&quot;central&quot; class=&quot;actor&quot; style=&quot;text-anchor: middle;&quot;&gt;&lt;tspan x=&quot;75&quot; dy=&quot;0&quot;&gt;John&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;line id=&quot;actor1&quot; x1=&quot;275&quot; y1=&quot;5&quot; x2=&quot;275&quot; y2=&quot;220&quot; class=&quot;actor-line&quot; stroke-width=&quot;0.5px&quot; stroke=&quot;#999&quot;&gt;&lt;/line&gt;&lt;rect x=&quot;200&quot; y=&quot;0&quot; fill=&quot;#eaeaea&quot; stroke=&quot;#666&quot; width=&quot;150&quot; height=&quot;65&quot; rx=&quot;3&quot; ry=&quot;3&quot; class=&quot;actor&quot;&gt;&lt;/rect&gt;&lt;text x=&quot;275&quot; y=&quot;32.5&quot; dominant-baseline=&quot;central&quot; alignment-baseline=&quot;central&quot; class=&quot;actor&quot; style=&quot;text-anchor: middle;&quot;&gt;&lt;tspan x=&quot;275&quot; dy=&quot;0&quot;&gt;Alice&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;defs&gt;&lt;marker id=&quot;arrowhead&quot; refX=&quot;5&quot; refY=&quot;2&quot; markerWidth=&quot;6&quot; markerHeight=&quot;4&quot; orient=&quot;auto&quot;&gt;&lt;path d=&quot;M 0,0 V 4 L6,2 Z&quot;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;defs&gt;&lt;marker id=&quot;crosshead&quot; markerWidth=&quot;15&quot; markerHeight=&quot;8&quot; orient=&quot;auto&quot; refX=&quot;16&quot; refY=&quot;4&quot;&gt;&lt;path fill=&quot;black&quot; stroke=&quot;#000000&quot; stroke-width=&quot;1px&quot; d=&quot;M 9,2 V 6 L16,4 Z&quot; style=&quot;stroke-dasharray: 0, 0;&quot;&gt;&lt;/path&gt;&lt;path fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-width=&quot;1px&quot; d=&quot;M 0,1 L 6,7 M 6,1 L 0,7&quot; style=&quot;stroke-dasharray: 0, 0;&quot;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;g&gt;&lt;text x=&quot;175&quot; y=&quot;93&quot; class=&quot;messageText&quot; style=&quot;text-anchor: middle;&quot;&gt;Hello John, how are you?&lt;/text&gt;&lt;line x1=&quot;275&quot; y1=&quot;100&quot; x2=&quot;75&quot; y2=&quot;100&quot; class=&quot;messageLine0&quot; stroke-width=&quot;2&quot; stroke=&quot;black&quot; marker-end=&quot;url(#arrowhead)&quot; style=&quot;fill: none;&quot;&gt;&lt;/line&gt;&lt;/g&gt;&lt;g&gt;&lt;text x=&quot;175&quot; y=&quot;128&quot; class=&quot;messageText&quot; style=&quot;text-anchor: middle;&quot;&gt;Great!&lt;/text&gt;&lt;line x1=&quot;75&quot; y1=&quot;135&quot; x2=&quot;275&quot; y2=&quot;135&quot; class=&quot;messageLine1&quot; stroke-width=&quot;2&quot; stroke=&quot;black&quot; marker-end=&quot;url(#arrowhead)&quot; style=&quot;stroke-dasharray: 3, 3; fill: none;&quot;&gt;&lt;/line&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x=&quot;0&quot; y=&quot;155&quot; fill=&quot;#eaeaea&quot; stroke=&quot;#666&quot; width=&quot;150&quot; height=&quot;65&quot; rx=&quot;3&quot; ry=&quot;3&quot; class=&quot;actor&quot;&gt;&lt;/rect&gt;&lt;text x=&quot;75&quot; y=&quot;187.5&quot; dominant-baseline=&quot;central&quot; alignment-baseline=&quot;central&quot; class=&quot;actor&quot; style=&quot;text-anchor: middle;&quot;&gt;&lt;tspan x=&quot;75&quot; dy=&quot;0&quot;&gt;John&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x=&quot;200&quot; y=&quot;155&quot; fill=&quot;#eaeaea&quot; stroke=&quot;#666&quot; width=&quot;150&quot; height=&quot;65&quot; rx=&quot;3&quot; ry=&quot;3&quot; class=&quot;actor&quot;&gt;&lt;/rect&gt;&lt;text x=&quot;275&quot; y=&quot;187.5&quot; dominant-baseline=&quot;central&quot; alignment-baseline=&quot;central&quot; class=&quot;actor&quot; style=&quot;text-anchor: middle;&quot;&gt;&lt;tspan x=&quot;275&quot; dy=&quot;0&quot;&gt;Alice&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/svg&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">This theme supports generating various diagrams from a text description using jekyll-diagrams plugin. Below, we generate a few examples of such diagrams using languages such as mermaid, plantuml, vega-lite, etc.</summary></entry><entry><title type="html">Capitoli §32 – §33 de “La crisi delle scienze europee” di Edmund Husserl</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/incontri/" rel="alternate" type="text/html" title="Capitoli §32 – §33 de “La crisi delle scienze europee” di Edmund Husserl" /><published>2021-06-14T11:40:16+00:00</published><updated>2021-06-14T11:40:16+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/incontri</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/incontri/">&lt;p&gt;Relatore principale: Alessandro&lt;/p&gt;
+
+&lt;h2 id=&quot;riflessioni-personali&quot;&gt;Riflessioni personali&lt;/h2&gt;
+
+&lt;p&gt;Da copiare da appunti&lt;/p&gt;
+
+&lt;h2 id=&quot;discussione&quot;&gt;Discussione&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: Intervento §32 e §33.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Superficie come lastra di ghiaccio che ricopre il lago. Il lago ghiacciato è come la scienza che procede a strati che hanno un limite, il limite del linguaggio e strumento tecnico che risponde a tutta una serie di criteri legati alla percezione allo stile dell’epoca. &lt;em&gt;Ti viene restituito uno strato di realtà da uno specifico strumento&lt;/em&gt;. La scienza guarda il mondo e fa un primo resoconto fatto di &lt;em&gt;misure, regolarità e correlazioni&lt;/em&gt;. Il prodotto della scienza: la costruzione di superfici. Sono utili, consentono di manipolare in maniera efficace il mondo e si portano dietro i limiti perché sono superfici che coprono un mondo che però è molto più complicato di tali superfici. Sotto c’è un lago molto profondo. Il mondo può prenderlo tramite il filtro dello sguardo scientifico o in maniera immediata, immanente, dal mondo della vita. Quando si guarda la sotto le cose non tornano, ed ecco i paradossi, i miti i linguaggi pre-scientifici. La sfida della fenomenologia è portare questa roba qua all’interno della conoscenza obiettiva.&lt;/p&gt;
+
+&lt;p&gt;Legata al discorso dell’oggetto: pensiamola come Kant, ciò che si presenta di fronte al soggetto in maniera definibile.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Mi viene in mente Flatlandia, si tratta di questi che vivono in superficie. Non sono coscienti di questa dimensione extra. il mondo della vita è pre-cosciente.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Idea di una scienza universale: includere qualsiasi conoscenza, operazione infinita come matrice dell’epoca moderna. Fa riferimento a persone all’interno dell’umanità, noi persone pratiche e scienziati si occupano sempre del mondo che è sempre lo stesso.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Onomatopee catena diretta col mondo della vita: Ahi identificazione diretta senza traduzione. Una scienza universale dovrebbe comprendere tutti questi livelli.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: Presentazione su Appendice.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Se la scienza si orienta a questo, a produrre delle superficie affidabili su cui possiamo calpestare, edificare. Il compito della filosofia è la messa fuorigioco del pregiudizio, inteso come dato per scontato. Io nasco nel ‘900, &lt;em&gt;do per scontato tutta la storia che mi ha preceduto&lt;/em&gt;, tutti i risultati che si sono succeduti. Ma pur dandolo per scontato, questo non esaurisce il problema che &lt;em&gt;io possa indebolirmi a causa dei pregiudizi&lt;/em&gt; perché la rendo limitata alla coscienza elaborata fino ad ora. Mi rende debole come scienziato, come cittadino, e rende debole anche dal punto di vista filosofico. Raggiungere dei risultati mi fa perdere il senso di fare questo lavoro.&lt;/p&gt;
+
+&lt;p&gt;Prendiamo il dubbio cartesiano, ma come un processo ricorsivo: metto in discussione tutto, cosa rimane? Do una risposta e domani la posso rimettere in discussione perché io cambio: il problema filosofico costantemente si pone. Non sono un ingranaggio&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;: questo è il problema all’inizio della crisi delle scienze europee.&lt;/p&gt;
+
+&lt;p&gt;Riferimento comunitario. Occidente contro una visione immanente rispetto alla posizione dell’individuo, dell’umano. Sviluppo dell’oggettificazione nella grecia anche &lt;em&gt;necessità per commerciare e comunicare tra popolazioni, per sfuggire alla tentazione della guerra. È una origine pragmatica.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Sottolineare finalmente capisco. Parte che fa molto ridere arteriosclerosi spirituale. Critiche che non lo capiscono.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: &lt;em&gt;Il metodo filosofico non è metodo tecnico, è un metodo poietico&lt;/em&gt;&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Pregiudizi lotta metodo distruttivo. costruzione significa metodo produttivo. Senso dentro alla storia relativo ai soggetti ma è sovra-temporale che ci accumano a esseri umani vissuti millenni fa. In questo senso usa l’espressionne comunità. Ci guardiamo loro che hanno cercato di approcciare i problemi in maniera creativa e cercare di produrre poieticamente nel nostro contesto.&lt;/p&gt;
+
+&lt;p&gt;Posta così problema della conosceza obiettiva: &lt;em&gt;qui il senso della vita non è del singolo ma è un senso condiviso, mondo della vita solo nelle relazioni con gli altri.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Dicorso normativo e cartesio: libro relativo alla rivoluzione scientifica inglese titolo “la grande instaurazione” riferndosi a Bacon: il sennso della ricerca scientifica era di instaurare un nuovo corso agli eventi, c’era tantissmo millenarismo, ma al di là di questi riferimenti teologici-religiosi ha senso una impostazione normativa. Una instaurazione ha senso se c’è una apparato normativo che la sostiene.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Come nelle sistema formale dell’AT in Godel Escher Bach. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Nella dottrina aristotelica, l’attività produttiva dell’uomo completa in se stessa, autosufficiente e senz’altro scopo che il suo compiersi (cioè l’opera dell’artista). Si distingue dalla &lt;em&gt;prassi&lt;/em&gt;, attività sempre umana, ma con finalità etiche. Più in genere, il momento creativo dello spirito umano. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="gruppolettura" /><summary type="html">Relatore principale: Alessandro</summary></entry><entry><title type="html">a distill-style blog post</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/distill/" rel="alternate" type="text/html" title="a distill-style blog post" /><published>2021-05-22T00:00:00+00:00</published><updated>2021-05-22T00:00:00+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/distill</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/distill/">&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;
+Citations, footnotes, and code blocks do not display correctly in the dark mode since distill does not support the dark mode by default.
+If you are interested in correctly adding dark mode support for distill, please open &lt;a href=&quot;https://github.com/alshedivat/al-folio/discussions&quot;&gt;a discussion&lt;/a&gt; and let us know.&lt;/p&gt;
+
+&lt;h2 id=&quot;equations&quot;&gt;Equations&lt;/h2&gt;
+
+&lt;p&gt;This theme supports rendering beautiful math in inline and display modes using &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax 3&lt;/a&gt; engine.
+You just need to surround your math expression with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt;, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$ E = mc^2 $$&lt;/code&gt;.
+If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).&lt;/p&gt;
+
+&lt;p&gt;To use display mode, again surround your expression with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; and place it as a separate paragraph.
+Here is an example:&lt;/p&gt;
+
+\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
+
+&lt;p&gt;Note that MathJax 3 is &lt;a href=&quot;https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html&quot;&gt;a major re-write of MathJax&lt;/a&gt; that brought a significant improvement to the loading and rendering speed, which is now &lt;a href=&quot;http://www.intmath.com/cg5/katex-mathjax-comparison.php&quot;&gt;on par with KaTeX&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;citations&quot;&gt;Citations&lt;/h2&gt;
+
+&lt;p&gt;Citations are then used in the article body with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-cite&amp;gt;&lt;/code&gt; tag.
+The key attribute is a reference to the id provided in the bibliography.
+The key attribute can take multiple ids, separated by commas.&lt;/p&gt;
+
+&lt;p&gt;The citation is presented inline like this: &lt;d-cite key=&quot;gregor2015draw&quot;&gt;&lt;/d-cite&gt; (a number that displays more information on hover).
+If you have an appendix, a bibliography is automatically created and populated in it.&lt;/p&gt;
+
+&lt;p&gt;Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
+However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
+
+&lt;p&gt;Just wrap the text you would like to show up in a footnote in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-footnote&amp;gt;&lt;/code&gt; tag.
+The number of the footnote will be automatically generated.&lt;d-footnote&gt;This will become a hoverable footnote.&lt;/d-footnote&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;/h2&gt;
+
+&lt;p&gt;Syntax highlighting is provided within &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-code&amp;gt;&lt;/code&gt; tags.
+An example of inline code snippets: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-code language=&quot;html&quot;&amp;gt;let x = 10;&amp;lt;/d-code&amp;gt;&lt;/code&gt;.
+For larger blocks of code, add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;block&lt;/code&gt; attribute:&lt;/p&gt;
+
+&lt;d-code block=&quot;&quot; language=&quot;javascript&quot;&gt;
+  var x = 25;
+  function(x) {
+    return x * x;
+  }
+&lt;/d-code&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;d-code&amp;gt;&lt;/code&gt; blocks do not look well in the dark mode.
+You can always use the default code-highlight using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;highlight&lt;/code&gt; liquid tag:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;layouts&quot;&gt;Layouts&lt;/h2&gt;
+
+&lt;p&gt;The main text column is referred to as the body.
+It is the assumed layout of any direct descendants of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;d-article&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-body&quot;&gt;
+  &lt;p&gt;.l-body&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For images you want to display a little larger, try &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.l-page&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-page&quot;&gt;
+  &lt;p&gt;.l-page&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;All of these have an outset variant if you want to poke out from the body text a little bit.
+For instance:&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-body-outset&quot;&gt;
+  &lt;p&gt;.l-body-outset&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;fake-img l-page-outset&quot;&gt;
+  &lt;p&gt;.l-page-outset&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Occasionally you’ll want to use the full browser width.
+For this, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.l-screen&lt;/code&gt;.
+You can also inset the element a little from the edge of the browser by using the inset variant.&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-screen&quot;&gt;
+  &lt;p&gt;.l-screen&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;fake-img l-screen-inset&quot;&gt;
+  &lt;p&gt;.l-screen-inset&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The final layout is for marginalia, asides, and footnotes.
+It does not interrupt the normal flow of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.l-body&lt;/code&gt; sized text except on mobile screen sizes.&lt;/p&gt;
+
+&lt;div class=&quot;fake-img l-gutter&quot;&gt;
+  &lt;p&gt;.l-gutter&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Strong emphasis, aka bold, with &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscores&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Strikethrough uses two tildes. &lt;del&gt;Scratch this.&lt;/del&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First ordered list item&lt;/li&gt;
+  &lt;li&gt;Another item
+⋅⋅* Unordered sub-list.&lt;/li&gt;
+  &lt;li&gt;Actual numbers don’t matter, just that it’s a number
+⋅⋅1. Ordered sub-list&lt;/li&gt;
+  &lt;li&gt;And another item.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).&lt;/p&gt;
+
+&lt;p&gt;⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unordered list can use asterisks&lt;/li&gt;
+  &lt;li&gt;Or minuses&lt;/li&gt;
+  &lt;li&gt;Or pluses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;I’m an inline-style link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com&quot; title=&quot;Google&apos;s Homepage&quot;&gt;I’m an inline-style link with title&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org&quot;&gt;I’m a reference-style link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../blob/master/LICENSE&quot;&gt;I’m a relative reference to a repository file&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://slashdot.org&quot;&gt;You can use numbers for reference-style link definitions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Or leave it empty and use the &lt;a href=&quot;http://www.reddit.com&quot;&gt;link text itself&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or &lt;a href=&quot;http://www.example.com&quot;&gt;http://www.example.com&lt;/a&gt; and sometimes 
+example.com (but not on Github, for example).&lt;/p&gt;
+
+&lt;p&gt;Some text to show that the reference links can follow later.&lt;/p&gt;
+
+&lt;p&gt;Here’s our logo (hover to see the title text):&lt;/p&gt;
+
+&lt;p&gt;Inline-style: 
+&lt;img src=&quot;https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reference-style: 
+&lt;img src=&quot;https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Inline &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code&lt;/code&gt; has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;back-ticks around&lt;/code&gt; it.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;JavaScript syntax highlighting&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Python syntax highlighting&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;No language indicated, so no syntax highlighting. 
+But let&apos;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Colons can be used to align columns.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tables&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 3 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 2 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zebra stripes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don’t need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Markdown&lt;/th&gt;
+      &lt;th&gt;Less&lt;/th&gt;
+      &lt;th&gt;Pretty&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Still&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;renders&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;nicely&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Quote break.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can &lt;em&gt;put&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt; into a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Three or more…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hyphens&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Asterisks&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Underscores&lt;/p&gt;
+
+&lt;p&gt;Here’s a line for us to start with.&lt;/p&gt;
+
+&lt;p&gt;This line is separated from the one above by two newlines, so it will be a &lt;em&gt;separate paragraph&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This line is also a separate paragraph, but…
+This line is only separated by a single newline, so it’s a separate line in the &lt;em&gt;same paragraph&lt;/em&gt;.&lt;/p&gt;</content><author><name>Albert Einstein</name></author><summary type="html">NOTE: Citations, footnotes, and code blocks do not display correctly in the dark mode since distill does not support the dark mode by default. If you are interested in correctly adding dark mode support for distill, please open a discussion and let us know.</summary></entry><entry><title type="html">Capitoli §28 – §31 de “La crisi delle scienze europee” di Edmund Husserl</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/incontro/" rel="alternate" type="text/html" title="Capitoli §28 – §31 de “La crisi delle scienze europee” di Edmund Husserl" /><published>2021-05-16T11:40:16+00:00</published><updated>2021-05-16T11:40:16+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/incontro</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/incontro/">&lt;p&gt;Relatore principale: Melissa&lt;/p&gt;
+
+&lt;h2 id=&quot;riflessioni-personali&quot;&gt;Riflessioni personali&lt;/h2&gt;
+
+&lt;p&gt;Ancora da copiare dagli appunti&lt;/p&gt;
+
+&lt;h2 id=&quot;discussione&quot;&gt;Discussione&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa:&lt;/em&gt;
+Primo paragrafo: critica di Kant ma inizia ad esporre il suo pensiero. Prima critica: la sua filosofia porta crollo della ….. Come sono possibili le scienze? problema di Kant: &lt;em&gt;presupposti non indagati&lt;/em&gt;. Kant scopre l’intelletto: non davvero fondata da Kant però. La deduzione trascendentale non penetra nel lato psicologico: i presupposti sono tali ma non sono indagati. La natura diventa un mondo di una esperienza possibile, da indagare. In questo mondo sono incluse le scienze: fatti culturali e le loro teorie.&lt;/p&gt;
+
+&lt;p&gt;Analisi del mondo della vita e soggetto e oggetto, siamo &lt;em&gt;soggetti e oggetti contemporaneamente&lt;/em&gt;&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Soggetti egologici. Soggetto volge lo sguardo all’oggetto e passa diverse apparizioni: mutamento ma con una certa unità. Analisi del rapporto: autopresenza. Coscienza delle … temporali.&lt;/p&gt;
+
+&lt;p&gt;Tematica del corpo e corpo proprio: ogni cosa nel mondo della vita ha una sua corporeità ma non significa che sia mero corpo. Se badiamo aspetto fisico solo sensuale partecipa organi percettivi ruolo costante nella coscienza nell’ego e nella cinestesi.&lt;/p&gt;
+
+&lt;p&gt;Momenti della sensibilità, non definisci cos’è coscienza ma non è una serie di cose corporee. Corpo proprio costantemente nel campo percettivo nell’organo parte corporee, sono in modo immediato.&lt;/p&gt;
+
+&lt;p&gt;Corpo proprio è il mio corpo percettivo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Leib indica ventre, qualcosa di viscerale.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Non siamo solo corporei ma siamo anche soggetti, e abbiamo coscienza del mondo come universo unitario di tutti gli oggetti. Da parte degli oggetti subiamo affezioni e in questo senso sono tematici in quanto soggetti dei nostri atti. Lo siamo in base ai nostri dirigersi. È tematica perché ci riflettiamo sopra e poi siamo agire anche non tematica fruendone.&lt;/p&gt;
+
+&lt;p&gt;Coscienza del mondo come movimento costante. Diventiamo oggetti in quanto oggetti delle nostre autoconsiderazioni, non solo oggetti di altri.&lt;/p&gt;
+
+&lt;p&gt;Individuo come scienziato: si riferiscono ad uno degli aspetti del mondo della vita. Vivono in una comunità di tipo teoretico. Comunità unità nel tema dell’osservazione. Ovvietà: certezza del mondo e questo mondo orizzonte ciò che vale ed su questo terreno che la scienza pone i suoi problemi.&lt;/p&gt;
+
+&lt;p&gt;Metodo portare constante progresso.&lt;/p&gt;
+
+&lt;p&gt;Nel 29 rapporto tra scienza e filosofia. Nessuna filosofia ha mai tematizzato il regno del soggettivo che non è mai stato realmente scoperto. &lt;em&gt;Risalire origine soggetto Kant non lo fa.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Le scienze sono un ramo della filosofia nonostante si credano autosufficienti. Scienza possibile solo come filosofia universale. Comprenderlo solo se si interroga i presupposti di qualsiasi pensiero. Operazioni spirituali che però non sono particolarmente spiegate.&lt;/p&gt;
+
+&lt;p&gt;Riprende concetto di mondo prodotto universale di ciò che è divenuto e diviene. Orizzonte di senso, concetto di soggettività si obiettivizza. …..&lt;/p&gt;
+
+&lt;p&gt;Nel 30 accenna rapporto tra kant e la psicologia che cade nel discorso mitico fa &lt;em&gt;riferimento a una soggettività che non può essere fatta intuitiva&lt;/em&gt;. Impossibile immaginarsi concretamente il soggetto di Kant. L’esperienza interna dopo rapporto sensi tutto quello che viene ricavato se ne deve applicare una temporalizzazione funzione trascedente husserl si chiede come dare senso chiaro a questi percezioni interna, secondo Husserl concetto psicologica. sogg trascedente non è realmente apodittica e non fornisce terreno dell’esperieza. Kant non è proprio contro empirismo penso io, ma Husserl dice rimane debitore. Anima naturalizzata dovendo applicare una temporalizzazione funzione ……&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Particolarmente difficili. Fatica di rappresentazione. non segue un ordine logico.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Merlou Ponty su anima da fenomenologia della percezione. Per capire corpo proprio è ciò che vede o tocca il mondo e dunque non può nè essere visto o toccato. È la possibilità di vedere in sé.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Cartesio aveva sfiorato il “Leib” quando lui parla del suo percorso. Il corpo è disanimato. La critica che Husserl muove a Kant è che quest’ultimo per quanto voglia risalire non riesce ad andarci senza questo cordone che “il mondo c’è”, cosa che Husserl problematizza.&lt;/p&gt;
+
+&lt;p&gt;Il mondo è di partenza matematizzato c’è in Galileo ma non in Locke.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Il mondo non è che c’è e noi dobbiamo dire “”il mondo c’è”, no. Non possiamo dire c’è il mondo perché siamo noi il mondo. Siamo il mondo, lo abitiamo il mondo. Cosa fa il mondo? Il rapporto tra mondo e soggetti.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Essere dentro e fuori contemporaneamente come se il mondo fosse la pelle. L’impressione che ho avuto&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: dobbiamo uscire da oggetto di coscienza piuttosto protagonista etc. perché il mondo non è oggetto ma protagonisti di relazioni.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Mi ricorda molto Godel Escher Bach, quando nella discussione nei sistemi formali si usano i sistemi formali per formalizzare le discussioni sul sistema stesso. Il sistema formale diventa quindi oggetto di analisi e soggetto, ovvero strumento, di analisi stesso. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="gruppolettura" /><summary type="html">Relatore principale: Melissa</summary></entry><entry><title type="html">Capitoli §24 – §27 de “La crisi delle scienze europee” di Edmund Husserl</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/incontri/" rel="alternate" type="text/html" title="Capitoli §24 – §27 de “La crisi delle scienze europee” di Edmund Husserl" /><published>2021-04-27T11:40:16+00:00</published><updated>2021-04-27T11:40:16+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/incontri</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/incontri/">&lt;p&gt;Relatore principale: Alfonso&lt;/p&gt;
+
+&lt;h2 id=&quot;riflessioni-personali&quot;&gt;Riflessioni personali&lt;/h2&gt;
+
+&lt;h4 id=&quot;24-lautentico-motivo-filosofico-nascosto-nel-controsenso-della-scepsi-humiana-la-confutazione-dellobiettivismo&quot;&gt;§24: L’autentico motivo filosofico nascosto nel controsenso della scepsi humiana: la confutazione dell’obiettivismo&lt;/h4&gt;
+
+&lt;p&gt;Il radicalismo cartesiano nel suo tentativo di fondare una apoditticità «esigeva» riflessioni che fossero improntate sull’importanza del soggetto conoscitivo e questa esigenza è impriscindibile per tutti i pensatori successivi. Alla controffensiva scettica rispondevano i risultati delle scienze. Ma lo scetticismo empirista mise in luce un problema mai risolto: seguendo ed estremizzando l’apoditticità come conoscenza evidente degli stati interni della propria anima (Locke e Berkeley) &lt;em&gt;si giunge ad affermare che sia proprio quest’ultima la generatrice del mondo corporeo stesso (Hume)&lt;/em&gt;. Questa costruzione assume la forma di una finzione. «Nuovo modo di giudicare l’obiettività del mondo … che non investe la loro legittimità ma le loro pretese filosofiche … di assoluta verità». Al centro c’è sempre il soggetto, e la scienza non è mai La scienza extra soggettiva ma è sempre un cogitatum, un qualcosa prodotto da un soggetto. Cartesio non approfondisce troppo, si affida a Dio a cui ci arriva presupponendo la possibilità di conclusioni che trascendano la soggettività, cosa che invece andava dimostrata dice Husserl. L’empirismo scettico attacava fortemente non solo l‘obiettivismo matematico ma l’obiettivismo dogmatico fino a quello generale. Il Tratise di Hume quindi è importante perché pone bene in evidenza &lt;em&gt;come il razionalismo cartesiano tendente all’esclusione di presupposti sia problematico nel fondare una conoscenza obiettiva&lt;/em&gt; nel momento in cui si afferma come la scienza si prodotto operazione di «soggetti conoscitivi».&lt;/p&gt;
+
+&lt;h4 id=&quot;25-il-motivo-trascendentale-del-razionalismo-la-concezione-kantiana-di-una-filosofia-trascendentale&quot;&gt;§25: Il motivo trascendentale del razionalismo: la concezione kantiana di una filosofia trascendentale.&lt;/h4&gt;
+
+&lt;p&gt;Hume fondamentale nella svolta kantiana perché permette la presa di coscienza del &lt;em&gt;problema dell’obiettivismo&lt;/em&gt;. Nuovo tipo di soggettivismo trascendentale. Non è però da considerarsi figlio di Hume, ma della scuola wolffiana. &lt;em&gt;Non è critico vorse Hume ma verso il razionalismo post-cartesiano, Leibinz e Christina Wolff.&lt;/em&gt;
+Il problema del razionalismo post-cartesiano che emerge dalle Meditazioni è che ciò che si prende e si rielabora di Cartesio &lt;em&gt;non è tanto il metodo ma le conclusioni&lt;/em&gt;: «viene meno quell’appassionato radicalismo che le muove (le meditazioni)». Le conclusioni a cui giunge cartesio si sono oramai imposte vedi i risultati delle scienze e la loro pretesa di obiettività che dominava il pensiero comune degli scienziati. «Ma la riflessione sulla conoscenza non era una riflessione trascendentale bensì pratico conoscitiva». Il metodo era applicato a problemi concreti, non al fondamento del metodo stesso. L’eredità magiore di Cartesio è quindi quello di aver fondato (seppur non volontariamente, appunto più come eredità) una logica intesa come «dottrina normativa e dell’arte metodica».
+Due orientamenti: uno logico, sullo stabilire normativamente come un giudizio debba essere considerato, obiettivo o meno.
+L’altro orientamento focalizzato sul soggetto che pone il giudizio, che opera la normatizzazione su un certo dato specifico personale.
+«Tutte le leggi logiche includevano eo ipso una verità metafisica». Data l’evidenza che abbiamo del contenuto della nostra anima, che lavora tramite la ragione, i risultati scientifici erano tutti verità del normatismo logico - scientifico. Le leggi logiche determinavano univocamente la causa di un determinata cosa, nello specifico il successo delle sciencze, opera della ragione.&lt;/p&gt;
+
+&lt;p&gt;Accanto a questa facoltà logica operava il soggetto conoscitivo del sensibile che subisce il mondo esterno che riconosce per mezzo delle norme. «È questa la concezione diffusa». Emerge quindi in Kant, influenzato da Hume, la problematica di come i risultati deduttivi ottenuti tramite ragione potessero essere impiegati per la conoscenza delle cose effettive del mondo. &lt;em&gt;Hume ha evidenziato come la nostra proiezione della causalità nei confronti dell’esperienza sia una sorta di intuizione che coglie nell’esperienza effetti non necessari.&lt;/em&gt; I dati sensibili non coincidono con l’oggetto dell’esperinza, è la conclusione di Hume. In che modo l’esperienza pre-scientifica è conoscibile logicamente in termini universalmente obiettivi?&lt;/p&gt;
+
+&lt;p&gt;Per Kant la soluzione è &lt;em&gt;organizzare i dati sensibili a priori:&lt;/em&gt; i dati ci arrivano già organizzati in forme a priori. Questa operazione è causale (c’è scritto casuale non causale nel testo…)? Il mondo che appare intuitivamente è già un prodotto della facoltà di intuizione pura. La logica quindi si manifesta in due modi: nella forma matematica a posteriori e nella forma intuitiva organizzante del’esperienza a priori.  «Il materiale dei dati sensibili proviene da un’affezione trascendente derivante dalle cose in sè. … &lt;em&gt;I presupposti ultimi non possono essere conosciuti obiettivamente.&lt;/em&gt;»&lt;/p&gt;
+
+&lt;p&gt;Reagendo ad Hume, Kant propone una filosofia sistemtaica in cui &lt;em&gt;«il ritorno cartesiano alla soggettività della coscienza si ripresenta nella forma di un soggettivismo trascendentale».&lt;/em&gt; Ma Kant sembra aver fraintesto Hume, dice Husserl.  Kant cita un certo problema “Humiano”. Ma qual è il problema vero di Hume, dice Husserl? Dobbiamo trasformare la sua teoria scettica nella sua completezza in problema: «Come può essere resa comprensibile l’ingenua ovvietà della certezza del mondo in cui viviamo?» Come possiamo non cadere nel solipsismo, quindi, come possiamo evitarlo. &lt;em&gt;Che forma prende l’obiettività scientifica nel momento in cui è necessario riconoscere che il mondo esperito è sempre esperito da un punto di vista soggettivo?&lt;/em&gt; L’ingenuità relativa all’obiettività … Il mondo stesso è quindi soggettivo. «essere in virtù di un’operazione soggettiva» è questo il problema di Hume, dice Husserl.&lt;/p&gt;
+
+&lt;p&gt;Kant non afferra questo problema, perché presuppone diverse cose che invece sono dentro al problema di Hume. &lt;em&gt;Kant assume già il razionalismo come dato.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;26-considerazioni-preliminari-sul-nostro-concetto-del-trascendentale&quot;&gt;§26: Considerazioni preliminari sul nostro concetto del “trascendentale”&lt;/h4&gt;
+
+&lt;p&gt;Trascendentale come elemento conferente senso tramite il ritorno alle fonti ultime operate dall’io stesso. La problematica trascendentale si configura come il problema del rapporto tra “io” e ciò che viene posto come ovvio, ovvero “l’anima” e il “mondo”. Ci si propone quindi una costruzione di un soggettivismo trascendentale radicale (come vedremo dalla prossima sezione, Kant intraprende questa strada ma gli manca la radicalità).&lt;/p&gt;
+
+&lt;h4 id=&quot;27-la-filosofia-di-kant-e-dei-suoi-successori-nella-prospettiva-del-nostro-concettoguida-del-trascendentale-il-compito-di-una-presa-di-posizione-critica&quot;&gt;§27: La filosofia di Kant e dei suoi successori nella prospettiva del nostro concettoguida del “trascendentale”. Il compito di una presa di posizione critica.&lt;/h4&gt;
+
+&lt;p&gt;Per Husserl, una filosofia può essere genuinamente fondata solo quando si raggiunge la comprensione che alla base di qualsiasi conoscenza c’è un soggetto che la pone. Kant è su questa strada, per quello Husserl sposa l’impostazione trascendentale: «soggettività conoscitiva quale sede originaria di ogni formazione obiettiva di senso e di validità di essere.» Non ha parlato di Hegel mi pare.&lt;/p&gt;
+
+&lt;p&gt;Le scienze che non applicano il metodo soggettivo trascendentale sono fuori strada anche se si considerano depositarie della verità ultima, vista la serie di successi pratici:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;«il problema: che il metodo delle scienze obiettive si basa su un fondamento soggettivo profondamente nascosto e mai indagato».&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;È importante approfondire il mancato radicalismo di Kant. Le riflessioni che seguono saranno quindi fuse tra la critica a questo mancato radicalismo e la formulazione della prospettiva Husserliana, che quindi si pone come critica parziale alla prospettiva Kantiana, che rimane comunque un punto di riferimento. Si parla di «filosofia metodica».&lt;/p&gt;
+
+&lt;h2 id=&quot;discussione&quot;&gt;Discussione&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso:&lt;/em&gt;
+Capitolo 24: trattato di Hume è fenomenale. Perché ha messo in discussione parecchie cose che Cartesio stesso avesse protato alla luce e non aveva avuto il fegato di portare fino in fondo, non abbastanza “radicale”, termine che torna. Hume era un radicale. Nel period di Hume, scienziati certi che il loro metodo fosse il metodo per la verità e che avesse il marchio dell’apoditticità, metodo definitivo. Si erano fermati di fronte a questa evidenza che loro credevano ovvia, termine che risulta una bestemmia per Husserl. Avevano una vera e propria fede nel loro metodo perché lo davano per ovvio.&lt;/p&gt;
+
+&lt;p&gt;Si era perso di vista il fatto che la conoscenza era un enigma. C’era voluto uno come Hume per mettere in crisi questo panorama di ovvietà che era la scienza. Il dubbio filosofica in una nuova prospettiva. Dopo di questa cosa non si ptoeva fare a meno di considerare questa nuova prospettiva. Mise in cirsi la pretesa obiettività delle scienze: non avevano considerato che la vita della coscienza è una vita operante che produce un senso. Mette insieme vita e coscienza e poi operante e poi nel bene e nel male. La coscienza opera sia nel bene che nel male, non può ouscire da questa dinamica. Non si può raggiungeree l’apoditticità definitiva come volevano gli scienziati perché c’è questo bene e male.&lt;/p&gt;
+
+&lt;p&gt;Il soggettivismo trascendentale di Kant, questa rivoluzione teorietica non fu rivolta contro l’empirismo, contro Hume e Locke ma contro il razionalismo. Pare che Kant si risolva contro il razionalismo che partì da Cartesio: perché la scienza aveva un metodo che si correggeva ma poi credendosi perfetto diventa una dottrina dell’arte pratica, diventa un artigianato non più quella cosa che cartesio voleva fondare, il fondamento etc. ma diventava una attitudine normativa. Husserl è contrario al fatto che sia dato come ovvio. Si ricorreva a Dio nel caso ci fosse qualche problema.&lt;/p&gt;
+
+&lt;p&gt;Un sistema normativo pratico in base a cosa è valido? Se è un prodotto nostro della soggettività seguendo Hume, la causalità, sulla base di cosa noi la diamo per obiettivamente per vera? C’è un altro tipo di ragione che retroattivamente con un procedimento regressivo giunge ai principi interni alla ragione per cui queste cose sono fondate entro i limiti della ragione. &lt;em&gt;Kant vuole fare qualcosa che va oltre alla ragione, che usa esplicitamente la soggettività. Una toeria della possibilità della conoscenza&lt;/em&gt;. Non possiamo conoscere la natura in sé, siamo di nuovo al pregiudizio. Però la filosofia di Kant penetra anche nell’in sé razionalmente inconoscibile. Questa filosofia obiettivistica non può uscire dai limiti dell’obiettivo, non può entrare nell’in sé, non possiamo entrarci razionalmente ma possiamo entrarci altre cose come &lt;em&gt;la ragione pratica e del giudizio che ci danno accesso all’in sé scientificamente non conoscbile.&lt;/em&gt; Kant si spinse oltre il razionalismo di cui pare sembra ammantato, anche se Husserl decide di non parlarne.&lt;/p&gt;
+
+&lt;p&gt;La questione del fatto. Noi ingenuamente osserviamo i fatti che si diano nell’ovvio, del conoscere senza la filosofia critica che indaga le possibilità del conoscere. Il dato come intuizione sensibile, nervo ottico etc. Pura dimensione del fatto che Nietzche chiama il fattalismo, dov’è finito il soggetto che conosce? &lt;em&gt;Il problema di Hume era di radicalizzare il problema della soggettività.&lt;/em&gt; Il problema di Hume dice Husserl è quello di un soggettivismo radicale. &lt;em&gt;Il mondo è un essere in virtù di un’operazione soggettiva, è questa l’operazione radicale di Husserl.&lt;/em&gt; Cartesio non è così radicale perché il soggetto non è fondato in sè stesso ma su Dio e altr etc. in Hume scetticismo ditruttivo, era data comunque la questione del soggetto e del suo funzionamento, si diceva comunque che funzionava così è tutto dal proprio cervello. Husserl non ragione in termine di cervello o psicologismo. Con Kant soggettivismo trascendentale entra in gioco.&lt;/p&gt;
+
+&lt;p&gt;Prima c’era questo ego, l’ego cartesiano, che in maniera ovvia corrispondeva al concetto di anima. Cartesio non ne esce da questa ovvietà. Se vogliamo capire la fenomonologia dobbiamo uscire dall’ovvio, dal dato e dal già dato. Husserl crede di poter risolvere questi problemi. L’interiorità della psicologia è alla fine una esteriorità. La fenomenologia è quella filosofia e scienza che si rapporta al sé dal punto di vista del senso ma del senso operativo e del valore e valore operativo. Non mi rapporto alla sedia in base al fatto che legno è fatta della componente chimica. A noi interessa che la sedia è fatta per sedersi, questo è il senso fenomenologico. &lt;em&gt;La realtà è fondata dal rapporto soggettivo tra noi ed altri e il mondo.&lt;/em&gt; Ci interessa che è fatta di protoni (può essere) ma non è che la fonda, :il problema è fondare il valore del senso su queste cose,: non sulla soggettività. Tipo nuovo di filosofia di scienza che può diventare rigorosa. È questo è poi il tentativo di Kant e Husserl di dire qualcosa di fondato.&lt;/p&gt;
+
+&lt;p&gt;Infine la contrapposizione tra obiettivisma e trascendentalismo, la bilancia cade sul trescendantlismo ma che deve essere radicale. La filosofia doveva giungere a questo teleologicamente: su questo terreno possano essere risolta &lt;em&gt;tutti i problemi del PASSATO&lt;/em&gt;. I futuri non si sa. Nella terza parte cos’è questo trascendentale. &lt;em&gt;Punto critico potrebbe essere capire la differenza tra trascendentale di Husserl e di Kant.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Paletto finale del trascendentalismo radicale che più mi è chiara. La filosofia moderna viene vista come un percorso la cui destinazione è la fenomenologia. Filosofia del passtto letta come un &lt;em&gt;modo per l’emancipazione della soggettività&lt;/em&gt; che però era rimasta intrappolata in alcune trappole storiche. Kant stesso soffre unn pochino del suo tempo e non è sufficientemente radicale. Il baricentro si sposta dall’obiettivismo al soggetivismo. La filosofia si deve orientare alla dimensione del senso senza richiudersi nel solipsismmo nell’individualismo valoriale. Questo si fa con un’epoché radicale. Fenomenologia come scienza dei valori: &lt;em&gt;la domanda che mi pongo è se si può fare epoché dalla dimensione valoriale e del senso&lt;/em&gt;. Dovrebbe essere sì perché così riconosce l’efficacia l’operatività il fatto di avere un impatta sulla vita del soggetto nella dimensione dell’obiettività. Vede in Kant un interesse per il soggetto ma non prende il soggetto come una sintesi. Husserl accusa Kant di non essere un dialettico. Come si da l’intersoggettività. &lt;em&gt;Husserl dice che Hume è un genio perché indica la soglia, il limite.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso:&lt;/em&gt; Critica delle scienze europee anche dal punto di vista degli altri di scritti di Kant. C’è un sospetto in Huserrl del fatto che Kant abbia quasi ingenuamente abbia dato spazio ad altre facoltà umane e non solo a quelle apodittiche e scientifiche. Husserl se ne rende conto dal punto di vista. Queste altre dimensioni per Husserl non sono fondative, perché per lui le cose che danno fondamento sono quelle apodittiche. Il diverso dall’epistemologia della fenomenologia è il mondo della vita.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Può aver senso per quanto possa esser confusa questa analisi filosofica, sono delle mosse che possono essere collocate all’interno della metafisica, del come è possibile avere esperienza. &lt;em&gt;La fenomenologia è una sorta di scienza metafisica.&lt;/em&gt; È forse un po’ un paradossa. Non nel senso teologico ma intendo come ciò che sta sotto, ciò che rende possibile tutto il resto, ciò che è fondamento.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Lo scarto è tra epistemologia e metafisica. Noi diciamo di sì ma per Husserl non era così perché lui si scagliava contro la metafisica dell’obiettivismo, non ci sarebbe stata la crisi delle scienze europee. &lt;em&gt;Lui si scaglia contro la metafisica ma risponde a botte di metafisica.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: Ingengere non si pone il problema delle equazioni della meccanica.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Ingengere deve risolvere un problema: si pone un sacco di raggi di significato, sociale, resistenza nel tempo resistenze flusso di tempi significato nel flusso di persone. Dimensione che agisce nell’operazione progettuale dell’ingegnere ed è ciò che motiva che prenderà un compenso. Un altro punto il momento in cui deve applicare la formula: un atteggiamento è quello della tencica e del metodo che risulta buono e quindi lo applica in maniera acritica. All’ingegnere non viene chiesto di riconsocere in maniera molto precisa di quell’equazione però l’atteggiamento potrebbe essere quello “operato la scelta di usare questa equazione ma consapevole che si tratta di una verità assoluta” e questo tende a non farlo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: Uso questa equazione perché funziona&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Husserl direbbe che sei un religiosa.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: funziona perché me l’ha detto qualcun altro.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Funziona all’Hume però un fatto tuo soggettivo. Husserl vuoleva uscire da questo paradosso di Hume: anche l’ingegnere può operare epoché può sospendere la sua operazione. &lt;em&gt;L’innovazione avviene proprio quando si opera in questo modo.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: La scienza non dobbiamo buttarla via, Husserl dice che oltre alla composizione dei metariali del ponte, vogliamo considerare il senso e il valore del ponte e quindi qui emerge e come se mancasse tutto l’aspetto fenomenologico della scienza. La scienza non deve diventare dogma.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: Economia ingengere oggetto non è un soggetto economia sì equazioni differenzili come tengono questo in conto&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Il profitto in economia ci pare come ovvio. Anche nel comunismo viene dato per ovvio che la proprietà privata sia male assoluto. Si tratta di conflittualita di senso. &lt;em&gt;Neanche il comunismo si può dare come apodittico.&lt;/em&gt; L’economia programmatica dell’unione sovietica era un tentativo che si basa su certi elementi ovvi ed apodttichi che poi non si sono verificati tali.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Esempio: l’economia per come la conosciamo non ruota soltanto attorno al valore del profitto. Ma la nozione quella ancora più forte è quella di utile, utilità,perché c’è una gestione della casa che cresce non una casa in equilibrio omeostatico. &lt;em&gt;Le discipline che si chiudpno ereditano valori e il loro unico progresso è incrementale.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Ribadire un concetto di radicalismo: mi ha fatto venire in mente Marx. Lettura che ha messo in luce Bloch che enfatizza ricerca filosofica politica eocnomica nell’andare alla radice dei problemi, dei concetti. Curioso qua non leggere riferimenti a Marx, come dicevi tu Ale. &lt;em&gt;Si tratta di due radicalismi, quello Husserliano più metafisico, quello marxiano è antimetafisico.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Parte dell’obiettività paragrafo 25, obiettività ma mettendola in correlazione con la parola ingenuità. Quando si parla di mondo obiettivo si fa sempre riferimento alla vita sua propria.&lt;/p&gt;
+
+&lt;p&gt;L’ultima cosa che toccase un po’ di hiubris lui dice che posta la filosoifa metodica risolverà tutti i problemi del passato, mi sembrano delle parole un po’ forti. Tracotanza pecca di iubris ma coerente con quello che sta facendo. Risolvo tutti i problemi non solo filosofici ma anche scientifici.&lt;/p&gt;
+
+&lt;p&gt;Forse merita di essere riletta la frase per non fraintenderla. Non finisce la filosofia, ma riconoscimento di un problema. Porsi nel terreno giusto.&lt;/p&gt;</content><author><name></name></author><category term="gruppolettura" /><summary type="html">Relatore principale: Alfonso</summary></entry><entry><title type="html">Capitoli §21 – §23 e appendice X – XII de “La crisi delle scienze europee” di Edmund Husserl</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/Incontro/" rel="alternate" type="text/html" title="Capitoli §21 – §23 e appendice X – XII de “La crisi delle scienze europee” di Edmund Husserl" /><published>2021-04-17T11:40:16+00:00</published><updated>2021-04-17T11:40:16+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/Incontro</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/Incontro/">&lt;p&gt;Relatore principale: Alessandro&lt;/p&gt;
+
+&lt;h2 id=&quot;riflessioni-personali&quot;&gt;Riflessioni personali&lt;/h2&gt;
+
+&lt;h4 id=&quot;21-cartesio-come-punto-di-partenza-delle-due-linee-di-sviluppo-del-razionalismo-e-dellempirismo&quot;&gt;§21: Cartesio come punto di partenza delle due linee di sviluppo: del razionalismo e dell’empirismo&lt;/h4&gt;
+
+&lt;p&gt;In questa brevissima sezione Husserl analizza come il pensiero di Cartesio abbia fortemente influenza due correnti fondamentali e quasi opposte della filosofia moderna: il razionalismo (Spinoza - Leibniz - Kant) e l’empirismo (Locke - Berkeley - Hume). In questa biforcazione quasi paradossale, ciascuna corrente ha amplificato un particolare aspetto della filosofia Cartesiana: il primo ha sviluppato l’aspetto del &lt;em&gt;«mos geometricus»&lt;/em&gt;, quindi la parte deduttiva razionale, applicandola ad un mondo pensato come un &lt;em&gt;«“in sè” trascendentale»&lt;/em&gt;; il secondo invece ha svilupatto e portato all’estremo la &lt;em&gt;prospettiva scettica cartesiana&lt;/em&gt; (già con Hobbes, dice Husserl). Questa seconda corrente portando all’estremo lo scetticismo mostra l’insostenibilità dello psicologismo empiristico.&lt;/p&gt;
+
+&lt;h4 id=&quot;appendice-x&quot;&gt;Appendice X&lt;/h4&gt;
+
+&lt;p&gt;La conoscenza matematica trascende la natura sensibile pre-scientifica ma non si configura ancora come un in sé metafisico. Cartesio, ponendo una critica alla nostra «ingenua certezza dell’essere di questo mondo sensibile», opera conseguentemente una epoché-scettica. Nella seconda meditazione, Cartesio pone una critica alla pura origine. Questa critica indaga la necessità di distinguere tra la mera percezione sensibile e la parallela attività della ragione che esperisce: le datità intercorrono alla nostra esperienza insieme ai «momenti razionali». Senza rielaborazione la nostra esperienza, la datitàm non avrebbe alcun significato: «il pezzo di cera, in quanto viene esperito sensibilmente come cosa, ha forme che non possono essere meramente sensibili».&lt;/p&gt;
+
+&lt;p&gt;Per Cartesio, il cogliere qualcosa dall’esperienza &lt;em&gt;è sempre un giudicare&lt;/em&gt;: riformulato in termini kantiani, astraendo dal giudizio otteniamo la pura sensibilità. Mi chiedo io: ma non è questa l’operazione che in un certo senso Husserl critica? La nostra certezza di essere sta nella nostra capacità di giudicare: è chiaro che questa sia funzione della ragione, ma allo stesso tempo senza un oggetto da giudicare questa funzione non sussiste, abbastanza ovvio.&lt;/p&gt;
+
+&lt;p&gt;In Cartesio c‘è però un problema che riguarda la validità trans-soggettiva della clara et distincta perceptio: «se la scienza razionale è un’operazione del tutto soggettiva che avviene nell’Io del filosofo, &lt;em&gt;come può pretendere a una validità obiettiva,&lt;/em&gt; che penetri nell’essente in sé?», ovvero se la scienza si configura come una operazione operata dal singolo soggetto, come ci si muove dalla validità mia del singolo ad una validità condivisa da tutti coloro che fanno tale esperienza, e che quindi sia una qualità della cosa in sé percepita? Il problema dell’obiettività quindi, che se per me è ovvio, come lo trasmetto agli altri? C’è quindi un tentativo di trascendere dalle proprie datità sensibili, e come avviene questo? È qui che si inserisce Dio, dice Husserl.&lt;/p&gt;
+
+&lt;p&gt;Il problema della conoscenza pre-scienfitica non evade da questo problema dell’obiettività, perché ogni conoscenza pre-razionale può essere indagata razionalmente, dice Husserl. Questo problema dell’obiettività è analogo al problema del giudizio sintetico a priori Kantiano. In Kant questi verranno chiariti e risolti, dice Husserl. Tuttavia il problema non è uguale in Cartesio e Kant. La differenza sta nella &lt;em&gt;diversa accezione di apoditticità.&lt;/em&gt; Entrambi sono guidati dalla stessa intenzione, dice Husserl, ovvero fondare in un qualche modo una conoscenza scientifica valida senza assumerla a priori.&lt;/p&gt;
+
+&lt;p&gt;Husserl nota però come questo &lt;em&gt;non sia il motore in Cartesio&lt;/em&gt;. In aggiunta sottolinea anche come il &lt;em&gt;compito stesso esige di essere fondato&lt;/em&gt;. La filosofia come scienza e il metodo hanno un duplice senso: la prima ha un senso particolare che sorge dalla convinzione che la filosofia possa svolgere il suo compito soltanto se il filosofo, auto-osservandosi, &lt;em&gt;porta in primo piano il suo intento&lt;/em&gt; in maniera limpida. Da qui si configura poi la costruzione del metodo.&lt;/p&gt;
+
+&lt;p&gt;Per Kant, invece, &lt;em&gt;non c’è «traccia di quest’auto-responsabilità filosofica»&lt;/em&gt;: essendo già educato ad una filosofia razionale, il problema del suo fondamento diventa il suo interesse principale. È probabilmente dovuto alla sua educazione la sua &lt;em&gt;mancata epoché&lt;/em&gt;. In più, in ciò si radica la differenza con Cartesio in cui le scienze sono indubitabili anche da un punto di vista inter-soggettivo, non solo soggettivo.&lt;/p&gt;
+
+&lt;p&gt;Questa differenza secondo Husserl emerge a causa dei diversi contesti storico-filosofici in cui vivono i due filosofi. Kant vive già nel contesto in cui le scienze esatte &lt;em&gt;hanno mostrato la loro capacità di sfornare risultati convincenti&lt;/em&gt;, in cui la matematica è già riconosciuta non solo come linguaggio privilegiato nel descrivere la natura, ma anche come &lt;em&gt;modello a cui inspirarsi nel tentativo di descrivere qualsiasi essente con obiettività&lt;/em&gt;. Cartesio invece aveva bisogno ancora di vedere riconosciuto questo valore, anzi, il suo è un tentativo di sdoganamento.&lt;/p&gt;
+
+&lt;p&gt;Certamente Cartesio è da considerarsi come iniziatore della filosofia moderna, ovvero come colui che ha posto l’esigenza di una filosofia senza pregiudizi e di presupposti: Husserl dice infatti che&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;«si può dire che tutti i filosofi di epoca moderna sono cartesiani, così come i fisici sono galileiani»,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ovviamente non nel senso che condividano il contenuto delle filosofia o della scienza, quanto il fatto che &lt;em&gt;ne condividano il metodo&lt;/em&gt; (e direi senza indagarne il motivo).&lt;/p&gt;
+
+&lt;p&gt;Ma questi presupposti indubitabili diventano poi vera conoscenza? Al fondamento è necessario anche una costruzione di una «conoscenza mediata». Per Cartesio questa forma mediata si configura come deduzione logico-matematica. L’ideale che una filosofia possa essere realizzata è anche esso un pregiudizio di cui Cartesio non si occupa. Kant non si preoccupa radicalmente della possibilità di una conoscenza «veramente fondata», per quanto indaghi la possibilità di una conoscenza filosofica.&lt;/p&gt;
+
+&lt;p&gt;La fondazione apodittica di Cartesio ha come risultato «l’estremo radicalismo dell’auto-responsabilità filosofica». Husserl asserisce che «Non tutti coloro che irridono alle proprie catene sono liberi»: in questo senso, muove un critica alla filosofia della decadenza, che vedeva in Cartesio il fondatore di una «umanità esistenzialmente fallita».&lt;/p&gt;
+
+&lt;p&gt;Ricercare il senso più profondo dell’apoditticità come «auto-considerazione e responsabilità ultima dell’uomo autonomo.» In questo modo si costituisce il motivo filosofico-trascendentale, motore in Kant e nei suoi allievi.
+Un tale movimento rende possibile la comprensione di come il senso innato alla filosofia, il senso radicato nella pratica filosofica può sorgere una nuova funzione ovvero &lt;em&gt;fornire il senso&lt;/em&gt; alla nostra vita quotidiana.&lt;/p&gt;
+
+&lt;p&gt;«La scienza universale inter-soggettiva diventa una funzione», ovvero un processo infinito di creazione. Ma questa scienza universale non è quella fondata dalle scienze positive perché &lt;em&gt;le scienze di calcolo non possono essere una filosofia&lt;/em&gt;, dice Husserl. È necessario quindi indagare la trasformazione di senso che il termine trascendentale tenta di esprimere.&lt;/p&gt;
+
+&lt;p&gt;A Kant Husserl imputa una &lt;em&gt;carenza di radicalismo&lt;/em&gt;. Considera sì importante la questione della auto-responsabilità (non avevamo detto il contrario prima?). Considerando la conoscenza intellettuale intesa scienza positiva, Kant vuole impedire la confusione tra conoscenza o metodo logico-matematico con quello di una filosofia comprensiva, ovvero &lt;em&gt;distinguere tra metodo matematizzante e metodo trascendentale&lt;/em&gt;, riconoscendo comunque conto l’esattezza del primo. Il suo sistema trascendentale a priori è una scienza a priori. La critica kantiana si configura come una &lt;em&gt;critica di una conoscenza che sottosta a norme di logica formale ed esige una logica trascendentale anche per esse&lt;/em&gt;. Filosofia come funzione dell’umanizzazione dell’uomo. La filosofia ha come intenzione l’abbracciare l’essente in ogni e qualsiasi senso, per quanto la conoscenza di sé sia soltanto un momento speciale nell’esistenza umana. Questa intenzione non può presentarsi senza riconoscere la necessità di una fondazione apodittica. «Esistono modi di obiettivazione, … ma esiste soltanto una secienza onnicomprensiva, una filosofia in cui la ragione regola e comprende se stessa».  Paragrafo non molto chiaro.&lt;/p&gt;
+
+&lt;p&gt;La ragione è sempre una riflessione responsabile. Husserl si chiede se Kant esprime questa ragione autentica o fallisce perché manca di quel radicalismo apodittico. In Cartesio l’esigenza di questa apoditticità è esplicita ma non la svolge fine in fondo, contraddicendo un po’ le sue intenzioni. Per Kant il movente apodittico aveva perso forza. &lt;em&gt;Husserl invece ribadisce il movente cartesiano.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Da capire la parte finale perché importante. È dalla critica Kantiana quindi che possiamo ribadire la necessita di considerare come più fondamentale il problema dell’apoditticità, da cui poter fondare una nuova filosofia. Una filosofia post-cartesiana e fenomenologica che avrà diritto di chiamarsi trascendentale perché da una valutazione critica della filosofia Kantiana possiamo vedere attraverso una intuizione vivente nella soggettività trascendentale ciò che la fenomenologia coglie apoditticamente.&lt;/p&gt;
+
+&lt;h4 id=&quot;22-la-psicologia-naturalistico-gnoseologica-di-locke&quot;&gt;§22: La psicologia naturalistico-gnoseologica di Locke&lt;/h4&gt;
+
+&lt;p&gt;Questa nuova psicologia (psicologia empirista) che abbiamo appena citato si fonda quindi sul dualismo cartesiano e tende ad indagare il «campo interiore della psiche separato dalla corporeità». Locke, alla fin fine, si pone lo stesso scopo di Cartesio: fondare l’obiettività delle scienze, con delle forti differenze però dalla teoria cartesiana. L’atteggiamento scettico di Locke si pone su un altro piano rispetto all’epoché cartesiana: infatti Locke assume come ipotesi di lavoro che &lt;em&gt;l’ego coincida con l’anima.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Da questo seguono alcuni fatti immediati: &lt;em&gt;la propria conoscenza interiore è data per scontata&lt;/em&gt;, così come tutti gli stati d’animo. L’auto-esperienza interna è quindi assunta come evidente. È quindi con questa impostazione che emerge l‘importanza dell’analisi della psiche, in quanto analisi della propria auto-esperienza, la quale nel pensiero di Locke si configura come la conoscenza più certa ed evidente. E su questo che si fonda l‘obiettività.&lt;/p&gt;
+
+&lt;p&gt;Il «problema della trascendenza delle validità egologiche» che include anche &lt;em&gt;la validità delle conclusioni riguardanti il mondo esterno scompare in Locke&lt;/em&gt;: per lui non risulta problematico che i dati sensibili che si manifestano alla psiche provengono dall’esterno, questa è una ovvietà.&lt;/p&gt;
+
+&lt;p&gt;Il problema più grave è però che Locke &lt;em&gt;non si preoccupa per nulla del tema dell’intenzionalità&lt;/em&gt;, ovvero della scoperta della cogitatio come cogitatio di cogitata, come pensiero che si auto fonda: «la psiche è un reale chiuso in sè come il corpo», diventa una tavoletta di cera su cui scrivere i dati psichici. Locke non considera che nelle percezioni è sempre presente ciò di cui sono coscienza. Cioè Locke è ancora peggio di Cartesio, prende il dualismo cartesiano e lo porta all’estremo ma al contempo &lt;em&gt;si dimentica delle scoperte primordiali di Cartesio&lt;/em&gt; e in questo fa un passo indietro. Cartesio aveva solo abbozzato le problematiche che interessano ad Husserl e non le aveva sviluppate a sufficienza per i motivi suddetti. Locke non coglie questa importanza, anzi la trascura etichettandola nelle ovvietà.&lt;/p&gt;
+
+&lt;h4 id=&quot;23-berkeley-la-psicologia-di-david-hume-come-teoria-finzionalistica-della-conoscenza-la-bancarotta-della-filosofia-e-della-scienza&quot;&gt;§23: Berkeley. La psicologia di David Hume come teoria finzionalistica della conoscenza: la “bancarotta” della filosofia e della scienza&lt;/h4&gt;
+
+&lt;p&gt;Husserl riassume quindi il pensiero di Locke come un «idealismo paradossale» in cui l’unico indubitabile è l’esperienza di sè assieme ai dati immanenti. È su questa base filosofica che si muove il pensiero di Berkeley: l’idea che l’unica esperienza valida è certa è quella rivolta verso l’interno viene ulteriormente estremizzata e porta a considerare le cose corporee come datità sensibili e basta: &lt;em&gt;ogni passaggio logico ad elementi esterni è una conclusione induttiva&lt;/em&gt;. L’essente in sé è una invenzione di Locke. Otteniamo quindi una &lt;em&gt;dissoluzione&lt;/em&gt; delle scienze naturali razionali mediante una &lt;em&gt;critica radicalmente sensualistica&lt;/em&gt; della conoscenza.&lt;/p&gt;
+
+&lt;p&gt;Hume prosegue sulla strada di Berkeley: «tutte le categorie dell’obiettività» (sia quelle scientifiche post-cartesiane sia quelle pre-scientifiche ovvero intuitive) «sono finzioni,… idealizzazioni metodicamente necessarie dei dati intuitivi». Queste idealizzazioni ven- gono intese necessarie ma comunque finzioni da parte di Hume secondo Husserl. E sono &lt;em&gt;finzioni sulla base di considerazioni psicologiche&lt;/em&gt;. L’unica cosa che sta nella nostra psiche sono i dati, il resto sono rielaborazioni che nell’idea di Hume assumono il ruolo di idealizzazioni, finzioni, elementi extra che vengono aggiunti a posteriori. Sono finzioni perché &lt;em&gt;noi ci illudiamo&lt;/em&gt; della loro esistenza, mentre ciò che esiste sono i dati che ci appaiono nella nostra psiche. &lt;em&gt;Identicamente ciò succede all’ “io”: esso è un «accumularsi mutevole ed incessante di dati. L’identità è una finzione psicologica».&lt;/em&gt;&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;  La costruzione dell’identità avviene sulla base delle datità di una esperienza interna come narrativizzazione del nostro esperire? La causalità ovviamente rientra tra le finzioni: arriviamo quindi ad una «bancarotta della conoscenza obiettiva», ad un «solipsismo» definitivo. «Se le conclusioni provengono dai dati come posso scavalcare la sfera immanente?».&lt;/p&gt;
+
+&lt;p&gt;Il problema di Hume, o perlomeno, un aspetto inesplorato, è &lt;em&gt;come giustificare allora l’uso della ragione come collante e come operazione nell’ordinamento associativo?&lt;/em&gt; «Come qualsiasi scetticismo (totale)» Hume &lt;em&gt;dissolve alla fine anche sé stesso&lt;/em&gt;&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;: non trova le basi nemmeno per fondare la sua di teoria. Husserl lo critica perché invece è sua intenzione fare ciò, &lt;em&gt;trovare fondamenta stabili per la sua teoria,&lt;/em&gt; senza partire da qualcosa, da quelli che potremmo indicare come assiomi, ma di escludere e scrostare quella che è l’esperienza (sia quella interiore che quellaesteriore quella che non posso interrompere in sostanza) da tutto ciò che è superfluo, contingente non necessario.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Hume in realtà è conscio di questo suo controsenso&lt;/em&gt;, di questa dissolvenza, ma non lo affronta e non la smaschera, &lt;em&gt;non affronta&lt;/em&gt; le sue problematicità ma si ferma allo «&lt;em&gt;scetticismo accademico&lt;/em&gt; diventando padre di un fragile positivismo, […] accontentandosi di una spiegazione psicologistica delle scienze positive». C’è quindi una sorta di interesse accademico piuttosto che filosofico.&lt;/p&gt;
+
+&lt;h4 id=&quot;appendice-xi&quot;&gt;Appendice XI&lt;/h4&gt;
+
+&lt;p&gt;Hume ha come conseguenza il solipsismo anche se lui non lo dice mai. Guardando alla sfera cosciente non indaga i problemi riguardanti la percezione perché non sono materia della filosofia, secondo lui. Così facendo non indaga il problema della obiettività psicologica. La validità di ciò che dice Hume si fonda sull’immanenza e travalicare questo fa si che concluda che «ogni trascendenza è una illusione». Il mondo si riduce ad una formazione di coscienza.&lt;/p&gt;
+
+&lt;h4 id=&quot;appendice-xii&quot;&gt;Appendice XII&lt;/h4&gt;
+
+&lt;p&gt;Hume parte dalle datità e degrada a finzione tutte le operazioni obbiettivanti. Contrapposizione tra “relations and fact” e “matters of fact”: se i primi sono le possibilità di pensiero che provengono tra le datità, i secondi invece sono le leggi che costruiscono queste compatibilità, non solo come possibilità ma come realtà. Due operazioni sulle datità originali: le prime hanno esiti e necessità assolute anche se riguardano probabilità, le seconde hanno esistenze effettive in quanto regole della previsione con validità probabile ciò che è previsto potrebbe anche non essere.&lt;/p&gt;
+
+&lt;h2 id=&quot;discussione&quot;&gt;Discussione&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;:  Sono d’accordo seconda parte conviene commentarla alla luce della parte su Kant. Possiamo fissare l’attenzione sulla parte degli empiristi e sul concetto di &lt;em&gt;ethos filosofico&lt;/em&gt;. È questo il filo rosso concettuale che Husserl tira da Cartesio a Kant passando per gli empiristi. Cartesio viene definito un genio filosofico da Husserl, testualmente, ed è tale per i motivi che sono stati detti, ovvero completa autoresponsabilità. La peggiore decadenza sta nella cecità per l’autentico ethos che costituisce la filosofia. &lt;em&gt;Il genio filosofico consiste in un’attitudine centro sull’auto responsabilità&lt;/em&gt;: con Cartesio abbiamo messo in enfasi forte sul sive existo, mentre Husserl lo declina in un modo leggermente diverso: la filosofia può si lavorare all’interno di una contesto storico, la filosofia deve essere anche storia della filosofia ma anche in maniera complementare deve essere &lt;em&gt;indagine personale&lt;/em&gt;. In tutto ciò, &lt;em&gt;Kant si dimentica di Kant&lt;/em&gt;, di sé stesso, mentre Cartesio mette in primo piano sé stesso. Lo fa ovviamente comunque con tutti i suoi problemi, ovvero avere a che fare coi teologi, scartarsi dalla scolastica. Tuttavia, il periodo storico di Cartesio era meno adatto alla operazione che fa Cartesio se comparato a Kant.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: Seconda parte.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Difficoltà a leggere queste pagine. Senza riferimenti è difficile capire perché ti vende quello che vuole lui. Lui riporta quello che lui pensa che gli autori dicano. Questo mi ha messo un po’ in difficoltà.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Spezzando una lancia a favore di Husserl: lui non cita i testi, parla degli autori, dell’opera. Anche per motivi contingenti, l’opera è stata scritta in emergenza. Probabilmente Husserl non aveva accesso ai testi: era isolato come Cartesio e nel suo isolamento, a differenza di Cartesio che fa auto-indagine, Husserl auto-indaga i suoi riferimenti rilevanti per la sua formazione, non per riscrivere la storia ma per fondare il suo sistema.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Pag 416 in alto punto con cui non sono d’accordo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: È propri qua che ho pensato che Kant si dimentica di Kant.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Ma chi più di Kant indaga le possibilità di conoscenza?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Radicale, per Husserl, vuol dire metterci in mezzo Kant, non il soggetto astratto.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Questo però è un difetto di tutti i sistemi, Spinoza non si mette all’interno del suo sistema. È difficile mettersi all’interno di un sistema che pretende di esser scientifico.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso:&lt;/em&gt; Su questo capisco Husserl, perché Kant lascia anima mondo e dio come gli insolubili e anche il noumeno, totalmente all’opposto della presa fenomenologica che vuole fare Cartesio e Husserl. Kant è un vile.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa:&lt;/em&gt; Dipende un po’ dalle interpretazioni di Kant il fatto che il noumeno non lo si possa conoscere di per sé: c’è una possibilità di conoscerlo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Mettiamo che Kant dica “il noumeno si possa conoscerlo”, ma non si pone come fondarlo. Kant esce fuori da ogni ontologia fondamentalista. Volevo dire un’altra cosa: nota metodologica. Quando leggiamo un autore che legge autore. Siamo noi che leggiamo un autore, non è che ci deve interessare cosa ha detto effettivamente. Volevo dire che leggevo in una introduzione a un testo di Deleuze, che Deleuze rifonda un autore ogni volta che lo legge. Lui si inventa il nemico filosofico (Husserl) e scaglia le sue frecce. Anche Cartesio fa questa operazione.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Distinguere se fare storia della filosofia o ermeneutica.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Lo scopo di Husserl è ritagliare uno spazio di possibilità per la filosofia nel suo tempo. Ricavato riprendendo l’intenzione originaria della filosofia. Per immettere in un contesto già dato una proposta bisogna operare delle distinzioni. Il suo filo rosso che costruisce gli serve per mostrare l’autorevolezza e collocarsi all’interno di una tradizione, ma questo non implica l’adesione, non si traduce in una scolastica, in una operazione nuova che è la fenomenologia. Per me è un venire a scoprire delle cose direttamente ma in ciò che non è l’esito del cartesianesimo, del razionalismo etc. Mi aspetto che dopo la pars destruens, nella terza parti arrivi la pars construens.&lt;/p&gt;
+
+&lt;p&gt;Husserl ci sta mostrando come si fa filosofia, non come si fa filologia né storia: ovvero prendere gli autori e discriminarne lati positivi e lati negativi. Locke non è così radicale perché da per scontato che le sue impressioni siano vere ed auto-evidenti e indiscutibili, mentre Cartesio mette in discussione i suoi sensi. Per Locke non c’è questa problematizzazione: tutto il resto va di conseguenza. Si creano dei problemi grossi e insolubili che Husserl cristalizza in questa frase; “come è possibile … la vita psichica… oggettualità io che conosce le valuta etc…”. Locke mettendo tutta la sua indagine filosofica sul lato delle sanzione si dimentica della ragione che riorganizza. Non arriva a chiedersi come funziona la tavola di cera. Manca una trattazione della coscienza in sé. Dove non arriva Locke arriva poi Kant. In Locke ci sono un sacco di presupposti. Dopo Locke non ci si pone il problema della presenza di Dio. Su Berkely riduce le cose corporee a complessi di dati sensibili. Per Hume … sovrapposizione fittizia. Effetto 3D senza però che ci sia veramente la profondità, in una illusione della tridimensionalità. Hume abolisce problematizzazione metafisica. Hume evit l’ethos filosofico. Da idea di un filosofo che si gode gli agi di una posizione accademica, un po’ un radical chic. Hume non soffre la deriva solipsistica.&lt;/p&gt;
+
+&lt;p&gt;Sul capitolo 24 riprende alcuni elementi: Locke è definito come fragile ripe- titore di Hume, pertanto il bersaglio è Hume. Radicalismo Cartesiano tende eliminazione presupposti. Soggetto che fa epoché quello cartesiano. Ritorno all’io conoscente nella sua immanenza. Permette a Cartesio di rifondare il razionalismo filosofico. A questo si pone scetticismo empirista dove la complessiva conoscenza del mondo quella scientifica come pre-scientifica rimane ineludibile. Kant è un po’ un fifone, si accontenta del fenomeno, ci accontentiamo di definire noumeno. Non possiamo comprenderlo se non nella sua fenomenologia. Se la scienza si pone come fine la conoscenza obiettiva, come è possibile se le sue operazioni sono operazioni della coscienza? Problemi già visti ma c’è sempre uno scambio tra obiettivo e soggettivo, e in questo scambio si creano dei para- dossi. In Berkely implicitamente p la sensibilità …. l’anima …… … . Di questo paradosso non ne soffre, in questo Hume non è cartesiano. Gli manca quella trafila filosofica ad Hume.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Perché Locke piace ai pragmatisti: perché Locke dice “se io vedo un albero, io vedo un albero”. Andiamo avanti, andiamo a conquistare un paese. Non ci interessano le basi metafisiche, non mi faccio ulteriori domande, vado avanti. Pierce, che si definivia pragmaticista e non pragmatista, non è possibile alcuna introspezione come vorrebbe Husserl o Cartesio. Locke era un infame.&lt;/p&gt;
+
+&lt;p&gt;Berkeley era proprio un pagliaccio. Il solipsismo è qualcosa di assurdo perché tu vuoi tanto dimostrare che la realtà è tutto frutto di …. iniettandoti la realtà nella soggettività, ma cosa stai facendo di diverso dal realismo più totale. Con questo gesto di introvertire tutta la realtà nel soggetto diventa un oggettivismo assoluto che giustamente Husserl bastona.&lt;/p&gt;
+
+&lt;p&gt;Hume è un genio. La filosofia del suo tempo si basa sulla deduzione e lui invece, bastian contrario dice che casualità è un criterio arbitrario: è dirompente dove mondo filosofia si sta incancrenendo alla ricerca del punto fisso dove innalzare il mondo. La filosofia deve rompere le uova nel paniere. Husserl invece essendo un fissato del fondamento lo odia Husserl ha ragione su Kant perché Kant non fonda il soggetto ontologico ma voleva fondare l’eticità del soggetto (Husserl fissato sull’auto-responsabilità), quindi non c’è auto-responsabilità perché non c’è auto-fondamento. Diventa un fondamento etico che non ha validità per Husserl perché è retorico e quindi Kant viene bastonato. Nonostante, Husserl è un trascendentalista e Kant ha inventato il trascendentalismo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Su Locke si potrebbe estendere agli altri filosofi quelli successivi: abbiamo visto che un elemento di discrimine tra Kant e Cartesio è il momento storico. Dentro discorso illuminista c’è discorso religioso: Cartesio era cattolico gli altri personaggi empiristi bisognerebbe indagarne il profilo religioso.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Locke è l’abc del liberale, per lui la coscienza è un fatto di percezione. Il mondo è quello che hai davanti a te, non farti domande, nascondendo l’origine del fatto che tu vedi.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Lancio un sasso e nascondo la mano: Hume la pensa come la questione della mente bicamerale? &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Ovvero sè stesso, che vuol dire colui che fa l’operazione di dissoluzione stessa, dissolve l’ego puro stesso e quindi non può giustificare le sue operazioni stesse &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="gruppolettura" /><summary type="html">Relatore principale: Alessandro</summary></entry><entry><title type="html">Appendici V – IX de “La crisi delle scienze europee” di Edmund Husserl</title><link href="https://acandeloro.github.io/aquantumsheet/blog/2021/incontro/" rel="alternate" type="text/html" title="Appendici V – IX de “La crisi delle scienze europee” di Edmund Husserl" /><published>2021-03-19T11:40:16+00:00</published><updated>2021-03-19T11:40:16+00:00</updated><id>https://acandeloro.github.io/aquantumsheet/blog/2021/incontro</id><content type="html" xml:base="https://acandeloro.github.io/aquantumsheet/blog/2021/incontro/">&lt;p&gt;Relatore principale: Melissa
+Relatore appendice: Alessandro&lt;/p&gt;
+
+&lt;h2 id=&quot;riflessioni-personali&quot;&gt;Riflessioni personali&lt;/h2&gt;
+
+&lt;h4 id=&quot;appendice-v-ai-16-sgg&quot;&gt;Appendice V ai §16 sgg&lt;/h4&gt;
+
+&lt;p&gt;«Cartesio ricomincia da capo»: promuove per primo una epoché radicale, come nessuno altro aveva fatto prima. C’è una &lt;em&gt;insoddisfazione per la professionalizzazione e parcellizzazione della filosofia&lt;/em&gt; filosofia che si fa scienza. Importanza di quelli che sono i «fondatori originari delle nostre intenzioni di pensiero» nelle modalità con cui pensiamo oggi. «Modi diversi della nostra ascendenza»: siamo al contempo &lt;em&gt;«eredi» e «scolari»&lt;/em&gt; nella nostra riformulazione e sviluppo. E in questo ciclo noi continuiamo quello posto dai predecessori nelle loro intenzioni, «rinnoviamo l’intenzione», lo spunto, pur in maniera imperfetta.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;«Ogni filosofo deve obbedire all’esigenza di non assumere le formazioni concettuali dei precedenti filosofi in un senso tradizionale, ma di cercare di attuare la loro intenzione a partire da sè …: Cartesio ha preso sul serio questa esigenza».&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cartesio è colui che in realtà porta all’estremo questa tendenza, la scava più in profondità e mostra come la messa in discussione di tutto si possa porre una base per la filosofia, che è da individuare quanto più solita ed indiscutibile.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;«… comprendiamo come la filosofia, che deve pur aver avuto un inizio, in tutte le evoluzioni storiche resti filosofia proprio perché il progetto più originario è una intenzione di nuovo genere che cerca di attuarsi in tutte le diverse forme tentate.»&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Non c‘è un po’ quel principio Heideggeriano della morte della filosofia in questo passaggio? «Cartesio ha preso sul serio questa esigenza», ovvero di quella di riflettere con sguardo critico e scettico che riguarda le origini e la storia del pensiero fino a lui in base soltanto alle sue capacità esperienziali, e quindi anche contingenti aggiungo io. &lt;em&gt;L’intenzione filosofica&lt;/em&gt; di Cartesio è duplice e si intreccia su due piani che non possono essere separati: quello &lt;em&gt;storico e quello personale&lt;/em&gt;. Il primo però non «è una generalità che può essere attinta empiricamente»: da solo, il piano storico è fittizio alla nostra impressione quotidiana.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;«Nell’epoché io sto al di sopra di tutte le validità e di tutte le verificazioni che sono pretese e fondate umanamente»: «l’epoché abbraccia anche il mio essere umano»!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Questo Cartesio non lo fa, credo. «Io non giudico in quanto uomo nel mondo bensì in quanto ego»: l’ego è su un livello superiore di presupposizione rispetto all’umano.&lt;/p&gt;
+
+&lt;p&gt;Domanda spontanea allora segue: «come fa l’anima a distinguersi dall’ego?» Il problema di Cartesio è che ha già uno scopo, quindi assume già in anticipo una verità definitiva, almeno secondo Husserl. Husserl qui accusa che Cartesio riguardo alla questione della definitività, alla base del suo scopo e per cui non ha portato fino in fondo l’epoché: &lt;em&gt;la definitività non può essere presa a priori neanche essa&lt;/em&gt;, è un elemento del mondo. «Cartesio non si accorge dell’errore di attribuire all’ego il modo di essere una defintività mondana, come fa la scienza obiettiva (idealizzante) nei confronti del mondo-della-vita idealizzato»: &lt;em&gt;insomma Cartesio cristallizza questo ego in una mondanità&lt;/em&gt; come la matematica cristallizza la conoscenza e l’epistemologia? Come possiamo parafrasare meglio questa questione del mondano, che mi sembra cruciale?&lt;/p&gt;
+
+&lt;p&gt;Problema della nuova prassi dovuta al vivere nel mondo ove si applica il metodo scientifico: come siamo cambiati nell’atteggiamento? «Una finalità che logicizza il mondo», afferma Husserl. Per avere una vera scienza, ovvero un teoria della conoscenza scientifica è necessaria « una indagine scientifica di nuovo genere riferita al puro mondo della vita pre-scientifico che va sostituito alla logicizzazione idelizzante». Per fare questo occorre una&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;«duplice epoché … porsi al di sopra del-mondo-della-vita e porsi al-di-sopra-di-tutte-le-scienze, invece di vivere scientificamente»&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;È insomma, un ribaltone, per attuare una scienza che possa essere teoria della conoscenza &lt;em&gt;non possiamo comportarci come si comportano gli scienziati ad ora&lt;/em&gt;, immersi completamente nel loro mondo scientifico. «Il mondo-della-vita rimane comunque il sottofondo di validità di tutti i progetti conoscitivi», «si opera l’epoché per concepire la forma essenziale di un mondo possibile in generale.» « L’essere del mondo in generale diventa un essere liberamente in sospeso» perché «l’essere del mondo diventa problematico». &lt;em&gt;L’epoché cartesiana ha come presupposto la certezza d’essere del mondo, ma non l’epoché di cui parla Husserl, «l’epoché trascendentale».&lt;/em&gt; Questa certezza d’essere è ciò su cui si fonda praticamente il tutto del mondo: &lt;em&gt;l’epoché “debole” si astiene a «qualsiasi critica che si proponga di decidere dell’essere e del non-essere» (Severino?)&lt;/em&gt;: ogni tipo di sospensione ed epoché agisce nel terreno della certezza d’essere del mondo e in quanto tale questa quindi risulta un presupposto. Il senso delle decisioni si fonda a partire da questa certezza d’essere del mondo: questa è la forma delle cose del mondo e dei problemi pre-scientifici. «La scienza costitutisce una prassi particolare sul terreno della certezza del mondo: la prassi della teoria.»&lt;/p&gt;
+
+&lt;h4 id=&quot;appendice-vi-ai-16-sgg&quot;&gt;Appendice VI ai §16 sgg&lt;/h4&gt;
+
+&lt;p&gt;Husserl fa un resoconto del movimento concettuale della I Meditazione di Cartesio: Cartesio ritiene di avere a disposizione una «grande scienza», che è la geometria e le cui proposizioni geometriche hanno validità indipendentemente dalla realtà “vera”, la fisica invece pretende di applicare l’obiettività della geometria pura al piano reale, e le cose in tal caso cambiano radicalmente. A questo punto Cartesio ricorre a Dio per chiudere questo punto, per far sì che questa obiettività oltrepassi il solo ambito geometrico e sfoci anche nell’ambito naturale. Secondo Husserl, Cartesio «non rivela la differenza tra gli assiomi matematici e le intuizioni intellettuali mediate della matematica», le considera tutte false. Trova imperfette l’esperienza e la conoscenza quotidiane ed è &lt;em&gt;guidato da un ideale di un’autentica conoscenza scientifica&lt;/em&gt;: «occorre soltanto un controllo: gli assiomi matematici sono proprio immediatamente apodittici?» «Come possiamo attingere sistematicamente la totalità degli assiomi ultimi per l’universo dell’essente?» Cartesio però non segue questa strada, afferma Husserl: per Cartesio la «conoscenza è un’operazione interiore». Ma quale apoditticità giustifica la trascendenza alle immagini della nostra esperienza (e quindi dell’aprioristicità della matematica)? &lt;em&gt;Validità trascendente e obiettività sono sinonimi.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;«Il problema del metodo della vera scienza subisce una trasformazione»: &lt;em&gt;gli assiomi non sono più i fondamenti perché essi invece esercitano una funzione obiettivante e necessitano quindi di essere applicati al di fuori del loro perimetro stesso di definizione, il mondo astratto&lt;/em&gt;. &lt;em&gt;Questo sposta e trasforma anche il fondamento ultimo della conoscenza: nella formulazione iniziale (pre cartesiana direi) «tutti gli assiomi sono fondamenti apodittici ultimi», ma dopo Cartesio che ha affermato la centralità del soggetto come conoscente, emerge il problema della «validità trascendente» (aka problema dell‘obiettività) e «sorge una nuova apoditticità: l’apoditticità dell’ego».&lt;/em&gt;&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Alla base di tutto questo capovolgimento c’è la scoperta dell’io puro di Cartesio: ma mi sorge una domanda: è una vera scoperta? O è una invenzione? Una terminologia? Ad ogni modo Cartesio ne è un po’ scosso, non sa bene come manipolarla, come gestirla, tale scoperta. La domanda successiva da porsi, secondo Husserl, è la seguente: i giudizi che si riferiscono a questo ego cosa sono, anch’esse premesse? Per Cartesio anch’essi hanno una fondazione apodittica. E qui, secondo Husserl sta un &lt;em&gt;«deplorevole fraintendimento»&lt;/em&gt;: quello che lui affermava come dubbio universale, in realtà non poteva essere tale perché la certezza del mondo «permane persino nella sua apoditticità»: è questo che la rende infatti apodittica. La sua fu una «epoché dall’essere dell’intero mondo.» &lt;em&gt;Un tentativo di dubbio universale è impossibile senza considerare un io che lo opera&lt;/em&gt;, secondo la visione di Cartesio: l’io non può porre il suo non essere e questo è «apoditticamente vero». &lt;em&gt;E il suicidio?&lt;/em&gt; Il mondo continua a valere nonostante la mia epoché.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;L’epoché come «metodo cartesiano depurato»&lt;/em&gt; è una distinzione tra la vita naturale ed ingenua e la vita pura in quanto vita dell’ego &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;: prima dell’epoché non c’è scissione tra essere dell’esperienza (senza rielaborazioni obiettivanti?) e l’essere dell’esperito: l’esperienza è parte integrante del mondo. L’epoché genera una scissione, le mie esperienze si «trasformano in validità d’essere» e così io colgo il mio puro essere, a cui do il nome di ego che da validità a quella connessione (ma lo fa in modo ingenuo e naturale al di fuori dell‘epochè soltanto): ogni qual volta faccio esperienza faccio anche obbligatoriamente esperienza di me che la faccio: c’è quindi un limite di praticabilità dell’epoché, l’ego che la produce. Perentoriamente afferma Husserl: «È questo di fatti il punto pericoloso». La posizione del non essere sembra impedire la possibilità di qualsiasi essere: ma l’epoché non ha il compito di stabilire e discriminare l’essere e il non-essere ma quella di scoprire l’io puro, ciò che è apoditticamente indubitabile. L’epoché &lt;em&gt;non è un qualcosa che si subisce&lt;/em&gt; e che quindi separa ciò che noi esperiamo, &lt;em&gt;ma è una operazione fatta in prima persona e in questa operazione trovo ciò che è apoditticamente evidente&lt;/em&gt;, ovvero che questa operazione può avvenire soltanto per mezzo di un soggetto che la opera. La conclusione quindi è&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;assume una validità d’essere apodittica l’io dell’epochè, ma non l’io umano».&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;L’epoché continua ad agire sulla posizione e sull’esperienza ingenua, mentre l’ego dell’epoché non fa parte del mondo, non è una sua esperienza quindi!&lt;/p&gt;
+
+&lt;h4 id=&quot;appendice-vii-al-18&quot;&gt;Appendice VII al §18&lt;/h4&gt;
+
+&lt;p&gt;Fondamento della scienza deve avvenire su una discussione e una riflessione «sull’agire teoretico soggettivo». &lt;em&gt;Come emerge l’obiettività dalle elaborazioni intellettuali?&lt;/em&gt; «Come può l’azione psichica che chiamiamo intelletto garantire una obiettività extra-psichica?» Ad ora l’unica fondamenta della scienza è una fondamenta soggettiva. Segue un po’ uno stesso ragionamento riguardante il dubbio estremo e la conclusione nell’esistenza di un ego che pensa, della scoperta di una «soggettività trascendentale». Cartesio non ha visto questa transizione (che abbiamo descritto più nel dettaglio nella precedente sottosezione) e trasformazione dell’io cogitante.&lt;/p&gt;
+
+&lt;h4 id=&quot;appendice-viii-al-18&quot;&gt;Appendice VIII al §18&lt;/h4&gt;
+
+&lt;p&gt;Cartesio scopre questo io e subito lo sovrappone all’anima, con la persona umana, in altre parole sovrappone il mondo al cogitatum. Qua dice che io sono l’esperito delle mie esperienze contraddicendo quello che avevo concluso precedentemente (non chiaro). Tentativo di una costruzione di una «comunità egologica: … ogni io si monadicizza e costituisce il suo noi tutti monadico». Non chiaro…&lt;/p&gt;
+
+&lt;h4 id=&quot;appendice-ix-al-20&quot;&gt;Appendice IX al §20&lt;/h4&gt;
+
+&lt;p&gt;Cartesio &lt;em&gt;non avverte la molteplicità delle prospettive&lt;/em&gt; con cui vengono rivelati i dati esperienziali: non distingue tra &lt;em&gt;prospettive sinteticamente unitarie&lt;/em&gt; e le &lt;em&gt;prospettive immanenti&lt;/em&gt;. È il giudizio secondo Cartesio che determina il modo con cui viene colta, ma a cosa esattamente fa riferimento il giudizio se non c’è distinzione prima di esso? Il contenuto del giudizio è già ciò che ci appare alle coscienza nella modalità della certezza: il giudizio non costituisce l’intenzionalità.&lt;/p&gt;
+
+&lt;h2 id=&quot;discussione&quot;&gt;Discussione&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Appendici un po’ più sincere e dirette. Intenzione è prendere il dialogo tra Galileo e Cartesio per svolgere una riflessione che forse si pone in maniera astorica: prodotta sì storicamente ma rinvia ad un problema che si può ripresentare nel corso della storia umana: tentativo galileiano della matematizzazione del mondo e Cartesio nascita della tradizione del soggetto conoscente. Lo scavo Cartesiano incontra delle rocce che non riesce a scalfire
+Appendice V: Insoddisfazione di Husserl è verso la &lt;em&gt;proliferazione del numero di “Filosofie”&lt;/em&gt;, che incarnano la crisi della filosofia. Il modo di reagire di Husserl è tornare alla storia ma non alla cronologia: c’è una questione generazionale, ma nel rapporto tra filosofi c’è sia qualcosa che cambia ma anche un elemento di continuità, ed è ciò che interessa ad Husserl. Introduce il concetto di “intento filosofico”: lo scopo della filosofia è il rinnovamento dell’intento filosofico incarnato dai filosofi predecessori. Cartesio se la prende non solo con la scolastica ma anche con la scienza galileiana.&lt;/p&gt;
+
+&lt;p&gt;L’intenzione ha un terreno già dato ed è il terreno del mondo della vita. Come passare da una conoscenza pre-filosofica ad una pienamente filosofica? Discontinuità tra dato intenzione e autità del mondo della vita: due margini su cui avviene l’impresa filosofica. Scopo della filosofia è comprendere anche la realtà dell’illusione, ciò che si presta come ambiguo in prima battuta, cioè le prime impressioni. La possibilità di dubitare: mettiamo in discussione tutto ma non il momento stesso di quando dubitiamo. Il dubbio non vuol dire che tutto ciò che ho davanti è falso, &lt;em&gt;ma non esprimo un giudizio, la sospensione del giudizio&lt;/em&gt;. Non dando giudizio non assume una realtà: rimane in uno stato di possibilità. Questa operazione può essere fatta su tutto tranne che sull’ego che fa l’operazione (su alcuni elementi si): un punto solo viene escluso, ovvero l’ego puro colui che svolge l’operazione. È fuori dal mondo anche di quello del mondo della vita.&lt;/p&gt;
+
+&lt;p&gt;Epoché dalla scienza: è la domanda filosofica, la domanda cartesiana depurata dalle influenze che Cartesio poteva avere all’epoca. È qualcosa di molto lontano da Galileo. Si sospende anche la storia, è uno sguardo fuori dal tempo. E così possiamo anche guardare alla scienza. La critica che si riferisce a Cartesio può essere riassunta come “è stato troppo cauto”. L’idea della definitività è un elemento storico dell’umanità e quindi rientra nel mondo. Da Cartesio in poi è possibile una sospensione del mondo radicale non solo dal mondo della vita ma anche da tutte le scienze. &lt;em&gt;L’essere del mondo diventa problematico,&lt;/em&gt; è una storia tragica quella che si inaugura con Cartesio.&lt;/p&gt;
+
+&lt;p&gt;Nell’appendice VI rilettura della meditazione di Cartesio: rilettura volta a scoprire l’Io puro da cui si muove il dubbio. Ricorrere a Dio è motivo di debolezza. Riconoscere che questo modo di procedere la conoscenza allora tutto il resto ne è conseguenza. Husserl scopre una nuova apoditticità, l’apoditticità dell’ego.
+In questa ricorsività dell’epoché che si da il soggetto conoscente, che il soggetto conosce: è una oscillazione, sospensione e caduta. Il momento della caduta non è mai definitiva perché porta inevitabilmente all’insoddisfazione.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Il compito della filosofia non è determinare il vero ma è quello di riscoprire l’io conoscente.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: La doxa ha un suo dominio di realtà hai detto, Roberto. Platone fa la differenza tra filosofo e il filodosso (?): amante del sapere e amante dell’opinione. Il filosofo però comunque non riesce mai ad abbandonare il dominio della doxa.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: Come può l’azione psichica che rimane non-indagata della facoltà dell’intelletto, come può garantire una obiettività extra-psichica? Devo dire quello che sto accadendo nella mia mente mentre osservo il mondo: è il secondo ordine della cibernetica.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: due binari: epochè trascendentale e soggettività trascendentale. Questione della scoperta.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: è una scoperta perché ha agito in sotteranea fino all’inizio della filosofia e la scoperta è la ripresa di quella intenzione ed una ripresa svolta in maniera radicale&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: è una ripresa anche consapevole in maniera più profonda. È quasi una rivelazione?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: termini greci che non ho capito: nella filosofia greca quel te stesso era un te stesso della tua persona che vive questo tempo: &lt;em&gt;scopri qual è il tuo posto in questo mondo,&lt;/em&gt; vivi nel modo più degno della tua natura. &lt;em&gt;Qua non c’è etica, c’è soltanto conoscenza.&lt;/em&gt; Il te stesso di Husserl non è un io ma è una soggettività ma è l’operatore dell’epoché.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: Conosci te stesso ha un forte rapporto con il mondo dell’aldilà.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: &lt;em&gt;La conoscenza si è emancipata dalla morte&lt;/em&gt;, conoscenza pura. La conoscenza può essere considerata anche da aspettative di durata, il discorso greco si svolge a questo livello: vivi una vita dignitosa consapevole che sei mortale, e che al di là c’è il destino. Qua invece c’è la questione che &lt;em&gt;grazie all’intelletto hai l’op-portunità di tirarti fuori da tutto pure dal tuo essere mortale.&lt;/em&gt; È un movimento di uscita di sospensione ma poi si ricade nel mondo della vita. La modernità è l’epoca della secolarizzazione.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Melissa&lt;/em&gt;: “Conosci te stesso” nel “Protagora” di Platone: ma va oltre “conosci te stesso e nulla di troppo”.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: Questione del suicidio&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: non posso mettere in discussione il fatto che esisto a prescindere che sono un corpo vivente, potrei essere una simulazione e continuare a fare epoché. Husserl mette a tema la secolarizzazione del “conosci te stesso”, ovvero l’ego puro. La domanda : può essere che l’epoché estrema sia il suicidio? pone in discussione il sottofondo di validità di tutti i progetti conoscitivi. Riflessione poi degli esistenzialisti francesi. &lt;em&gt;L’operazione di epoché è più potente del mondo della vita stesso.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alessandro&lt;/em&gt;: esperienza dell’ego trascendentale non è mai diretta ma indiretta, è da una operazione&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: sì. a proposito della questione della comunità: in colui che ritengo che sia in grado di operare l’epoché: in lui riconosco un ente che riconoce la soggettività e mi co-determina. sprazzo di etica: con lui non posso entrare in commercio, entra in gioco il discorso dell’umano del bestiale e del disumano. il transumanesimo mette in discussione questo meccanismo.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;:Distante nella questione del telos e delle generazione. la cosa più bella: della comunità: è l’unico momento in cui si esce dal soggettivismo. Husserl vuole dire tutto dipende dal soggetto, ma come faccio “io” sono io questa persona qui o c’è qualcos’altro fuori di me? &lt;em&gt;Husserl potrebbe essere un solipsista: ma questo era l’errore cartesiano: l’io era ancora una persona e non uscissimo dalla ricorsività dell’io.&lt;/em&gt; Husserl dice che esiste il mondo, è &lt;em&gt;il mondo la vera scoperta dell’epoché&lt;/em&gt; (non posso dubitare dei sensi se fa caldo fa caldo se fa freddo fa freddo) da cui nasce la possibilità dell’ego e di tutti gli altri ego. gli ego nascondo dal mondo-della-vita e si fondano gli altri ego. Husserl salva il noi della co-soggettività: l’io di Cartesio è puramente astratto non vive, non c’è vita nell’ego di Cartesio. &lt;em&gt;Pierce&lt;/em&gt; diceva la stessa cosa, era un po’ più brillante di Husserl: la scienza è una &lt;em&gt;questione di soggetti interlacciati fra di loro che commerciano nella conoscenza.&lt;/em&gt; Pluralizzazione monadica: è fondamentale. Volgiamo salvare il mondo ma se il mondo non è fatto di io che commerciano che vogliamo salvare? È così che si salva il soggetto. Attenzione però &lt;em&gt;perché anche Husserl come Cartesio aveva uno scopo.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sul suicidio e sulla morte: se chiediamo che l’epoché assoluta sia il suicidio pensiamo che sia una filosofia della morte. La vera conoscenza non può stare nell’auto-mortificazione. Lui voleva salvare la vita ma nella razionalizzazione radicale alla fine si arriva al suicidio che è un po’ un controsenso.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Roberto&lt;/em&gt;: L’orizzonte è ciò che mi si presenta davanti: in questo orizzonte mi si presentano gli altri. Da qui si elabora la capacità di entrare in relazione e costituire rapporti significativi. In termini antropologici, concetto del dono di Marcel Moss (?): non ci si scambia sostanze inerti: producono un obbligo di ricambio. C’è un principio alla base: il ricevente è riconosciuto come un pari. questo commercio indica una costruzione comunitaria.&lt;/p&gt;
+
+&lt;p&gt;Sulla questione del suicidio e della morte aspettiamo un attimo nel momento psicologico. Anche il mondo della vita è un’operazione: potrebbe esserci un mondo della vita artificiale? Andando oltre ad Husserl.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Alfonso&lt;/em&gt;: Quando Husserl parla di soggetti non credo parli di etica: Kant soggetti non come mezzi ma fini e il mondo di Kant è tutt’altro che mondo della vita. La questione dell’inter-soggettività diventa etica e del dover essere e non ha una fondazione ontologica. Mentre in Husserl è ontologicamente che la conoscenza si forma come commercio, è ancora più radicale: ed è forse per questo che si può fondare un’etica.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Passaggio fondamentale secondo la mia opinione &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Non è un po‘ una distinzione simile a quella relativa alla mente bicamerale? &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="gruppolettura" /><summary type="html">Relatore principale: Melissa Relatore appendice: Alessandro</summary></entry></feed>
